@@ -118,5 +118,16 @@ namespace Data.Models
                 return null;
             }
         }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+            {
+                return false;
+            }
+
+            Item other = (Item)obj;
+            return Id == other.Id && Name == other.Name && Description == other.Description && LoopInDays == other.LoopInDays;
+        }
     }
 }
