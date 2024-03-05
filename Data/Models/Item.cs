@@ -29,10 +29,30 @@ namespace Data.Models
         /// </summary>
         public string Description { get; set; } = String.Empty;
 
+        [Ignore]
+        private int _loopInDays {  get; set; }
+
         /// <summary>
         /// Gets or sets the duration of the item's loop in days.
         /// </summary>
-        public int LoopInDays { get; set; }
+        /// <exception cref="InvalidOperationException">Thrown when setting LoopInDays equal to 1.</exception>
+        public int LoopInDays
+        {
+            get
+            {
+                return _loopInDays;
+            }
+
+            set
+            {
+                if (value == 1)
+                {
+                    // TODO: Localization will be required here
+                    throw new InvalidOperationException("LoopInDays cannot be 1 when setting DaysBeforeWarning.");
+                }
+                _loopInDays = value;
+            }
+        }
 
         [Ignore]
         private int? _daysBeforeWarning { get; set; }
@@ -40,19 +60,12 @@ namespace Data.Models
         /// <summary>
         /// Gets or sets the number of days before a warning is triggered for the item.
         /// </summary>
-        /// <exception cref="InvalidOperationException">Thrown when setting DaysBeforeWarning with LoopInDays equal to 1.</exception>
         /// <exception cref="ArgumentOutOfRangeException">Thrown when setting DaysBeforeWarning with a value greater than or equal to LoopInDays.</exception>
         public int? DaysBeforeWarning
         {
             get => _daysBeforeWarning;
             set
             {
-                if (LoopInDays == 1)
-                {
-                    // TODO: Localization will be required here
-                    throw new InvalidOperationException("LoopInDays cannot be 1 when setting DaysBeforeWarning.");
-                }
-
                 if (value.HasValue && value < LoopInDays)
                 {
                     _daysBeforeWarning = value;
@@ -83,7 +96,7 @@ namespace Data.Models
                 {
                     var lastHistoryDate = History.Max(h => h.Done);
                     var daysSinceLastHistory = (DateTime.Now - lastHistoryDate).Days;
-                    return daysSinceLastHistory < LoopInDays - DaysBeforeWarning;
+                    return daysSinceLastHistory <= LoopInDays - DaysBeforeWarning;
                 }
                 return false;
             }
