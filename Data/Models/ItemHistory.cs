@@ -25,6 +25,7 @@ namespace Data.Models
         /// <summary>
         /// The item associated with this history record.
         /// </summary>
+        [ManyToOne]
         public virtual Item Item { get; set; }
     }
 }

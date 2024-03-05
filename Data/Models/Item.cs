@@ -42,7 +42,6 @@ namespace Data.Models
         /// </summary>
         /// <exception cref="InvalidOperationException">Thrown when setting DaysBeforeWarning with LoopInDays equal to 1.</exception>
         /// <exception cref="ArgumentOutOfRangeException">Thrown when setting DaysBeforeWarning with a value greater than or equal to LoopInDays.</exception>
-        [Ignore]
         public int? DaysBeforeWarning
         {
             get => _daysBeforeWarning;
