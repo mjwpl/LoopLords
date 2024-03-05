@@ -90,5 +90,21 @@ namespace Data.Models
             }
         }
 
+        /// <summary>
+        /// The number of days since the last occurrence of the item. Returns null if there has been no occurrence yet or if the history is empty.
+        /// </summary>
+        [Ignore]
+        public int? DaysSinceLastOccurrence
+        {
+            get
+            {
+                if (History.Any())
+                {
+                    var lastHistoryDate = History.Max(h => h.Done);
+                    return (DateTime.Now - lastHistoryDate).Days;
+                }
+                return null;
+            }
+        }
     }
 }
