@@ -1,5 +1,6 @@
 ﻿using SQLite;
 using SQLiteNetExtensions.Attributes;
+using System.Collections.Generic;
 
 namespace Data.Models
 {
@@ -81,8 +82,8 @@ namespace Data.Models
         /// <summary>
         /// Gets or sets the collection of history entries related to the item.
         /// </summary>
-        [OneToMany(CascadeOperations = CascadeOperation.CascadeDelete)]
-        public IEnumerable<ItemHistory> History { get; set; } = Enumerable.Empty<ItemHistory>();
+        [OneToMany(CascadeOperations = CascadeOperation.All)]
+        public List<ItemHistory> History { get; set; } = new List<ItemHistory>();
 
         /// <summary>
         /// Gets a value indicating whether a warning should be triggered for the item based on its warning settings and history.
