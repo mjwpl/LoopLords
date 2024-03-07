@@ -3,6 +3,9 @@ using SQLite;
 
 namespace Data.Tests
 {
+    /// <summary>
+    /// Unit tests for the LocalDbService class.
+    /// </summary>
     public class LocalDbServiceTests
     {
         private string GetRandomFileName()
@@ -13,6 +16,9 @@ namespace Data.Tests
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
+        /// <summary>
+        /// Test verifying that the SetItemAsync method correctly inserts an item into the database.
+        /// </summary>
         [Fact]
         public async Task SetItemAsync_InsertsItemIntoDatabase()
         {
@@ -34,6 +40,9 @@ namespace Data.Tests
             File.Delete(databasePath);
         }
 
+        /// <summary>
+        /// Test verifying that the GetItemAsync method correctly retrieves an item from the database.
+        /// </summary>
         [Fact]
         public async Task GetItemAsync_RetrievesItemFromDatabase()
         {
@@ -56,6 +65,9 @@ namespace Data.Tests
             File.Delete(databasePath);
         }
 
+        /// <summary>
+        /// Test verifying that the SetItemAsync method correctly inserts an item with history into the database.
+        /// </summary>
         [Fact]
         public async Task SetItemAsync_InsertsItemWithHistoryIntoDatabase()
         {
@@ -79,8 +91,9 @@ namespace Data.Tests
             File.Delete(databasePath);
         }
 
-
-
+        /// <summary>
+        /// Test verifying that the GetAllItems method returns items ordered by days since last occurrence.
+        /// </summary>
         [Fact]
         public async Task GetAllItems_ReturnsItemsOrderedByDaysSinceLastOccurrence()
         {
@@ -109,8 +122,8 @@ namespace Data.Tests
             var result = await localDbService.GetAllItems();
 
             // Assert
-            Assert.Equal(3, result.Count); // Upewnij się, że zwrócono wszystkie elementy
-            Assert.Equal(item3, result[0]); // Pierwszy element powinien mieć największą liczbę dni od ostatniego wystąpienia
+            Assert.Equal(3, result.Count); 
+            Assert.Equal(item3, result[0]);
             Assert.Equal(item1, result[1]);
             Assert.Equal(item2, result[2]);
 
