@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Test", "Data.Test\Data.Test.csproj", "{C953008D-A78E-4395-8187-248A1BFB6702}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile", "Mobile\Mobile.csproj", "{45B29F2E-09CD-4B48-BD44-58F2A96E4697}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{C953008D-A78E-4395-8187-248A1BFB6702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C953008D-A78E-4395-8187-248A1BFB6702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C953008D-A78E-4395-8187-248A1BFB6702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B29F2E-09CD-4B48-BD44-58F2A96E4697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B29F2E-09CD-4B48-BD44-58F2A96E4697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B29F2E-09CD-4B48-BD44-58F2A96E4697}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{45B29F2E-09CD-4B48-BD44-58F2A96E4697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B29F2E-09CD-4B48-BD44-58F2A96E4697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B29F2E-09CD-4B48-BD44-58F2A96E4697}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
