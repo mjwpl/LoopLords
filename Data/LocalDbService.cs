@@ -61,11 +61,21 @@ namespace Data
         /// Retrieves all items from the database asynchronously.
         /// </summary>
         /// <returns>A task representing the asynchronous operation. The task result contains a list of all items.</returns>
-        public async Task<List<Item>> GetAllItems()
+        public async Task<List<Item>> GetAllItemsAsync()
         {
             var items = await _db.GetAllWithChildrenAsync<Item>(recursive: true);
             return items.OrderByDescending(x => x.DaysSinceLastOccurrence).ToList();
         }
+
+        /// <summary>
+        /// Deletes an item from the database asynchronously based on its ID.
+        /// </summary>
+        /// <param name="id">The unique identifier of the item to be deleted.</param>
+        /// <returns>
+        /// A task representing the asynchronous operation. The task result contains `true` if exactly one item was deleted, otherwise `false`.
+        /// </returns>
+        public async Task<bool> DeleteItemAsync(int id)
+            => await _db.DeleteAsync(id) == 1;
 
         /// <summary>
         /// Closes the connection to the database asynchronously.
