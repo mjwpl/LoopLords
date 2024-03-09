@@ -92,10 +92,10 @@ namespace Data.Tests
         }
 
         /// <summary>
-        /// Test verifying that the GetAllItems method returns items ordered by days since last occurrence.
+        /// Test verifying that the GetAllItemsAsync method returns items ordered by days since last occurrence.
         /// </summary>
         [Fact]
-        public async Task GetAllItems_ReturnsItemsOrderedByDaysSinceLastOccurrence()
+        public async Task GetAllItemsAsync_ReturnsItemsOrderedByDaysSinceLastOccurrence()
         {
             // Arrange
             var databasePath = GetRandomFileName();
@@ -119,7 +119,7 @@ namespace Data.Tests
             await localDbService.SetItemAsync(item3);
 
             // Act
-            var result = await localDbService.GetAllItems();
+            var result = await localDbService.GetAllItemsAsync();
 
             // Assert
             Assert.Equal(3, result.Count); 
