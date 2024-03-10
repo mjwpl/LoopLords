@@ -74,8 +74,8 @@ namespace Data
         /// <returns>
         /// A task representing the asynchronous operation. The task result contains `true` if exactly one item was deleted, otherwise `false`.
         /// </returns>
-        public async Task<bool> DeleteItemAsync(int id)
-            => await _db.DeleteAsync(id) == 1;
+        public async Task<bool> DeleteItemAsync(Item item)
+            => await _db.DeleteAsync(item) == 1;
 
         /// <summary>
         /// Closes the connection to the database asynchronously.
