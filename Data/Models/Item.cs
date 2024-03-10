@@ -130,5 +130,10 @@ namespace Data.Models
             Item other = (Item)obj;
             return Id == other.Id && Name == other.Name && Description == other.Description && LoopInDays == other.LoopInDays && History.Count() == other.History.Count();
         }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Id, Name);
+        }
     }
 }
