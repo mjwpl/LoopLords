@@ -1,5 +1,6 @@
 ﻿using Data.Models;
 using SQLite;
+using static SQLite.SQLite3;
 
 namespace Data.Tests
 {
@@ -126,6 +127,30 @@ namespace Data.Tests
             Assert.Equal(item3, result[0]);
             Assert.Equal(item1, result[1]);
             Assert.Equal(item2, result[2]);
+
+            // Clean
+            await localDbService.Close();
+            File.Delete(databasePath);
+        }
+
+        [Fact]
+        public async Task DeleteItemAsync_DeletesItemFromDatabaseAndThrowsKeyNotFoundExceptionWhenItemNotFound()
+        {
+            // Arrange
+            var databasePath = GetRandomFileName();
+            var localDbService = new LocalDbService(new SQLiteAsyncConnection(databasePath));
+            await localDbService.Init();
+
+            var item1 = new Item { Id = 1, Name = "Item 1", LoopInDays = 7 };
+            var history1 = new ItemHistory { Id = 1, ItemId = item1.Id, Done = DateTime.Now.AddDays(-5) };
+            item1.History.Add(history1);
+
+            await localDbService.SetItemAsync(item1);
+            var deleted = await localDbService.DeleteItemAsync(item1);
+
+            // Assert
+            Assert.True(deleted);
+            await Assert.ThrowsAsync<KeyNotFoundException>(async () => await localDbService.GetItemAsync(item1.Id));
 
             // Clean
             await localDbService.Close();
