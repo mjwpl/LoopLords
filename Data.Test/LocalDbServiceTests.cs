@@ -150,7 +150,7 @@ namespace Data.Tests
 
             // Assert
             Assert.True(deleted);
-            await Assert.ThrowsAsync<KeyNotFoundException>(async () => await localDbService.GetItemAsync(item1.Id));
+            Assert.ThrowsAsync<KeyNotFoundException>(async () => await localDbService.GetItemAsync(item1.Id));
 
             // Clean
             await localDbService.Close();
