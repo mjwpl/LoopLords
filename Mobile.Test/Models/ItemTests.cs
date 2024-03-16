@@ -1,5 +1,4 @@
 ﻿using Data.Models;
-using SQLite;
 
 namespace Data.Test.Models
 {

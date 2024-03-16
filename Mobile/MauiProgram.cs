@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using Mobile.ViewModel;
+using Mobile.Data;
 
 namespace Mobile
 {
@@ -15,8 +17,16 @@ namespace Mobile
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            builder.Services.AddDbContext<LocalDbContext>();
+            builder.Services.AddTransient<MainPage>();
+            builder.Services.AddTransient<MainPageViewModel>();
+
+            var db = new LocalDbContext();
+            db.Database.EnsureCreated();
+            db.Dispose();
+
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
