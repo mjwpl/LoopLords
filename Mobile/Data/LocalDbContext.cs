@@ -1,5 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Data.Models;
+﻿using Data.Models;
+using Microsoft.EntityFrameworkCore;
+using Mobile.Data.Seed;
 
 namespace Mobile.Data
 {
@@ -16,7 +17,15 @@ namespace Mobile.Data
             optionsBuilder.UseSqlite(conn);
         }
 
-        private static string GetPath(string nameDb)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Item>().HasData(Demo.GenerateItems());
+            modelBuilder.Entity<ItemHistory>().HasData(Demo.GenerateItemsHistory());
+        }
+
+        public static string GetPath(string nameDb)
         {
             string pathDbSqlite = string.Empty;
 

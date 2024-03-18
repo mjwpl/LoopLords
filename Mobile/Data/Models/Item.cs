@@ -1,42 +1,17 @@
-﻿using SQLite;
-using SQLiteNetExtensions.Attributes;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Data.Models
 {
-    /// <summary>
-    /// Represents an item in the database.
-    /// </summary>
-    /// <remarks>
-    /// This class defines the structure and behavior of an item stored in the database.
-    /// Each item has an identifier, a name, a description, and a loop duration in days.
-    /// It also contains optional properties related to warning settings and a history of actions.
-    /// </remarks>
     public class Item
     {
-        /// <summary>
-        /// Gets or sets the unique identifier of the item.
-        /// </summary>
-        [PrimaryKey, AutoIncrement]
+        [Key]
         public int Id { get; set; }
-
-        /// <summary>
-        /// Gets or sets the name of the item.
-        /// </summary>
         public string Name { get; set; } = String.Empty;
-
-        /// <summary>
-        /// Gets or sets the description of the item.
-        /// </summary>
         public string Description { get; set; } = String.Empty;
 
-        [Ignore]
-        private int _loopInDays {  get; set; }
-
-        /// <summary>
-        /// Gets or sets the duration of the item's loop in days.
-        /// </summary>
-        /// <exception cref="InvalidOperationException">Thrown when setting LoopInDays equal to 1.</exception>
+        [NotMapped]
+        private int _loopInDays { get; set; }
         public int LoopInDays
         {
             get
@@ -55,23 +30,19 @@ namespace Data.Models
             }
         }
 
-        [Ignore]
+        [NotMapped]
         private int? _daysBeforeWarning { get; set; }
 
-        /// <summary>
-        /// Gets or sets the number of days before a warning is triggered for the item.
-        /// </summary>
-        /// <exception cref="ArgumentOutOfRangeException">Thrown when setting DaysBeforeWarning with a value greater than or equal to LoopInDays.</exception>
         public int? DaysBeforeWarning
         {
             get => _daysBeforeWarning;
             set
             {
-                if (value.HasValue && value < LoopInDays)
+                if (value.HasValue && LoopInDays > 0 && value < LoopInDays)
                 {
                     _daysBeforeWarning = value;
                 }
-                else
+                else if (LoopInDays > 0)
                 {
                     // TODO: Localization will be required here
                     throw new ArgumentOutOfRangeException(nameof(value), "Value must be less than LoopInDays.");
@@ -79,16 +50,9 @@ namespace Data.Models
             }
         }
 
-        /// <summary>
-        /// Gets or sets the collection of history entries related to the item.
-        /// </summary>
-        [OneToMany(CascadeOperations = CascadeOperation.All)]
-        public List<ItemHistory> History { get; set; } = new List<ItemHistory>();
+        public List<ItemHistory> History { get; set; }
 
-        /// <summary>
-        /// Gets a value indicating whether a warning should be triggered for the item based on its warning settings and history.
-        /// </summary>
-        [Ignore]
+        [NotMapped]
         public bool Warning
         {
             get
@@ -103,10 +67,7 @@ namespace Data.Models
             }
         }
 
-        /// <summary>
-        /// The number of days since the last occurrence of the item. Returns null if there has been no occurrence yet or if the history is empty.
-        /// </summary>
-        [Ignore]
+        [NotMapped]
         public int? DaysSinceLastOccurrence
         {
             get

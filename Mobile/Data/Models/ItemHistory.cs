@@ -1,31 +1,16 @@
-﻿using SQLite;
-using SQLiteNetExtensions.Attributes;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Data.Models
 {
-    /// <summary>
-    /// Represents the history of occurrences for an item.
-    /// </summary>
     public class ItemHistory
     {
-        [PrimaryKey, AutoIncrement]
+        [Key]
         public int Id { get; set; }
-
-        /// <summary>
-        /// The date and time when the occurrence was recorded.
-        /// </summary>
         public DateTime Done { get; set; }
 
-        /// <summary>
-        /// The ID of the item associated with this history record.
-        /// </summary>
-        [ForeignKey(typeof(Item))]
+        [ForeignKey("ItemId")]
         public int ItemId { get; set; }
-
-        /// <summary>
-        /// The item associated with this history record.
-        /// </summary>
-        [ManyToOne(CascadeOperations = CascadeOperation.All)]
-        public virtual Item Item { get; set; }
+        public Item Item { get; set; }
     }
 }
