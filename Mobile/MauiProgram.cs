@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
-using Mobile.ViewModel;
 using Mobile.Data;
+using Mobile.View;
+using Mobile.ViewModel;
 
 namespace Mobile
 {
@@ -18,8 +19,8 @@ namespace Mobile
                 });
 
             builder.Services.AddDbContext<LocalDbContext>();
-            builder.Services.AddTransient<MainPage>();
-            builder.Services.AddTransient<MainPageViewModel>();
+            builder.Services.AddTransient<ItemListView>();
+            builder.Services.AddTransient<ItemListViewModel>();
 
             var db = new LocalDbContext();
             db.Database.EnsureCreated();
