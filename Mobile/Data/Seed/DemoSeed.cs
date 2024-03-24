@@ -1,8 +1,8 @@
-﻿using Data.Models;
+﻿using Mobile.Data.Models;
 
 namespace Mobile.Data.Seed
 {
-    public static class Demo
+    public static class DemoSeed
     {
         public static List<Item> GenerateItems()
         {
