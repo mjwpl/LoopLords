@@ -1,11 +1,12 @@
-﻿using Data.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Mobile.Data.Models;
 using Mobile.Data.Seed;
 
 namespace Mobile.Data
 {
     public class LocalDbContext : DbContext
     {
+        public DbSet<Settings> Settings { get; set; }
         public DbSet<Item> Items { get; set; }
         public DbSet<ItemHistory> History { get; set; }
 
@@ -21,8 +22,9 @@ namespace Mobile.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Item>().HasData(Demo.GenerateItems());
-            modelBuilder.Entity<ItemHistory>().HasData(Demo.GenerateItemsHistory());
+            modelBuilder.Entity<Settings>().HasData(SettingsSeed.Generate());
+            modelBuilder.Entity<Item>().HasData(DemoSeed.GenerateItems());
+            modelBuilder.Entity<ItemHistory>().HasData(DemoSeed.GenerateItemsHistory());
         }
 
         public static string GetPath(string nameDb)
