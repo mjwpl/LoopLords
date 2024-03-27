@@ -21,6 +21,7 @@ namespace Mobile
             builder.Services.AddDbContext<LocalDbContext>();
             builder.Services.AddTransient<ItemListView>();
             builder.Services.AddTransient<ItemListViewModel>();
+            builder.Services.AddTransient<IntroView>();
 
             var db = new LocalDbContext();
             db.Database.EnsureCreated();
