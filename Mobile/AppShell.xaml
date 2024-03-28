@@ -5,11 +5,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Mobile.View"
     Shell.FlyoutBehavior="Disabled"
-    Title="Mobile">
+    Title="Mobile"
+    >
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:ItemListView}"
-        Route="MainPage" />
-
-</Shell>
+                ContentTemplate="{DataTemplate local:ItemListView}"
+                Route="Main" />
+    </Shell>
