@@ -1,0 +1,24 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile.View.IntroView"
+             BackgroundColor="White"
+             >
+<ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <CarouselView x:Name="carousel" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Loop="False">
+            <CarouselView.ItemsLayout>
+                <LinearItemsLayout Orientation="Horizontal" SnapPointsAlignment="Start" SnapPointsType="Mandatory" />
+            </CarouselView.ItemsLayout>
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView Content="{Binding .}" />
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+            </CarouselView>
+        <StackLayout x:Name="dotsLayout" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-200,0,0">
+            <!-- Kropki do sygnalizowania aktualnej strony -->
+        </StackLayout>
+    </StackLayout>
+</ContentPage.Content>
+</ContentPage>
+
