@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Mobile.View.ItemListView"
              Title="{Binding Title}"
-             xmlns:itemModels="clr-namespace:Data.Models"
+             xmlns:itemModels="clr-namespace:Mobile.Data.Models"
              xmlns:vm="clr-namespace:Mobile.ViewModel"
              x:DataType="vm:ItemListViewModel"
              >
