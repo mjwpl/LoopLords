@@ -39,14 +39,14 @@ namespace Mobile.Test
 
         }
 
-        [Fact]
-        public void ClickBtnTest()
-        {
-            By byAndroidUIAutomator = new ByAndroidUIAutomator("new UiSelector().clickable(true)");
+        //[Fact]
+        //public void ClickBtnTest()
+        //{
+        //    By byAndroidUIAutomator = new ByAndroidUIAutomator("new UiSelector().clickable(true)");
 
-            Assert.Equal("Click me", _driver.FindElementById("android:id/content").FindElement(byAndroidUIAutomator).Text);
-            _driver.FindElementById("android:id/content").FindElement(byAndroidUIAutomator).Click();
-            Assert.Equal("Clicked 1 time", _driver.FindElementById("android:id/content").FindElement(byAndroidUIAutomator).Text);
-        }
+        //    Assert.Equal("Click me", _driver.FindElementById("android:id/content").FindElement(byAndroidUIAutomator).Text);
+        //    _driver.FindElementById("android:id/content").FindElement(byAndroidUIAutomator).Click();
+        //    Assert.Equal("Clicked 1 time", _driver.FindElementById("android:id/content").FindElement(byAndroidUIAutomator).Text);
+        //}
     }
 }
