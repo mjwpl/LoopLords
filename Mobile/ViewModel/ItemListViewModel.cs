@@ -34,8 +34,6 @@ namespace Mobile.ViewModel
             {
                 Items.Add(item);
             }
-
-            Debug.WriteLine($"Załadowano {Items.Count}");
         }
     }
 }
