@@ -24,7 +24,7 @@ public class IntroSubViewOne : ContentView
 
         void MyButton_Clicked(object sender, EventArgs e)
         {
-            if (Application.Current != null) Application.Current.MainPage = new AppShell();
+            if (Application.Current != null) Application.Current.MainPage = new MainTabbedPage();
         }
 
         Content = stack;
