@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using Microsoft.EntityFrameworkCore;
 using Mobile.Data;
 using Mobile.Data.Models;
+using Mobile.Helpers;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -18,9 +19,9 @@ namespace Mobile.ViewModel
         [ObservableProperty]
         string title;
 
-        public ItemListViewModel(LocalDbContext db)
+        public ItemListViewModel()
         {
-            localDbContext = db;
+            localDbContext = ServiceHelper.GetService<LocalDbContext>();
             Items = new ObservableCollection<Item>();
             Title = "Siema";
         }
