@@ -1,6 +1,4 @@
 ﻿using Mobile.View.IntroSubView;
-using Mobile.ViewModel;
-using System.Runtime.CompilerServices;
 
 namespace Mobile.View;
 
