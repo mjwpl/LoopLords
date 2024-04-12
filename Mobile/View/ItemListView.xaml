@@ -4,6 +4,8 @@
              x:Class="Mobile.View.ItemListView"
              xmlns:itemModels="clr-namespace:Mobile.Data.Models"
              xmlns:vm="clr-namespace:Mobile.ViewModel"
+             xmlns:strings="clr-namespace:Mobile.Localize"
+             Title="{x:Static strings:AppRes.TITLE_TASKS}"
              x:DataType="vm:ItemListViewModel"
              >
     <CollectionView ItemsSource="{Binding Items}">
@@ -14,16 +16,6 @@
                         StrokeShape="RoundRectangle 10,10,10,10"
                         Margin="10,10,10,0"
                         >
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition />
-                            <RowDefinition />
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                        </Grid.ColumnDefinitions>
-                    </Grid>
                     <VerticalStackLayout
                                     VerticalOptions="Center"
                                     Padding="10">
