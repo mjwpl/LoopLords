@@ -12,6 +12,7 @@ public partial class ItemListView : ContentPage
 		InitializeComponent();
         BindingContext = vm;
         _vm = vm;
+
 	}
 
     protected override async void OnAppearing()
