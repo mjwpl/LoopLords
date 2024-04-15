@@ -7,22 +7,32 @@
              xmlns:strings="clr-namespace:Mobile.Localize"
              Title="{x:Static strings:AppRes.TITLE_TASKS}"
              x:DataType="vm:ItemListViewModel"
+             x:Name="ItemList"
              >
     <CollectionView ItemsSource="{Binding Items}">
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="itemModels:Item">
-                <Border StrokeThickness="1"
-                        BackgroundColor="Transparent"
-                        StrokeShape="RoundRectangle 10,10,10,10"
-                        Margin="10,10,10,0"
-                        >
-                    <VerticalStackLayout
-                                    VerticalOptions="Center"
-                                    Padding="10">
-                        <Label Text="{Binding Name}" />
-                        <Label Text="{Binding Description}" />
-                    </VerticalStackLayout>
-                </Border>
+                <Frame BackgroundColor="#f9f9f9"
+                       BorderColor="#eff3ee"
+                       CornerRadius="20"
+                       Margin="10,0,10,10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <Button Command="{Binding BindingContext.CheckItemCommand, Source={x:Reference Name=ItemList}}" CommandParameter="{Binding Id}" BackgroundColor="#739074" Grid.Column="0" Grid.RowSpan="3" Text="O" Margin="0,0,15,0" VerticalOptions="Center" FontSize="15"/>
+                        <Label Grid.Row="0" Grid.Column="1" Text="{Binding Name}" FontAttributes="Bold" TextColor="#364935"/>
+                        <Label Grid.Row="1" Grid.Column="1" Text="{Binding Description}" FontSize="12" TextColor="#364935" />
+                        <Label Grid.Column="2" Grid.RowSpan="3" Text="{Binding DaysSinceLastOccurrence}" FontSize="18" Padding="10,0,0,0" VerticalOptions="End" TextColor="Red"/>
+                    </Grid>
+                </Frame>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
