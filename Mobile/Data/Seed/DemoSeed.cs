@@ -21,7 +21,6 @@ namespace Mobile.Data.Seed
                     Id = 2,
                     Name = "Trening na siłowni",
                     LoopInDays = 2,
-                    DaysBeforeWarning = 1,
                     Description = "Trening obwodowy"
                 },
                 new()
@@ -100,7 +99,7 @@ namespace Mobile.Data.Seed
                 {
                     Id = 10,
                     ItemId = 3,
-                    Done = DateTime.Now.AddDays(-40),
+                    Done = DateTime.Now.AddDays(-30),
                 },
                 new()
                 {
