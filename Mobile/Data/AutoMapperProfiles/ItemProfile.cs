@@ -8,8 +8,7 @@ namespace Mobile.Data.AutoMapperProfiles
         public ItemProfile()
         {
             CreateMap<Item, ItemDto>()
-                .ForMember(dest => dest.IsCheckedToday, opt => opt.MapFrom(src => src.IsCheckedToday()))
-                .ForMember(dest => dest.NextScheduledDate, opt => opt.MapFrom(src => src.GetNextScheduledDateString()));
+                .ForMember(dest => dest.NextScheduledDate, opt => opt.MapFrom(src => src.GetNextScheduledDateString));
         }
     }
 }
