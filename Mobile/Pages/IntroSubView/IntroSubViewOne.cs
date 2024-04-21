@@ -1,4 +1,4 @@
-namespace Mobile.View.IntroSubView;
+namespace Mobile.Pages.IntroSubView;
 
 public class IntroSubViewOne : ContentView
 {
