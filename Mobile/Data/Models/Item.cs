@@ -84,6 +84,7 @@ namespace Mobile.Data.Models
             }
         }
 
+        [NotMapped]
         public int? DaysToNextScheduledDate
         {
             get
@@ -97,6 +98,7 @@ namespace Mobile.Data.Models
             }
         }
 
+        [NotMapped]
         public DateTime? GetNextScheduledDate
         {
             get
@@ -110,6 +112,7 @@ namespace Mobile.Data.Models
             }
         }
 
+        [NotMapped]
         public string GetNextScheduledDateString
         {
             get
