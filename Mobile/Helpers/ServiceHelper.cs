@@ -3,20 +3,17 @@
     public static class ServiceHelper
     {
         public static TService GetService<TService>()
-#pragma warning disable CS8603
-            => Current.GetService<TService>();
-#pragma warning restore CS8603
+            => Current.GetService<TService>() ?? throw new SystemException("Current Platform application is null");
 
         public static IServiceProvider Current =>
 #if ANDROID
-            MauiApplication.Current.Services;
+            IPlatformApplication.Current?.Services ?? throw new SystemException("Current Platform application is null");
 #elif IOS || MACCATALYST
-            MauiUIApplicationDelegate.Current.Services;
+            IPlatformApplication.Current?.Services ?? throw new SystemException("Current Platform application is null");
 #elif WINDOWS10_0_17763_0_OR_GREATER
             MauiWinUIApplication.Current.Services;
 #else
-            null;
+            throw new SystemException();
 #endif
     }
-
 }
