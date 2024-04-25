@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile.Pages.NewPage"
+             xmlns:vm="clr-namespace:Mobile.ViewModel"
+             xmlns:hlp="clr-namespace:Mobile.Helpers"
+             x:DataType="vm:NewViewModel"
+             Title="NewPage"
+             x:Name="NewItem">
+
+    <ContentPage.IconImageSource>
+        <FontImageSource FontFamily="FaSolid" Glyph="{x:Static hlp:FaSolid.WalkieTalkie}" />
+    </ContentPage.IconImageSource>
+    
+    <StackLayout>
+        <Entry Text="{Binding Name}" Placeholder="Enter item name" />
+        <Entry Text="{Binding Description}" Placeholder="Enter item description" />
+        <Entry Text="{Binding LoopInDays}" Placeholder="Enter loop in days" />
+        <Entry Text="{Binding DaysBeforeWarning}" Placeholder="Enter days before warning (optional)" />
+        <Button Command="{Binding AddItemCommand}" Text="Add Item" />
+    </StackLayout>
+</ContentPage>
