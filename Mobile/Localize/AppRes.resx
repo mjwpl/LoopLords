@@ -120,4 +120,7 @@
   <data name="TITLE_TASKS" xml:space="preserve">
     <value>TASKS</value>
   </data>
+  <data name="TITLE_TODAY" xml:space="preserve">
+    <value>TODAY</value>
+  </data>
 </root>
