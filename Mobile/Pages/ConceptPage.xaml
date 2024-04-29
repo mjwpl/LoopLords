@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:Mobile.Data.Models"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:hlp="clr-namespace:Mobile.Helpers"
+             x:Class="Mobile.Pages.ConceptPage"
+             BackgroundColor="#272721"
+             Title="ConceptPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <Page.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#272721" />
+    </Page.Behaviors>
+    
+    <Grid Margin="0,10,0,0" 
+          ColumnDefinitions="*,auto"
+          RowDefinitions="auto, auto, auto, auto,*">
+
+        <Label Grid.Row="0" Grid.Column="0" Text="Friday, 9 Dec" 
+               VerticalOptions="Center" HorizontalOptions="End" TextColor="#feffe5" 
+               Margin="0,0,10,0"/>
+        <Frame Grid.Row="0" Grid.Column="1"
+                BackgroundColor="#e76930"
+                   BorderColor="#e76930"
+                   CornerRadius="7"
+                   Padding="8,3,8,3"
+                   Margin="0,0,20,0"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                <Label Text="2" TextColor="#f0fff8" />
+            </Frame>
+
+        <Label Grid.Row="1" Grid.Column="0" 
+               Text="Ciao, Damir!" TextColor="#feffe5" FontSize="28"
+               VerticalOptions="Center"
+               Margin="20,10,0,0"/>
+
+        <Label Grid.Row="1" Grid.Column="1" Text="{x:Static hlp:FaSolid.Bars}" FontFamily="FaSolid" TextColor="#feffe5" HorizontalOptions="End" VerticalOptions="Center" FontSize="28" Margin="0,10,20,0" />
+
+        <Label Grid.Row="2" Grid.ColumnSpan="2" Text="View your generated meetings schedule:" TextColor="#feffe5"  HorizontalOptions="Start" Margin="20,0,0,0" />
+
+        <HorizontalStackLayout Grid.Row="3" HorizontalOptions="Start" Margin="20,20,0,0">
+
+            <Label Margin="0,0,10,0" HorizontalOptions="Center" VerticalOptions="Center" Text="Day" TextColor="#feffe5" />
+
+            <Frame BackgroundColor="#e76930"
+                   BorderColor="#e76930"
+                   CornerRadius="9"
+                   Padding="8,6,8,6"
+                   Margin="0,0,10,0"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                <Label Text="Week" TextColor="#feffe5" />
+            </Frame>
+
+            <Label Margin="0,0,10,0" HorizontalOptions="Center" VerticalOptions="Center" Text="Month" TextColor="#feffe5" />
+
+        </HorizontalStackLayout>
+
+        <Border Grid.Row="4" Grid.ColumnSpan="2" BackgroundColor="#b3b49d" StrokeShape="RoundRectangle 40,40,0,0" Margin="0,30,0,0">
+            <Grid ColumnDefinitions="*,*,*" RowDefinitions="20,20" Grid.Row="4" Grid.ColumnSpan="2" Margin="0,7,0,0">
+                <Label Grid.Column="0" Text="NOV" HorizontalOptions="Center" Margin="0,0,0,0" FontSize="13" FontAttributes="Bold" TextColor="#959682" />
+                <Label Grid.Column="1" Text="DEC" HorizontalOptions="Center" Margin="0,0,0,0" FontSize="13" FontAttributes="Bold" TextColor="#030301" />
+                <Label Grid.Column="2" Text="JAN" HorizontalOptions="Center" Margin="0,0,0,0" FontSize="13" FontAttributes="Bold" TextColor="#959682" />
+
+                <Label Grid.Column="0" Grid.Row="1" Text="2023" HorizontalOptions="Center" Margin="0,0,0,0" FontSize="11" TextColor="#959682" />
+                <Label Grid.Column="1" Grid.Row="1" Text="2023" HorizontalOptions="Center" Margin="0,0,0,0" FontSize="11" TextColor="#030301" />
+                <Label Grid.Column="2" Grid.Row="1" Text="2024" HorizontalOptions="Center" Margin="0,0,0,0" FontSize="11" TextColor="#959682" />
+            </Grid>
+        </Border>
+        <Border Grid.Row="4" Grid.ColumnSpan="2" BackgroundColor="#dadbb9" StrokeShape="RoundRectangle 15,15,0,0" Margin="5,80,5,5">
+        <CollectionView>
+            
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type model:Item}">
+                    <model:Item Name="Dev Meeting" Description="App update release date" DaysBeforeWarning="2" LoopInDays="5"/>
+                    <model:Item Name="Trening na siłowni" Description="Opis" DaysBeforeWarning="2" LoopInDays="5"/>
+                </x:Array>
+            </CollectionView.ItemsSource>
+            
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    
+                        <Border BackgroundColor="#feffe5" VerticalOptions="Start" StrokeShape="RoundRectangle 15,15,15,15" HeightRequest="100" Margin="7,10,7,0">
+                            <Grid RowDefinitions="auto,*,auto,auto" ColumnDefinitions="auto,*,auto">
+                                <Border Grid.Column="0" Grid.RowSpan="4" Margin="5,5,10,5" StrokeShape="RoundRectangle 15,15,15,15" Stroke="#e35517" BackgroundColor="#f58553" HorizontalOptions="FillAndExpand" WidthRequest="50">
+                                    <Label Text="OK" VerticalOptions="End" Margin="0,0,0,12" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" />
+                                </Border>
+                                <Border Grid.Column="0" Grid.RowSpan="4" Margin="5,5,10,45" StrokeShape="RoundRectangle 15,15,15,15" Stroke="#e5672e" BackgroundColor="#e76930"  WidthRequest="50">
+                                    <Label Text="{x:Static hlp:FaSolid.CalendarCheck}" FontSize="20" FontFamily="FaSolid" VerticalOptions="Start" Margin="0,12,0,0" TextColor="White" HorizontalOptions="Center" />
+                                </Border>
+
+                                <Label Grid.Row="0" Grid.Column="1" Text="{Binding Name}" TextColor="Black" FontAttributes="Bold" Margin="0,10,0,0" FontSize="15" />
+                                <Label Grid.Row="1" Grid.Column="1" Text="{Binding Description}" TextColor="Black" Margin="0,0,0,0" FontSize="11" />
+                                <BoxView Grid.Row="2" Grid.Column="1" HeightRequest="1" Color="#dadbb9"/>
+
+                                <HorizontalStackLayout Grid.Row="3" Grid.Column="1" Margin="0,10,0,10">
+                                    <Label Text="{x:Static hlp:FaSolid.UserGroup}" FontFamily="FaSolid" VerticalOptions="Center" />
+                                    <Label Text="2 Attendees" TextColor="Black" Margin="10,0,0,0" FontSize="11" VerticalOptions="Center" />
+                                </HorizontalStackLayout>
+                                
+
+                                <Label Grid.RowSpan="3" Grid.Column="2" Text="12 d" TextColor="Black" Margin="10,0,10,0" VerticalOptions="Center" FontSize="13" />
+                                <Label Grid.RowSpan="4" Grid.Column="3" Text="{x:Static hlp:FaSolid.Outdent}" FontFamily="FaSolid" Margin="10,0,0,10" VerticalOptions="End" FontSize="13" />
+                            </Grid>
+                        </Border>
+             
+                </DataTemplate>
+                </CollectionView.ItemTemplate>
+        </CollectionView>
+        </Border>
+    </Grid>
+    
+        
+
+
+</ContentPage>
