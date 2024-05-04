@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:hlp="clr-namespace:Mobile.Helpers"
+             x:Class="Mobile.Controls.MenuControl">
+
+    <Grid ColumnDefinitions="*,*,*" RowDefinitions="auto, auto">
+        
+        <Button Grid.Column="0" Grid.Row="0" BackgroundColor="Transparent" Padding="0">
+            <Button.ImageSource>
+                <FontImageSource Glyph="{x:Static hlp:MRound.Checklist}" FontFamily="Round" Size="30" />
+            </Button.ImageSource>
+        </Button>
+        <Label Grid.Column="0" Grid.Row="1" Text="Home" TextColor="White" HorizontalOptions="Center" FontSize="11" />
+
+
+        <Button Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent">
+            <Button.ImageSource>
+                <FontImageSource Glyph="{x:Static hlp:FaSolid.Medal}" FontFamily="FaSolid" Color="Gray" Size="22" />
+            </Button.ImageSource>
+        </Button>
+        <Label Grid.Column="1" Grid.Row="1" Text="Medal" TextColor="Gray" HorizontalOptions="Center" FontSize="11" />
+
+        <Button Grid.Column="2" Grid.Row="0" BackgroundColor="Transparent">
+            <Button.ImageSource>
+                <FontImageSource Glyph="{x:Static hlp:FaSolid.Gears}" FontFamily="FaSolid"  Color="gray" Size="22" />
+            </Button.ImageSource>
+        </Button>
+        <Label Grid.Column="2" Grid.Row="1" Text="Settings" TextColor="Gray" HorizontalOptions="Center"  FontSize="11"/>
+
+        <Frame Grid.Column="1" Grid.Row="0" CornerRadius="50" WidthRequest="10" HeightRequest="10" BackgroundColor="Red" BorderColor="Transparent" Margin="33,-20,0,0">
+
+        </Frame>
+        <Label Grid.Column="1" Grid.Row="0" Text="1" TextColor="White" HorizontalOptions="Center"  Margin="32,5,0,0" FontSize="12" />
+    </Grid>
+</ContentView>
