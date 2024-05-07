@@ -8,6 +8,7 @@ namespace Mobile.Data.Models
         [Key]
         public int Id { get; set; }
         public DateTime Done { get; set; }
+        public String Notes { get; set; } = String.Empty;
 
         [ForeignKey("ItemId")]
         public int ItemId { get; set; }

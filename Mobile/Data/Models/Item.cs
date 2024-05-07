@@ -1,6 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System;
+﻿using Mobile.Helpers;
+using System.ComponentModel.DataAnnotations;
 
 namespace Mobile.Data.Models
 {
@@ -9,116 +8,51 @@ namespace Mobile.Data.Models
         [Key]
         public int Id { get; set; }
         public string Name { get; set; } = String.Empty;
-        public string Description { get; set; } = String.Empty;
-
-        public int LoopInDays { get; set; }
-
-        //private int _loopInDays { get; set; }
-        //public int LoopInDays
-        //{
-        //    get
-        //    {
-        //        return _loopInDays;
-        //    }
-
-        //    set
-        //    {
-        //        if (value == 1)
-        //        {
-        //            // TODO: Localization will be required here
-        //            throw new InvalidOperationException("LoopInDays cannot be 1 when setting DaysBeforeWarning.");
-        //        }
-        //        _loopInDays = value;
-        //    }
-        //}
-
-        public int? DaysBeforeWarning { get; set; }
-
-        //[NotMapped]
-        //private int? _daysBeforeWarning { get; set; }
-
-        //public int? DaysBeforeWarning
-        //{
-        //    get => _daysBeforeWarning;
-        //    set
-        //    {
-        //        if (value.HasValue && LoopInDays > 0 && value < LoopInDays)
-        //        {
-        //            _daysBeforeWarning = value;
-        //        }
-        //        else if (LoopInDays > 0)
-        //        {
-        //            // TODO: Localization will be required here
-        //            throw new ArgumentOutOfRangeException(nameof(value), "Value must be less than LoopInDays.");
-        //        }
-        //    }
-        //}
-
+        public string HintForNextOccurrence { get; set; } = String.Empty;
+        public string Icon { get; set; } = FaSolid.Question;
+        public string Color { get; set; } = "#e37138";
+        public int HideInDays { get; set; } = 0;
         public List<ItemHistory> History { get; set; } = new();
 
-        [NotMapped]
-        public bool Warning
-        {
-            get
-            {
-                if (DaysBeforeWarning.HasValue && History.Any())
-                {
-                    var lastHistoryDate = History.Max(h => h.Done);
-                    var daysSinceLastHistory = (DateTime.Now - lastHistoryDate).Days;
-                    return daysSinceLastHistory <= LoopInDays - DaysBeforeWarning;
-                } else return true;
-            }
-        }
-
-        [NotMapped]
         public int? DaysSinceLastOccurrence
         {
             get
             {
                 if (History != null && History.Any())
                 {
-                    var lastHistoryDate = History.Max(h => h.Done);
-                    return (DateTime.Now - lastHistoryDate).Days;
+                    var lastHistoryDate = History.Max(h => h.Done.Date);
+                    return (DateTime.Now.Date - lastHistoryDate).Days;
                 }
                 return null;
             }
         }
 
-        [NotMapped]
-        public int? DaysToNextScheduledDate
+        public double? CalculateMedianDaysBetweenOccurrences
         {
             get
             {
-                if (History != null && History.Any() && GetNextScheduledDate != null)
+                if (History != null && History.Count > 1)
                 {
-                    var lastHistoryDate = History.Max(h => h.Done);
-                    return ((DateTime)GetNextScheduledDate - DateTime.Now).Days;
+                    var sortedHistory = History.OrderBy(h => h.Done.Date).ToList();
+                    var daysBetweenOccurrences = sortedHistory.Zip(sortedHistory.Skip(1), (prev, next) => (next.Done.Date - prev.Done.Date).TotalDays);
+                    var median = daysBetweenOccurrences.Median();
+                    return median;
                 }
                 return null;
             }
+
         }
 
-        [NotMapped]
-        public DateTime? GetNextScheduledDate
+        public bool IsVisibleBtn
         {
             get
             {
                 if (History != null && History.Any())
                 {
-                    var lastHistoryDate = History.Max(h => h.Done);
-                    return lastHistoryDate.Date.AddDays(LoopInDays);
+                    var lastHistoryDate = History.Max(h => h.Done.Date);
+                    return lastHistoryDate != DateTime.Now.Date;
                 }
-                return null;
-            }
-        }
-
-        [NotMapped]
-        public string GetNextScheduledDateString
-        {
-            get
-            {
-                var nextScheduledDate = GetNextScheduledDate;
-                return nextScheduledDate?.ToString("yyyy-MM-dd") ?? string.Empty;
+                return true;
             }
         }
 
@@ -130,7 +64,7 @@ namespace Mobile.Data.Models
             }
 
             Item other = (Item)obj;
-            return Id == other.Id && Name == other.Name && Description == other.Description && LoopInDays == other.LoopInDays && History.Count() == other.History.Count();
+            return Id == other.Id && Name == other.Name && HintForNextOccurrence == other.HintForNextOccurrence && History.Count() == other.History.Count();
         }
 
         public override int GetHashCode()
