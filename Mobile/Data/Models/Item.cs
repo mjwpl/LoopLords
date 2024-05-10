@@ -9,7 +9,7 @@ namespace Mobile.Data.Models
         public int Id { get; set; }
         public string Name { get; set; } = String.Empty;
         public string HintForNextOccurrence { get; set; } = String.Empty;
-        public string Icon { get; set; } = FaSolid.Question;
+        public string Icon { get; set; } = MaterialIcons.Question_mark;
         public string Color { get; set; } = "#e37138";
         public int HideInDays { get; set; } = 0;
         public List<ItemHistory> History { get; set; } = new();
