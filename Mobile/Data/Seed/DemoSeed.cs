@@ -1,4 +1,5 @@
 ﻿using Mobile.Data.Models;
+using Mobile.Helpers;
 
 namespace Mobile.Data.Seed
 {
@@ -12,24 +13,25 @@ namespace Mobile.Data.Seed
                 {
                     Id = 1,
                     Name = "Wymiana oleju",
-                    LoopInDays = 365,
-                    DaysBeforeWarning = 14,
-                    Description = "Coroczna wymiana oleju silnikowego w Toyocie"
+                    HintForNextOccurrence = "Kupić olej na allegro.pl",
+                    HideInDays = 350,
+                    Icon = MaterialIcons.Oil_barrel,
+                    Color = "#1d72a0"
                 },
                 new()
                 {
                     Id = 2,
                     Name = "Trening na siłowni",
-                    LoopInDays = 2,
-                    Description = "Trening obwodowy"
+                    HintForNextOccurrence = "Zrobić bicepsy",
+                    Icon = MaterialIcons.Fitness_center,
                 },
                 new()
                 {
                     Id = 3,
                     Name = "Kwiaty dla dziewczyny",
-                    LoopInDays = 30,
-                    DaysBeforeWarning = 3,
-                    Description = "Wiadomo...",
+                    HintForNextOccurrence = "Kupić kwiaty w kwiaciarni",
+                    Icon = MaterialIcons.Local_florist,
+                    Color = "#9117f1"
                 }
             ];
 
