@@ -14,7 +14,7 @@ namespace Mobile.Data
         {
             base.OnConfiguring(optionsBuilder);
 
-            string conn = $"Filename={GetPath("moj.db")}";
+            string conn = $"Filename={GetPath("looplords.db")}";
             optionsBuilder.UseSqlite(conn);
         }
 
@@ -23,8 +23,10 @@ namespace Mobile.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Settings>().HasData(SettingsSeed.Generate());
+#if DEBUG
             modelBuilder.Entity<Item>().HasData(DemoSeed.GenerateItems());
             modelBuilder.Entity<ItemHistory>().HasData(DemoSeed.GenerateItemsHistory());
+#endif
         }
 
         public static string GetPath(string nameDb)
