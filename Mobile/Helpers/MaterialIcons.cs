@@ -1,2189 +1,2192 @@
-﻿Uni0020
-_10k
-_10mp
-_11mp
-_123
-_12mp
-_13mp
-_14mp
-_15mp
-_16mp
-_17mp
-_18_up_rating
-_18mp
-_19mp
-_1k
-_1k_plus
-_1x_mobiledata
-_20mp
-_21mp
-_22mp
-_23mp
-_24mp
-_2k
-_2k_plus
-_2mp
-_30fps
-_30fps_select
-_360
-_3d_rotation
-_3g_mobiledata
-_3k
-_3k_plus
-_3mp
-_3p
-_4g_mobiledata
-_4g_plus_mobiledata
-_4k
-_4k_plus
-_4mp
-_5g
-_5k
-_5k_plus
-_5mp
-_60fps
-_60fps_select
-_6_ft_apart
-_6k
-_6k_plus
-_6mp
-_7k
-_7k_plus
-_7mp
-_8k
-_8k_plus
-_8mp
-_9k
-_9k_plus
-_9mp
-Abc
-Ac_unit
-Access_alarm
-Access_alarms
-Access_time
-Access_time_filled
-Accessibility
-Accessibility_new
-Accessible
-Accessible_forward
-Account_balance
-Account_balance_wallet
-Account_box
-Account_circle
-Account_tree
-Ad_units
-Adb
-Add
-Add_a_photo
-Add_alarm
-Add_alert
-Add_box
-Add_business
-Add_card
-Add_chart
-Add_circle
-Add_circle_outline
-Add_comment
-Add_home
-Add_home_work
-Add_ic_call
-Add_link
-Add_location
-Add_location_alt
-Add_moderator
-Add_photo_alternate
-Add_reaction
-Add_road
-Add_shopping_cart
-Add_task
-Add_to_drive
-Add_to_home_screen
-Add_to_photos
-Add_to_queue
-Addchart
-Adf_scanner
-Adjust
-Admin_panel_settings
-Adobe
-Ads_click
-Agriculture
-Air
-Airline_seat_flat
-Airline_seat_flat_angled
-Airline_seat_individual_suite
-Airline_seat_legroom_extra
-Airline_seat_legroom_normal
-Airline_seat_legroom_reduced
-Airline_seat_recline_extra
-Airline_seat_recline_normal
-Airline_stops
-Airlines
-Airplane_ticket
-Airplanemode_active
-Airplanemode_inactive
-Airplay
-Airport_shuttle
-Alarm
-Alarm_add
-Alarm_off
-Alarm_on
-Album
-Align_horizontal_center
-Align_horizontal_left
-Align_horizontal_right
-Align_vertical_bottom
-Align_vertical_center
-Align_vertical_top
-All_inbox
-All_inclusive
-All_out
-Alt_route
-Alternate_email
-Amp_stories
-Analytics
-Anchor
-Android
-Animation
-Announcement
-Aod
-Apartment
-Api
-App_blocking
-App_registration
-App_settings_alt
-App_shortcut
-Apple
-Approval
-Apps
-Apps_outage
-Architecture
-Archive
-Area_chart
-Arrow_back
-Arrow_back_ios
-Arrow_back_ios_new
-Arrow_circle_down
-Arrow_circle_left
-Arrow_circle_right
-Arrow_circle_up
-Arrow_downward
-Arrow_drop_down
-Arrow_drop_down_circle
-Arrow_drop_up
-Arrow_forward
-Arrow_forward_ios
-Arrow_left
-Arrow_outward
-Arrow_right
-Arrow_right_alt
-Arrow_upward
-Art_track
-Article
-Aspect_ratio
-Assessment
-Assignment
-Assignment_ind
-Assignment_late
-Assignment_return
-Assignment_returned
-Assignment_turned_in
-Assist_walker
-Assistant
-Assistant_direction
-Assistant_photo
-Assured_workload
-Atm
-Attach_email
-Attach_file
-Attach_money
-Attachment
-Attractions
-Attribution
-Audio_file
-Audiotrack
-Auto_awesome
-Auto_awesome_mosaic
-Auto_awesome_motion
-Auto_delete
-Auto_fix_high
-Auto_fix_normal
-Auto_fix_off
-Auto_graph
-Auto_mode
-Auto_stories
-Autofps_select
-Autorenew
-Av_timer
-Baby_changing_station
-Back_hand
-Backpack
-Backspace
-Backup
-Backup_table
-Badge
-Bakery_dining
-Balance
-Balcony
-Ballot
-Bar_chart
-Batch_prediction
-Bathroom
-Bathtub
-Battery_0_bar
-Battery_1_bar
-Battery_2_bar
-Battery_3_bar
-Battery_4_bar
-Battery_5_bar
-Battery_6_bar
-Battery_alert
-Battery_charging_full
-Battery_full
-Battery_saver
-Battery_std
-Battery_unknown
-Beach_access
-Bed
-Bedroom_baby
-Bedroom_child
-Bedroom_parent
-Bedtime
-Bedtime_off
-Beenhere
-Bento
-Bike_scooter
-Biotech
-Blender
-Blind
-Blinds
-Blinds_closed
-Block
-Bloodtype
-Bluetooth
-Bluetooth_audio
-Bluetooth_connected
-Bluetooth_disabled
-Bluetooth_drive
-Bluetooth_searching
-Blur_circular
-Blur_linear
-Blur_off
-Blur_on
-Bolt
-Book
-Book_online
-Bookmark
-Bookmark_add
-Bookmark_added
-Bookmark_border
-Bookmark_remove
-Bookmarks
-Border_all
-Border_bottom
-Border_clear
-Border_color
-Border_horizontal
-Border_inner
-Border_left
-Border_outer
-Border_right
-Border_style
-Border_top
-Border_vertical
-Boy
-Branding_watermark
-Breakfast_dining
-Brightness_1
-Brightness_2
-Brightness_3
-Brightness_4
-Brightness_5
-Brightness_6
-Brightness_7
-Brightness_auto
-Brightness_high
-Brightness_low
-Brightness_medium
-Broadcast_on_home
-Broadcast_on_personal
-Broken_image
-Browse_gallery
-Browser_not_supported
-Browser_updated
-Brunch_dining
-Brush
-Bubble_chart
-Bug_report
-Build
-Build_circle
-Bungalow
-Burst_mode
-Bus_alert
-Business
-Business_center
-Cabin
-Cable
-Cached
-Cake
-Calculate
-Calendar_month
-Calendar_today
-Calendar_view_day
-Calendar_view_month
-Calendar_view_week
-Call
-Call_end
-Call_made
-Call_merge
-Call_missed
-Call_missed_outgoing
-Call_received
-Call_split
-Call_to_action
-Camera
-Camera_alt
-Camera_enhance
-Camera_front
-Camera_indoor
-Camera_outdoor
-Camera_rear
-Camera_roll
-Cameraswitch
-Campaign
-Cancel
-Cancel_presentation
-Cancel_schedule_send
-Candlestick_chart
-Car_crash
-Car_rental
-Car_repair
-Card_giftcard
-Card_membership
-Card_travel
-Carpenter
-Cases
-Casino
-Cast
-Cast_connected
-Cast_for_education
-Castle
-Catching_pokemon
-Category
-Celebration
-Cell_tower
-Cell_wifi
-Center_focus_strong
-Center_focus_weak
-Chair
-Chair_alt
-Chalet
-Change_circle
-Change_history
-Charging_station
-Chat
-Chat_bubble
-Chat_bubble_outline
-Check
-Check_box
-Check_box_outline_blank
-Check_circle
-Check_circle_outline
-Checklist
-Checklist_rtl
-Checkroom
-Chevron_left
-Chevron_right
-Child_care
-Child_friendly
-Chrome_reader_mode
-Church
-Circle
-Circle_notifications
-Class
-Clean_hands
-Cleaning_services
-Clear
-Clear_all
-Close
-Close_fullscreen
-Closed_caption
-Closed_caption_disabled
-Closed_caption_off
-Cloud
-Cloud_circle
-Cloud_done
-Cloud_download
-Cloud_off
-Cloud_queue
-Cloud_sync
-Cloud_upload
-Co2
-Co_present
-Code
-Code_off
-Coffee
-Coffee_maker
-Collections
-Collections_bookmark
-Color_lens
-Colorize
-Comment
-Comment_bank
-Comments_disabled
-Commit
-Commute
-Compare
-Compare_arrows
-Compass_calibration
-Compost
-Compress
-Computer
-Confirmation_number
-Connect_without_contact
-Connected_tv
-Connecting_airports
-Construction
-Contact_emergency
-Contact_mail
-Contact_page
-Contact_phone
-Contact_support
-Contactless
-Contacts
-Content_copy
-Content_cut
-Content_paste
-Content_paste_go
-Content_paste_off
-Content_paste_search
-Contrast
-Control_camera
-Control_point
-Control_point_duplicate
-Cookie
-Copy_all
-Copyright
-Coronavirus
-Corporate_fare
-Cottage
-Countertops
-Create
-Create_new_folder
-Credit_card
-Credit_card_off
-Credit_score
-Crib
-Crisis_alert
-Crop
-Crop_16_9
-Crop_3_2
-Crop_5_4
-Crop_7_5
-Crop_din
-Crop_free
-Crop_landscape
-Crop_original
-Crop_portrait
-Crop_rotate
-Crop_square
-Cruelty_free
-Css
-Currency_bitcoin
-Currency_exchange
-Currency_franc
-Currency_lira
-Currency_pound
-Currency_ruble
-Currency_rupee
-Currency_yen
-Currency_yuan
-Curtains
-Curtains_closed
-Cyclone
-Dangerous
-Dark_mode
-Dashboard
-Dashboard_customize
-Data_array
-Data_exploration
-Data_object
-Data_saver_off
-Data_saver_on
-Data_thresholding
-Data_usage
-Dataset
-Dataset_linked
-Date_range
-Deblur
-Deck
-Dehaze
-Delete
-Delete_forever
-Delete_outline
-Delete_sweep
-Delivery_dining
-Density_large
-Density_medium
-Density_small
-Departure_board
-Description
-Deselect
-Design_services
-Desk
-Desktop_access_disabled
-Desktop_mac
-Desktop_windows
-Details
-Developer_board
-Developer_board_off
-Developer_mode
-Device_hub
-Device_thermostat
-Device_unknown
-Devices
-Devices_fold
-Devices_other
-Dialer_sip
-Dialpad
-Diamond
-Difference
-Dining
-Dinner_dining
-Directions
-Directions_bike
-Directions_boat
-Directions_boat_filled
-Directions_bus
-Directions_bus_filled
-Directions_car
-Directions_car_filled
-Directions_off
-Directions_railway
-Directions_railway_filled
-Directions_run
-Directions_subway
-Directions_subway_filled
-Directions_transit
-Directions_transit_filled
-Directions_walk
-Dirty_lens
-Disabled_by_default
-Disabled_visible
-Disc_full
-Discord
-Discount
-Display_settings
-Diversity_1
-Diversity_2
-Diversity_3
-Dns
-Do_disturb
-Do_disturb_alt
-Do_disturb_off
-Do_disturb_on
-Do_not_disturb
-Do_not_disturb_alt
-Do_not_disturb_off
-Do_not_disturb_on
-Do_not_disturb_on_total_silence
-Do_not_step
-Do_not_touch
-Dock
-Document_scanner
-Domain
-Domain_add
-Domain_disabled
-Domain_verification
-Done
-Done_all
-Done_outline
-Donut_large
-Donut_small
-Door_back
-Door_front
-Door_sliding
-Doorbell
-Double_arrow
-Downhill_skiing
-Download
-Download_done
-Download_for_offline
-Downloading
-Drafts
-Drag_handle
-Drag_indicator
-Draw
-Drive_eta
-Drive_file_move
-Drive_file_move_rtl
-Drive_file_rename_outline
-Drive_folder_upload
-Dry
-Dry_cleaning
-Duo
-Dvr
-Dynamic_feed
-Dynamic_form
-E_mobiledata
-Earbuds
-Earbuds_battery
-East
-Eco
-Edgesensor_high
-Edgesensor_low
-Edit
-Edit_attributes
-Edit_calendar
-Edit_location
-Edit_location_alt
-Edit_note
-Edit_notifications
-Edit_off
-Edit_road
-Egg
-Egg_alt
-Eject
-Elderly
-Elderly_woman
-Electric_bike
-Electric_bolt
-Electric_car
-Electric_meter
-Electric_moped
-Electric_rickshaw
-Electric_scooter
-Electrical_services
-Elevator
-Email
-Emergency
-Emergency_recording
-Emergency_share
-Emoji_emotions
-Emoji_events
-Emoji_flags
-Emoji_food_beverage
-Emoji_nature
-Emoji_objects
-Emoji_people
-Emoji_symbols
-Emoji_transportation
-Energy_savings_leaf
-Engineering
-Enhanced_encryption
-Equalizer
-Error
-Error_outline
-Escalator
-Escalator_warning
-Euro
-Euro_symbol
-Ev_station
-Event
-Event_available
-Event_busy
-Event_note
-Event_repeat
-Event_seat
-Exit_to_app
-Expand
-Expand_circle_down
-Expand_less
-Expand_more
-Explicit
-Explore
-Explore_off
-Exposure
-Exposure_neg_1
-Exposure_neg_2
-Exposure_plus_1
-Exposure_plus_2
-Exposure_zero
-Extension
-Extension_off
-Face
-Face_2
-Face_3
-Face_4
-Face_5
-Face_6
-Face_retouching_natural
-Face_retouching_off
-Face_unlock
-Facebook
-Fact_check
-Factory
-Family_restroom
-Fast_forward
-Fast_rewind
-Fastfood
-Favorite
-Favorite_border
-Fax
-Featured_play_list
-Featured_video
-Feed
-Feedback
-Female
-Fence
-Festival
-Fiber_dvr
-Fiber_manual_record
-Fiber_new
-Fiber_pin
-Fiber_smart_record
-File_copy
-File_download
-File_download_done
-File_download_off
-File_open
-File_present
-File_upload
-Filter
-Filter_1
-Filter_2
-Filter_3
-Filter_4
-Filter_5
-Filter_6
-Filter_7
-Filter_8
-Filter_9
-Filter_9_plus
-Filter_alt
-Filter_alt_off
-Filter_b_and_w
-Filter_center_focus
-Filter_drama
-Filter_frames
-Filter_hdr
-Filter_list
-Filter_list_off
-Filter_none
-Filter_tilt_shift
-Filter_vintage
-Find_in_page
-Find_replace
-Fingerprint
-Fire_extinguisher
-Fire_hydrant_alt
-Fire_truck
-Fireplace
-First_page
-Fit_screen
-Fitbit
-Fitness_center
-Flag
-Flag_circle
-Flaky
-Flare
-Flash_auto
-Flash_off
-Flash_on
-Flashlight_off
-Flashlight_on
-Flatware
-Flight
-Flight_class
-Flight_land
-Flight_takeoff
-Flip
-Flip_camera_android
-Flip_camera_ios
-Flip_to_back
-Flip_to_front
-Flood
-Fluorescent
-Flutter_dash
-Fmd_bad
-Fmd_good
-Folder
-Folder_copy
-Folder_delete
-Folder_off
-Folder_open
-Folder_shared
-Folder_special
-Folder_zip
-Follow_the_signs
-Font_download
-Font_download_off
-Food_bank
-Forest
-Fork_left
-Fork_right
-Format_align_center
-Format_align_justify
-Format_align_left
-Format_align_right
-Format_bold
-Format_clear
-Format_color_fill
-Format_color_reset
-Format_color_text
-Format_indent_decrease
-Format_indent_increase
-Format_italic
-Format_line_spacing
-Format_list_bulleted
-Format_list_numbered
-Format_list_numbered_rtl
-Format_overline
-Format_paint
-Format_quote
-Format_shapes
-Format_size
-Format_strikethrough
-Format_textdirection_l_to_r
-Format_textdirection_r_to_l
-Format_underlined
-Fort
-Forum
-Forward
-Forward_10
-Forward_30
-Forward_5
-Forward_to_inbox
-Foundation
-Free_breakfast
-Free_cancellation
-Front_hand
-Fullscreen
-Fullscreen_exit
-Functions
-G_mobiledata
-G_translate
-Gamepad
-Games
-Garage
-Gas_meter
-Gavel
-Generating_tokens
-Gesture
-Get_app
-Gif
-Gif_box
-Girl
-Gite
-Golf_course
-Gpp_bad
-Gpp_good
-Gpp_maybe
-Gps_fixed
-Gps_not_fixed
-Gps_off
-Grade
-Gradient
-Grading
-Grain
-Graphic_eq
-Grass
-Grid_3x3
-Grid_4x4
-Grid_goldenratio
-Grid_off
-Grid_on
-Grid_view
-Group
-Group_add
-Group_off
-Group_remove
-Group_work
-Groups
-Groups_2
-Groups_3
-H_mobiledata
-H_plus_mobiledata
-Hail
-Handshake
-Handyman
-Hardware
-Hd
-Hdr_auto
-Hdr_auto_select
-Hdr_enhanced_select
-Hdr_off
-Hdr_off_select
-Hdr_on
-Hdr_on_select
-Hdr_plus
-Hdr_strong
-Hdr_weak
-Headphones
-Headphones_battery
-Headset
-Headset_mic
-Headset_off
-Healing
-Health_and_safety
-Hearing
-Hearing_disabled
-Heart_broken
-Heat_pump
-Height
-Help
-Help_center
-Help_outline
-Hevc
-Hexagon
-Hide_image
-Hide_source
-High_quality
-Highlight
-Highlight_alt
-Highlight_off
-Hiking
-History
-History_edu
-History_toggle_off
-Hive
-Hls
-Hls_off
-Holiday_village
-Home
-Home_max
-Home_mini
-Home_repair_service
-Home_work
-Horizontal_distribute
-Horizontal_rule
-Horizontal_split
-Hot_tub
-Hotel
-Hotel_class
-Hourglass_bottom
-Hourglass_disabled
-Hourglass_empty
-Hourglass_full
-Hourglass_top
-House
-House_siding
-Houseboat
-How_to_reg
-How_to_vote
-Html
-Http
-Https
-Hub
-Hvac
-Ice_skating
-Icecream
-Image
-Image_aspect_ratio
-Image_not_supported
-Image_search
-Imagesearch_roller
-Import_contacts
-Import_export
-Important_devices
-Inbox
-Incomplete_circle
-Indeterminate_check_box
-Info
-Info_outline
-Input
-Insert_chart
-Insert_chart_outlined
-Insert_comment
-Insert_drive_file
-Insert_emoticon
-Insert_invitation
-Insert_link
-Insert_page_break
-Insert_photo
-Insights
-Install_desktop
-Install_mobile
-Integration_instructions
-Interests
-Interpreter_mode
-Inventory
-Inventory_2
-Invert_colors
-Invert_colors_off
-Ios_share
-Iron
-Iso
-Javascript
-Join_full
-Join_inner
-Join_left
-Join_right
-Kayaking
-Kebab_dining
-Key
-Key_off
-Keyboard
-Keyboard_alt
-Keyboard_arrow_down
-Keyboard_arrow_left
-Keyboard_arrow_right
-Keyboard_arrow_up
-Keyboard_backspace
-Keyboard_capslock
-Keyboard_command_key
-Keyboard_control_key
-Keyboard_double_arrow_down
-Keyboard_double_arrow_left
-Keyboard_double_arrow_right
-Keyboard_double_arrow_up
-Keyboard_hide
-Keyboard_option_key
-Keyboard_return
-Keyboard_tab
-Keyboard_voice
-King_bed
-Kitchen
-Kitesurfing
-Label
-Label_important
-Label_important_outline
-Label_off
-Label_outline
-Lan
-Landscape
-Landslide
-Language
-Laptop
-Laptop_chromebook
-Laptop_mac
-Laptop_windows
-Last_page
-Launch
-Layers
-Layers_clear
-Leaderboard
-Leak_add
-Leak_remove
-Legend_toggle
-Lens
-Lens_blur
-Library_add
-Library_add_check
-Library_books
-Library_music
-Light
-Light_mode
-Lightbulb
-Lightbulb_circle
-Lightbulb_outline
-Line_axis
-Line_style
-Line_weight
-Linear_scale
-Link
-Link_off
-Linked_camera
-Liquor
-List
-List_alt
-Live_help
-Live_tv
-Living
-Local_activity
-Local_airport
-Local_atm
-Local_bar
-Local_cafe
-Local_car_wash
-Local_convenience_store
-Local_dining
-Local_drink
-Local_fire_department
-Local_florist
-Local_gas_station
-Local_grocery_store
-Local_hospital
-Local_hotel
-Local_laundry_service
-Local_library
-Local_mall
-Local_movies
-Local_offer
-Local_parking
-Local_pharmacy
-Local_phone
-Local_pizza
-Local_play
-Local_police
-Local_post_office
-Local_printshop
-Local_see
-Local_shipping
-Local_taxi
-Location_city
-Location_disabled
-Location_off
-Location_on
-Location_searching
-Lock
-Lock_clock
-Lock_open
-Lock_outline
-Lock_person
-Lock_reset
-Login
-Logo_dev
-Logout
-Looks
-Looks_3
-Looks_4
-Looks_5
-Looks_6
-Looks_one
-Looks_two
-Loop
-Loupe
-Low_priority
-Loyalty
-Lte_mobiledata
-Lte_plus_mobiledata
-Luggage
-Lunch_dining
-Lyrics
-Macro_off
-Mail
-Mail_lock
-Mail_outline
-Male
-Man
-Man_2
-Man_3
-Man_4
-Manage_accounts
-Manage_history
-Manage_search
-Map
-Maps_home_work
-Maps_ugc
-Margin
-Mark_as_unread
-Mark_chat_read
-Mark_chat_unread
-Mark_email_read
-Mark_email_unread
-Mark_unread_chat_alt
-Markunread
-Markunread_mailbox
-Masks
-Maximize
-Media_bluetooth_off
-Media_bluetooth_on
-Mediation
-Medical_information
-Medical_services
-Medication
-Medication_liquid
-Meeting_room
-Memory
-Menu
-Menu_book
-Menu_open
-Merge
-Merge_type
-Message
-Mic
-Mic_external_off
-Mic_external_on
-Mic_none
-Mic_off
-Microwave
-Military_tech
-Minimize
-Minor_crash
-Miscellaneous_services
-Missed_video_call
-Mms
-Mobile_friendly
-Mobile_off
-Mobile_screen_share
-Mobiledata_off
-Mode
-Mode_comment
-Mode_edit
-Mode_edit_outline
-Mode_fan_off
-Mode_night
-Mode_of_travel
-Mode_standby
-Model_training
-Monetization_on
-Money
-Money_off
-Money_off_csred
-Monitor
-Monitor_heart
-Monitor_weight
-Monochrome_photos
-Mood
-Mood_bad
-Moped
-More
-More_horiz
-More_time
-More_vert
-Mosque
-Motion_photos_auto
-Motion_photos_off
-Motion_photos_on
-Motion_photos_pause
-Motion_photos_paused
-Motorcycle
-Mouse
-Move_down
-Move_to_inbox
-Move_up
-Movie
-Movie_creation
-Movie_filter
-Moving
-Mp
-Multiline_chart
-Multiple_stop
-Museum
-Music_note
-Music_off
-Music_video
-My_location
-Nat
-Nature
-Nature_people
-Navigate_before
-Navigate_next
-Navigation
-Near_me
-Near_me_disabled
-Nearby_error
-Nearby_off
-Nest_cam_wired_stand
-Network_cell
-Network_check
-Network_locked
-Network_ping
-Network_wifi
-Network_wifi_1_bar
-Network_wifi_2_bar
-Network_wifi_3_bar
-New_label
-New_releases
-Newspaper
-Next_plan
-Next_week
-Nfc
-Night_shelter
-Nightlife
-Nightlight
-Nightlight_round
-Nights_stay
-No_accounts
-No_adult_content
-No_backpack
-No_cell
-No_crash
-No_drinks
-No_encryption
-No_encryption_gmailerrorred
-No_flash
-No_food
-No_luggage
-No_meals
-No_meeting_room
-No_photography
-No_sim
-No_stroller
-No_transfer
-Noise_aware
-Noise_control_off
-Nordic_walking
-North
-North_east
-North_west
-Not_accessible
-Not_interested
-Not_listed_location
-Not_started
-Note
-Note_add
-Note_alt
-Notes
-Notification_add
-Notification_important
-Notifications
-Notifications_active
-Notifications_none
-Notifications_off
-Notifications_paused
-Numbers
-Offline_bolt
-Offline_pin
-Offline_share
-Oil_barrel
-On_device_training
-Ondemand_video
-Online_prediction
-Opacity
-Open_in_browser
-Open_in_full
-Open_in_new
-Open_in_new_off
-Open_with
-Other_houses
-Outbond
-Outbound
-Outbox
-Outdoor_grill
-Outlet
-Outlined_flag
-Output
-Padding
-Pages
-Pageview
-Paid
-Palette
-Pan_tool
-Pan_tool_alt
-Panorama
-Panorama_fish_eye
-Panorama_horizontal
-Panorama_horizontal_select
-Panorama_photosphere
-Panorama_photosphere_select
-Panorama_vertical
-Panorama_vertical_select
-Panorama_wide_angle
-Panorama_wide_angle_select
-Paragliding
-Park
-Party_mode
-Password
-Pattern
-Pause
-Pause_circle
-Pause_circle_filled
-Pause_circle_outline
-Pause_presentation
-Payment
-Payments
-Paypal
-Pedal_bike
-Pending
-Pending_actions
-Pentagon
-People
-People_alt
-People_outline
-Percent
-Perm_camera_mic
-Perm_contact_calendar
-Perm_data_setting
-Perm_device_information
-Perm_identity
-Perm_media
-Perm_phone_msg
-Perm_scan_wifi
-Person
-Person_2
-Person_3
-Person_4
-Person_add
-Person_add_alt
-Person_add_alt_1
-Person_add_disabled
-Person_off
-Person_outline
-Person_pin
-Person_pin_circle
-Person_remove
-Person_remove_alt_1
-Person_search
-Personal_injury
-Personal_video
-Pest_control
-Pest_control_rodent
-Pets
-Phishing
-Phone
-Phone_android
-Phone_bluetooth_speaker
-Phone_callback
-Phone_disabled
-Phone_enabled
-Phone_forwarded
-Phone_in_talk
-Phone_iphone
-Phone_locked
-Phone_missed
-Phone_paused
-Phonelink
-Phonelink_erase
-Phonelink_lock
-Phonelink_off
-Phonelink_ring
-Phonelink_setup
-Photo
-Photo_album
-Photo_camera
-Photo_camera_back
-Photo_camera_front
-Photo_filter
-Photo_library
-Photo_size_select_actual
-Photo_size_select_large
-Photo_size_select_small
-Php
-Piano
-Piano_off
-Picture_as_pdf
-Picture_in_picture
-Picture_in_picture_alt
-Pie_chart
-Pie_chart_outline
-Pin
-Pin_drop
-Pin_end
-Pin_invoke
-Pinch
-Pivot_table_chart
-Pix
-Place
-Plagiarism
-Play_arrow
-Play_circle
-Play_circle_filled
-Play_circle_outline
-Play_disabled
-Play_for_work
-Play_lesson
-Playlist_add
-Playlist_add_check
-Playlist_add_check_circle
-Playlist_add_circle
-Playlist_play
-Playlist_remove
-Plumbing
-Plus_one
-Podcasts
-Point_of_sale
-Policy
-Poll
-Polyline
-Polymer
-Pool
-Portable_wifi_off
-Portrait
-Post_add
-Power
-Power_input
-Power_off
-Power_settings_new
-Precision_manufacturing
-Pregnant_woman
-Present_to_all
-Preview
-Price_change
-Price_check
-Print
-Print_disabled
-Priority_high
-Privacy_tip
-Private_connectivity
-Production_quantity_limits
-Propane
-Propane_tank
-Psychology
-Psychology_alt
-Public
-Public_off
-Publish
-Published_with_changes
-Punch_clock
-Push_pin
-Qr_code
-Qr_code_2
-Qr_code_scanner
-Query_builder
-Query_stats
-Question_answer
-Question_mark
-Queue
-Queue_music
-Queue_play_next
-Quickreply
-Quiz
-Quora
-R_mobiledata
-Radar
-Radio
-Radio_button_checked
-Radio_button_unchecked
-Railway_alert
-Ramen_dining
-Ramp_left
-Ramp_right
-Rate_review
-Raw_off
-Raw_on
-Read_more
-Real_estate_agent
-Receipt
-Receipt_long
-Recent_actors
-Recommend
-Record_voice_over
-Rectangle
-Recycling
-Reddit
-Redeem
-Redo
-Reduce_capacity
-Refresh
-Remember_me
-Remove
-Remove_circle
-Remove_circle_outline
-Remove_done
-Remove_from_queue
-Remove_moderator
-Remove_red_eye
-Remove_road
-Remove_shopping_cart
-Reorder
-Repartition
-Repeat
-Repeat_on
-Repeat_one
-Repeat_one_on
-Replay
-Replay_10
-Replay_30
-Replay_5
-Replay_circle_filled
-Reply
-Reply_all
-Report
-Report_gmailerrorred
-Report_off
-Report_problem
-Request_page
-Request_quote
-Reset_tv
-Restart_alt
-Restaurant
-Restaurant_menu
-Restore
-Restore_from_trash
-Restore_page
-Reviews
-Rice_bowl
-Ring_volume
-Rocket
-Rocket_launch
-Roller_shades
-Roller_shades_closed
-Roller_skating
-Roofing
-Room
-Room_preferences
-Room_service
-Rotate_90_degrees_ccw
-Rotate_90_degrees_cw
-Rotate_left
-Rotate_right
-Roundabout_left
-Roundabout_right
-Rounded_corner
-Route
-Router
-Rowing
-Rss_feed
-Rsvp
-Rtt
-Rule
-Rule_folder
-Run_circle
-Running_with_errors
-Rv_hookup
-Safety_check
-Safety_divider
-Sailing
-Sanitizer
-Satellite
-Satellite_alt
-Save
-Save_alt
-Save_as
-Saved_search
-Savings
-Scale
-Scanner
-Scatter_plot
-Schedule
-Schedule_send
-Schema
-School
-Science
-Score
-Scoreboard
-Screen_lock_landscape
-Screen_lock_portrait
-Screen_lock_rotation
-Screen_rotation
-Screen_rotation_alt
-Screen_search_desktop
-Screen_share
-Screenshot
-Screenshot_monitor
-Scuba_diving
-Sd
-Sd_card
-Sd_card_alert
-Sd_storage
-Search
-Search_off
-Security
-Security_update
-Security_update_good
-Security_update_warning
-Segment
-Select_all
-Self_improvement
-Sell
-Send
-Send_and_archive
-Send_time_extension
-Send_to_mobile
-Sensor_door
-Sensor_occupied
-Sensor_window
-Sensors
-Sensors_off
-Sentiment_dissatisfied
-Sentiment_neutral
-Sentiment_satisfied
-Sentiment_satisfied_alt
-Sentiment_very_dissatisfied
-Sentiment_very_satisfied
-Set_meal
-Settings
-Settings_accessibility
-Settings_applications
-Settings_backup_restore
-Settings_bluetooth
-Settings_brightness
-Settings_cell
-Settings_ethernet
-Settings_input_antenna
-Settings_input_component
-Settings_input_composite
-Settings_input_hdmi
-Settings_input_svideo
-Settings_overscan
-Settings_phone
-Settings_power
-Settings_remote
-Settings_suggest
-Settings_system_daydream
-Settings_voice
-Severe_cold
-Shape_line
-Share
-Share_arrival_time
-Share_location
-Shield
-Shield_moon
-Shop
-Shop_2
-Shop_two
-Shopify
-Shopping_bag
-Shopping_basket
-Shopping_cart
-Shopping_cart_checkout
-Short_text
-Shortcut
-Show_chart
-Shower
-Shuffle
-Shuffle_on
-Shutter_speed
-Sick
-Sign_language
-Signal_cellular_0_bar
-Signal_cellular_4_bar
-Signal_cellular_alt
-Signal_cellular_alt_1_bar
-Signal_cellular_alt_2_bar
-Signal_cellular_connected_no_internet_0_bar
-Signal_cellular_connected_no_internet_4_bar
-Signal_cellular_no_sim
-Signal_cellular_nodata
-Signal_cellular_null
-Signal_cellular_off
-Signal_wifi_0_bar
-Signal_wifi_4_bar
-Signal_wifi_4_bar_lock
-Signal_wifi_bad
-Signal_wifi_connected_no_internet_4
-Signal_wifi_off
-Signal_wifi_statusbar_4_bar
-Signal_wifi_statusbar_connected_no_internet_4
-Signal_wifi_statusbar_null
-Signpost
-Sim_card
-Sim_card_alert
-Sim_card_download
-Single_bed
-Sip
-Skateboarding
-Skip_next
-Skip_previous
-Sledding
-Slideshow
-Slow_motion_video
-Smart_button
-Smart_display
-Smart_screen
-Smart_toy
-Smartphone
-Smoke_free
-Smoking_rooms
-Sms
-Sms_failed
-Snapchat
-Snippet_folder
-Snooze
-Snowboarding
-Snowmobile
-Snowshoeing
-Soap
-Social_distance
-Solar_power
-Sort
-Sort_by_alpha
-Sos
-Soup_kitchen
-Source
-South
-South_america
-South_east
-South_west
-Spa
-Space_bar
-Space_dashboard
-Spatial_audio
-Spatial_audio_off
-Spatial_tracking
-Speaker
-Speaker_group
-Speaker_notes
-Speaker_notes_off
-Speaker_phone
-Speed
-Spellcheck
-Splitscreen
-Spoke
-Sports
-Sports_bar
-Sports_baseball
-Sports_basketball
-Sports_cricket
-Sports_esports
-Sports_football
-Sports_golf
-Sports_gymnastics
-Sports_handball
-Sports_hockey
-Sports_kabaddi
-Sports_martial_arts
-Sports_mma
-Sports_motorsports
-Sports_rugby
-Sports_score
-Sports_soccer
-Sports_tennis
-Sports_volleyball
-Square
-Square_foot
-Ssid_chart
-Stacked_bar_chart
-Stacked_line_chart
-Stadium
-Stairs
-Star
-Star_border
-Star_border_purple500
-Star_half
-Star_outline
-Star_purple500
-Star_rate
-Stars
-Start
-Stay_current_landscape
-Stay_current_portrait
-Stay_primary_landscape
-Stay_primary_portrait
-Sticky_note_2
-Stop
-Stop_circle
-Stop_screen_share
-Storage
-Store
-Store_mall_directory
-Storefront
-Storm
-Straight
-Straighten
-Stream
-Streetview
-Strikethrough_s
-Stroller
-Style
-Subdirectory_arrow_left
-Subdirectory_arrow_right
-Subject
-Subscript
-Subscriptions
-Subtitles
-Subtitles_off
-Subway
-Summarize
-Superscript
-Supervised_user_circle
-Supervisor_account
-Support
-Support_agent
-Surfing
-Surround_sound
-Swap_calls
-Swap_horiz
-Swap_horizontal_circle
-Swap_vert
-Swap_vertical_circle
-Swipe
-Swipe_down
-Swipe_down_alt
-Swipe_left
-Swipe_left_alt
-Swipe_right
-Swipe_right_alt
-Swipe_up
-Swipe_up_alt
-Swipe_vertical
-Switch_access_shortcut
-Switch_access_shortcut_add
-Switch_account
-Switch_camera
-Switch_left
-Switch_right
-Switch_video
-Synagogue
-Sync
-Sync_alt
-Sync_disabled
-Sync_lock
-Sync_problem
-System_security_update
-System_security_update_good
-System_security_update_warning
-System_update
-System_update_alt
-Tab
-Tab_unselected
-Table_bar
-Table_chart
-Table_restaurant
-Table_rows
-Table_view
-Tablet
-Tablet_android
-Tablet_mac
-Tag
-Tag_faces
-Takeout_dining
-Tap_and_play
-Tapas
-Task
-Task_alt
-Taxi_alert
-Telegram
-Temple_buddhist
-Temple_hindu
-Terminal
-Terrain
-Text_decrease
-Text_fields
-Text_format
-Text_increase
-Text_rotate_up
-Text_rotate_vertical
-Text_rotation_angledown
-Text_rotation_angleup
-Text_rotation_down
-Text_rotation_none
-Text_snippet
-Textsms
-Texture
-Theater_comedy
-Theaters
-Thermostat
-Thermostat_auto
-Thumb_down
-Thumb_down_alt
-Thumb_down_off_alt
-Thumb_up
-Thumb_up_alt
-Thumb_up_off_alt
-Thumbs_up_down
-Thunderstorm
-Tiktok
-Time_to_leave
-Timelapse
-Timeline
-Timer
-Timer_10
-Timer_10_select
-Timer_3
-Timer_3_select
-Timer_off
-Tips_and_updates
-Tire_repair
-Title
-Toc
-Today
-Toggle_off
-Toggle_on
-Token
-Toll
-Tonality
-Topic
-Tornado
-Touch_app
-Tour
-Toys
-Track_changes
-Traffic
-Train
-Tram
-Transcribe
-Transfer_within_a_station
-Transform
-Transgender
-Transit_enterexit
-Translate
-Travel_explore
-Trending_down
-Trending_flat
-Trending_up
-Trip_origin
-Troubleshoot
-Try
-Tsunami
-Tty
-Tune
-Tungsten
-Turn_left
-Turn_right
-Turn_sharp_left
-Turn_sharp_right
-Turn_slight_left
-Turn_slight_right
-Turned_in
-Turned_in_not
-Tv
-Tv_off
-Two_wheeler
-Type_specimen
-U_turn_left
-U_turn_right
-Umbrella
-Unarchive
-Undo
-Unfold_less
-Unfold_less_double
-Unfold_more
-Unfold_more_double
-Unpublished
-Unsubscribe
-Upcoming
-Update
-Update_disabled
-Upgrade
-Upload
-Upload_file
-Usb
-Usb_off
-Vaccines
-Vape_free
-Vaping_rooms
-Verified
-Verified_user
-Vertical_align_bottom
-Vertical_align_center
-Vertical_align_top
-Vertical_distribute
-Vertical_shades
-Vertical_shades_closed
-Vertical_split
-Vibration
-Video_call
-Video_camera_back
-Video_camera_front
-Video_chat
-Video_file
-Video_label
-Video_library
-Video_settings
-Video_stable
-Videocam
-Videocam_off
-Videogame_asset
-Videogame_asset_off
-View_agenda
-View_array
-View_carousel
-View_column
-View_comfy
-View_comfy_alt
-View_compact
-View_compact_alt
-View_cozy
-View_day
-View_headline
-View_in_ar
-View_kanban
-View_list
-View_module
-View_quilt
-View_sidebar
-View_stream
-View_timeline
-View_week
-Vignette
-Villa
-Visibility
-Visibility_off
-Voice_chat
-Voice_over_off
-Voicemail
-Volcano
-Volume_down
-Volume_mute
-Volume_off
-Volume_up
-Volunteer_activism
-Vpn_key
-Vpn_key_off
-Vpn_lock
-Vrpano
-Wallet
-Wallpaper
-Warehouse
-Warning
-Warning_amber
-Wash
-Watch
-Watch_later
-Watch_off
-Water
-Water_damage
-Water_drop
-Waterfall_chart
-Waves
-Waving_hand
-Wb_auto
-Wb_cloudy
-Wb_incandescent
-Wb_iridescent
-Wb_shade
-Wb_sunny
-Wb_twilight
-Wc
-Web
-Web_asset
-Web_asset_off
-Web_stories
-Webhook
-Wechat
-Weekend
-West
-Whatshot
-Wheelchair_pickup
-Where_to_vote
-Widgets
-Width_full
-Width_normal
-Width_wide
-Wifi
-Wifi_1_bar
-Wifi_2_bar
-Wifi_calling
-Wifi_calling_3
-Wifi_channel
-Wifi_find
-Wifi_lock
-Wifi_off
-Wifi_password
-Wifi_protected_setup
-Wifi_tethering
-Wifi_tethering_error
-Wifi_tethering_off
-Wind_power
-Window
-Wine_bar
-Woman
-Woman_2
-Woo_commerce
-Wordpress
-Work
-Work_history
-Work_off
-Work_outline
-Workspace_premium
-Workspaces
-Wrap_text
-Wrong_location
-Wysiwyg
-Yard
-Youtube_searched_for
-Zoom_in
-Zoom_in_map
-Zoom_out
-Zoom_out_map
-Digit_one
-Digit_zero
-k
-m
-p
-Digit_two
-Digit_three
-Digit_four
-Digit_five
-Digit_six
-Digit_seven
-Digit_eight
-_
-u
-r
-a
-t
-i
-n
-g
-Digit_nine
-l
-s
-x
-o
-b
-e
-d
-f
-c
-y
-w
-h
-v
-q
-j
-z
+﻿namespace Mobile.Helpers;
 
-
+static class MaterialIcons
+{
+    public const string Uni0020 = "\u0020";
+    public const string _10k = "\ue951";
+    public const string _10mp = "\ue952";
+    public const string _11mp = "\ue953";
+    public const string _123 = "\ueb8d";
+    public const string _12mp = "\ue954";
+    public const string _13mp = "\ue955";
+    public const string _14mp = "\ue956";
+    public const string _15mp = "\ue957";
+    public const string _16mp = "\ue958";
+    public const string _17mp = "\ue959";
+    public const string _18_up_rating = "\uf8fd";
+    public const string _18mp = "\ue95a";
+    public const string _19mp = "\ue95b";
+    public const string _1k = "\ue95c";
+    public const string _1k_plus = "\ue95d";
+    public const string _1x_mobiledata = "\uefcd";
+    public const string _20mp = "\ue95e";
+    public const string _21mp = "\ue95f";
+    public const string _22mp = "\ue960";
+    public const string _23mp = "\ue961";
+    public const string _24mp = "\ue962";
+    public const string _2k = "\ue963";
+    public const string _2k_plus = "\ue964";
+    public const string _2mp = "\ue965";
+    public const string _30fps = "\uefce";
+    public const string _30fps_select = "\uefcf";
+    public const string _360 = "\ue577";
+    public const string _3d_rotation = "\ue84d";
+    public const string _3g_mobiledata = "\uefd0";
+    public const string _3k = "\ue966";
+    public const string _3k_plus = "\ue967";
+    public const string _3mp = "\ue968";
+    public const string _3p = "\uefd1";
+    public const string _4g_mobiledata = "\uefd2";
+    public const string _4g_plus_mobiledata = "\uefd3";
+    public const string _4k = "\ue072";
+    public const string _4k_plus = "\ue969";
+    public const string _4mp = "\ue96a";
+    public const string _5g = "\uef38";
+    public const string _5k = "\ue96b";
+    public const string _5k_plus = "\ue96c";
+    public const string _5mp = "\ue96d";
+    public const string _60fps = "\uefd4";
+    public const string _60fps_select = "\uefd5";
+    public const string _6_ft_apart = "\uf21e";
+    public const string _6k = "\ue96e";
+    public const string _6k_plus = "\ue96f";
+    public const string _6mp = "\ue970";
+    public const string _7k = "\ue971";
+    public const string _7k_plus = "\ue972";
+    public const string _7mp = "\ue973";
+    public const string _8k = "\ue974";
+    public const string _8k_plus = "\ue975";
+    public const string _8mp = "\ue976";
+    public const string _9k = "\ue977";
+    public const string _9k_plus = "\ue978";
+    public const string _9mp = "\ue979";
+    public const string Abc = "\ueb94";
+    public const string Ac_unit = "\ueb3b";
+    public const string Access_alarm = "\ue190";
+    public const string Access_alarms = "\ue191";
+    public const string Access_time = "\ue192";
+    public const string Access_time_filled = "\uefd6";
+    public const string Accessibility = "\ue84e";
+    public const string Accessibility_new = "\ue92c";
+    public const string Accessible = "\ue914";
+    public const string Accessible_forward = "\ue934";
+    public const string Account_balance = "\ue84f";
+    public const string Account_balance_wallet = "\ue850";
+    public const string Account_box = "\ue851";
+    public const string Account_circle = "\ue853";
+    public const string Account_tree = "\ue97a";
+    public const string Ad_units = "\uef39";
+    public const string Adb = "\ue60e";
+    public const string Add = "\ue145";
+    public const string Add_a_photo = "\ue439";
+    public const string Add_alarm = "\ue193";
+    public const string Add_alert = "\ue003";
+    public const string Add_box = "\ue146";
+    public const string Add_business = "\ue729";
+    public const string Add_card = "\ueb86";
+    public const string Add_chart = "\ue97b";
+    public const string Add_circle = "\ue147";
+    public const string Add_circle_outline = "\ue148";
+    public const string Add_comment = "\ue266";
+    public const string Add_home = "\uf8eb";
+    public const string Add_home_work = "\uf8ed";
+    public const string Add_ic_call = "\ue97c";
+    public const string Add_link = "\ue178";
+    public const string Add_location = "\ue567";
+    public const string Add_location_alt = "\uef3a";
+    public const string Add_moderator = "\ue97d";
+    public const string Add_photo_alternate = "\ue43e";
+    public const string Add_reaction = "\ue1d3";
+    public const string Add_road = "\uef3b";
+    public const string Add_shopping_cart = "\ue854";
+    public const string Add_task = "\uf23a";
+    public const string Add_to_drive = "\ue65c";
+    public const string Add_to_home_screen = "\ue1fe";
+    public const string Add_to_photos = "\ue39d";
+    public const string Add_to_queue = "\ue05c";
+    public const string Addchart = "\uef3c";
+    public const string Adf_scanner = "\ueada";
+    public const string Adjust = "\ue39e";
+    public const string Admin_panel_settings = "\uef3d";
+    public const string Adobe = "\uea96";
+    public const string Ads_click = "\ue762";
+    public const string Agriculture = "\uea79";
+    public const string Air = "\uefd8";
+    public const string Airline_seat_flat = "\ue630";
+    public const string Airline_seat_flat_angled = "\ue631";
+    public const string Airline_seat_individual_suite = "\ue632";
+    public const string Airline_seat_legroom_extra = "\ue633";
+    public const string Airline_seat_legroom_normal = "\ue634";
+    public const string Airline_seat_legroom_reduced = "\ue635";
+    public const string Airline_seat_recline_extra = "\ue636";
+    public const string Airline_seat_recline_normal = "\ue637";
+    public const string Airline_stops = "\ue7d0";
+    public const string Airlines = "\ue7ca";
+    public const string Airplane_ticket = "\uefd9";
+    public const string Airplanemode_active = "\ue195";
+    public const string Airplanemode_inactive = "\ue194";
+    public const string Airplay = "\ue055";
+    public const string Airport_shuttle = "\ueb3c";
+    public const string Alarm = "\ue855";
+    public const string Alarm_add = "\ue856";
+    public const string Alarm_off = "\ue857";
+    public const string Alarm_on = "\ue858";
+    public const string Album = "\ue019";
+    public const string Align_horizontal_center = "\ue00f";
+    public const string Align_horizontal_left = "\ue00d";
+    public const string Align_horizontal_right = "\ue010";
+    public const string Align_vertical_bottom = "\ue015";
+    public const string Align_vertical_center = "\ue011";
+    public const string Align_vertical_top = "\ue00c";
+    public const string All_inbox = "\ue97f";
+    public const string All_inclusive = "\ueb3d";
+    public const string All_out = "\ue90b";
+    public const string Alt_route = "\uf184";
+    public const string Alternate_email = "\ue0e6";
+    public const string Amp_stories = "\uea13";
+    public const string Analytics = "\uef3e";
+    public const string Anchor = "\uf1cd";
+    public const string Android = "\ue859";
+    public const string Animation = "\ue71c";
+    public const string Announcement = "\ue85a";
+    public const string Aod = "\uefda";
+    public const string Apartment = "\uea40";
+    public const string Api = "\uf1b7";
+    public const string App_blocking = "\uef3f";
+    public const string App_registration = "\uef40";
+    public const string App_settings_alt = "\uef41";
+    public const string App_shortcut = "\ueae4";
+    public const string Apple = "\uea80";
+    public const string Approval = "\ue982";
+    public const string Apps = "\ue5c3";
+    public const string Apps_outage = "\ue7cc";
+    public const string Architecture = "\uea3b";
+    public const string Archive = "\ue149";
+    public const string Area_chart = "\ue770";
+    public const string Arrow_back = "\ue5c4";
+    public const string Arrow_back_ios = "\ue5e0";
+    public const string Arrow_back_ios_new = "\ue2ea";
+    public const string Arrow_circle_down = "\uf181";
+    public const string Arrow_circle_left = "\ueaa7";
+    public const string Arrow_circle_right = "\ueaaa";
+    public const string Arrow_circle_up = "\uf182";
+    public const string Arrow_downward = "\ue5db";
+    public const string Arrow_drop_down = "\ue5c5";
+    public const string Arrow_drop_down_circle = "\ue5c6";
+    public const string Arrow_drop_up = "\ue5c7";
+    public const string Arrow_forward = "\ue5c8";
+    public const string Arrow_forward_ios = "\ue5e1";
+    public const string Arrow_left = "\ue5de";
+    public const string Arrow_outward = "\uf8ce";
+    public const string Arrow_right = "\ue5df";
+    public const string Arrow_right_alt = "\ue941";
+    public const string Arrow_upward = "\ue5d8";
+    public const string Art_track = "\ue060";
+    public const string Article = "\uef42";
+    public const string Aspect_ratio = "\ue85b";
+    public const string Assessment = "\ue85c";
+    public const string Assignment = "\ue85d";
+    public const string Assignment_ind = "\ue85e";
+    public const string Assignment_late = "\ue85f";
+    public const string Assignment_return = "\ue860";
+    public const string Assignment_returned = "\ue861";
+    public const string Assignment_turned_in = "\ue862";
+    public const string Assist_walker = "\uf8d5";
+    public const string Assistant = "\ue39f";
+    public const string Assistant_direction = "\ue988";
+    public const string Assistant_photo = "\ue3a0";
+    public const string Assured_workload = "\ueb6f";
+    public const string Atm = "\ue573";
+    public const string Attach_email = "\uea5e";
+    public const string Attach_file = "\ue226";
+    public const string Attach_money = "\ue227";
+    public const string Attachment = "\ue2bc";
+    public const string Attractions = "\uea52";
+    public const string Attribution = "\uefdb";
+    public const string Audio_file = "\ueb82";
+    public const string Audiotrack = "\ue3a1";
+    public const string Auto_awesome = "\ue65f";
+    public const string Auto_awesome_mosaic = "\ue660";
+    public const string Auto_awesome_motion = "\ue661";
+    public const string Auto_delete = "\uea4c";
+    public const string Auto_fix_high = "\ue663";
+    public const string Auto_fix_normal = "\ue664";
+    public const string Auto_fix_off = "\ue665";
+    public const string Auto_graph = "\ue4fb";
+    public const string Auto_mode = "\uec20";
+    public const string Auto_stories = "\ue666";
+    public const string Autofps_select = "\uefdc";
+    public const string Autorenew = "\ue863";
+    public const string Av_timer = "\ue01b";
+    public const string Baby_changing_station = "\uf19b";
+    public const string Back_hand = "\ue764";
+    public const string Backpack = "\uf19c";
+    public const string Backspace = "\ue14a";
+    public const string Backup = "\ue864";
+    public const string Backup_table = "\uef43";
+    public const string Badge = "\uea67";
+    public const string Bakery_dining = "\uea53";
+    public const string Balance = "\ueaf6";
+    public const string Balcony = "\ue58f";
+    public const string Ballot = "\ue172";
+    public const string Bar_chart = "\ue26b";
+    public const string Batch_prediction = "\uf0f5";
+    public const string Bathroom = "\uefdd";
+    public const string Bathtub = "\uea41";
+    public const string Battery_0_bar = "\uebdc";
+    public const string Battery_1_bar = "\uebd9";
+    public const string Battery_2_bar = "\uebe0";
+    public const string Battery_3_bar = "\uebdd";
+    public const string Battery_4_bar = "\uebe2";
+    public const string Battery_5_bar = "\uebd4";
+    public const string Battery_6_bar = "\uebd2";
+    public const string Battery_alert = "\ue19c";
+    public const string Battery_charging_full = "\ue1a3";
+    public const string Battery_full = "\ue1a4";
+    public const string Battery_saver = "\uefde";
+    public const string Battery_std = "\ue1a5";
+    public const string Battery_unknown = "\ue1a6";
+    public const string Beach_access = "\ueb3e";
+    public const string Bed = "\uefdf";
+    public const string Bedroom_baby = "\uefe0";
+    public const string Bedroom_child = "\uefe1";
+    public const string Bedroom_parent = "\uefe2";
+    public const string Bedtime = "\uef44";
+    public const string Bedtime_off = "\ueb76";
+    public const string Beenhere = "\ue52d";
+    public const string Bento = "\uf1f4";
+    public const string Bike_scooter = "\uef45";
+    public const string Biotech = "\uea3a";
+    public const string Blender = "\uefe3";
+    public const string Blind = "\uf8d6";
+    public const string Blinds = "\ue286";
+    public const string Blinds_closed = "\uec1f";
+    public const string Block = "\ue14b";
+    public const string Bloodtype = "\uefe4";
+    public const string Bluetooth = "\ue1a7";
+    public const string Bluetooth_audio = "\ue60f";
+    public const string Bluetooth_connected = "\ue1a8";
+    public const string Bluetooth_disabled = "\ue1a9";
+    public const string Bluetooth_drive = "\uefe5";
+    public const string Bluetooth_searching = "\ue1aa";
+    public const string Blur_circular = "\ue3a2";
+    public const string Blur_linear = "\ue3a3";
+    public const string Blur_off = "\ue3a4";
+    public const string Blur_on = "\ue3a5";
+    public const string Bolt = "\uea0b";
+    public const string Book = "\ue865";
+    public const string Book_online = "\uf217";
+    public const string Bookmark = "\ue866";
+    public const string Bookmark_add = "\ue598";
+    public const string Bookmark_added = "\ue599";
+    public const string Bookmark_border = "\ue867";
+    public const string Bookmark_remove = "\ue59a";
+    public const string Bookmarks = "\ue98b";
+    public const string Border_all = "\ue228";
+    public const string Border_bottom = "\ue229";
+    public const string Border_clear = "\ue22a";
+    public const string Border_color = "\ue22b";
+    public const string Border_horizontal = "\ue22c";
+    public const string Border_inner = "\ue22d";
+    public const string Border_left = "\ue22e";
+    public const string Border_outer = "\ue22f";
+    public const string Border_right = "\ue230";
+    public const string Border_style = "\ue231";
+    public const string Border_top = "\ue232";
+    public const string Border_vertical = "\ue233";
+    public const string Boy = "\ueb67";
+    public const string Branding_watermark = "\ue06b";
+    public const string Breakfast_dining = "\uea54";
+    public const string Brightness_1 = "\ue3a6";
+    public const string Brightness_2 = "\ue3a7";
+    public const string Brightness_3 = "\ue3a8";
+    public const string Brightness_4 = "\ue3a9";
+    public const string Brightness_5 = "\ue3aa";
+    public const string Brightness_6 = "\ue3ab";
+    public const string Brightness_7 = "\ue3ac";
+    public const string Brightness_auto = "\ue1ab";
+    public const string Brightness_high = "\ue1ac";
+    public const string Brightness_low = "\ue1ad";
+    public const string Brightness_medium = "\ue1ae";
+    public const string Broadcast_on_home = "\uf8f8";
+    public const string Broadcast_on_personal = "\uf8f9";
+    public const string Broken_image = "\ue3ad";
+    public const string Browse_gallery = "\uebd1";
+    public const string Browser_not_supported = "\uef47";
+    public const string Browser_updated = "\ue7cf";
+    public const string Brunch_dining = "\uea73";
+    public const string Brush = "\ue3ae";
+    public const string Bubble_chart = "\ue6dd";
+    public const string Bug_report = "\ue868";
+    public const string Build = "\ue869";
+    public const string Build_circle = "\uef48";
+    public const string Bungalow = "\ue591";
+    public const string Burst_mode = "\ue43c";
+    public const string Bus_alert = "\ue98f";
+    public const string Business = "\ue0af";
+    public const string Business_center = "\ueb3f";
+    public const string Cabin = "\ue589";
+    public const string Cable = "\uefe6";
+    public const string Cached = "\ue86a";
+    public const string Cake = "\ue7e9";
+    public const string Calculate = "\uea5f";
+    public const string Calendar_month = "\uebcc";
+    public const string Calendar_today = "\ue935";
+    public const string Calendar_view_day = "\ue936";
+    public const string Calendar_view_month = "\uefe7";
+    public const string Calendar_view_week = "\uefe8";
+    public const string Call = "\ue0b0";
+    public const string Call_end = "\ue0b1";
+    public const string Call_made = "\ue0b2";
+    public const string Call_merge = "\ue0b3";
+    public const string Call_missed = "\ue0b4";
+    public const string Call_missed_outgoing = "\ue0e4";
+    public const string Call_received = "\ue0b5";
+    public const string Call_split = "\ue0b6";
+    public const string Call_to_action = "\ue06c";
+    public const string Camera = "\ue3af";
+    public const string Camera_alt = "\ue3b0";
+    public const string Camera_enhance = "\ue8fc";
+    public const string Camera_front = "\ue3b1";
+    public const string Camera_indoor = "\uefe9";
+    public const string Camera_outdoor = "\uefea";
+    public const string Camera_rear = "\ue3b2";
+    public const string Camera_roll = "\ue3b3";
+    public const string Cameraswitch = "\uefeb";
+    public const string Campaign = "\uef49";
+    public const string Cancel = "\ue5c9";
+    public const string Cancel_presentation = "\ue0e9";
+    public const string Cancel_schedule_send = "\uea39";
+    public const string Candlestick_chart = "\uead4";
+    public const string Car_crash = "\uebf2";
+    public const string Car_rental = "\uea55";
+    public const string Car_repair = "\uea56";
+    public const string Card_giftcard = "\ue8f6";
+    public const string Card_membership = "\ue8f7";
+    public const string Card_travel = "\ue8f8";
+    public const string Carpenter = "\uf1f8";
+    public const string Cases = "\ue992";
+    public const string Casino = "\ueb40";
+    public const string Cast = "\ue307";
+    public const string Cast_connected = "\ue308";
+    public const string Cast_for_education = "\uefec";
+    public const string Castle = "\ueab1";
+    public const string Catching_pokemon = "\ue508";
+    public const string Category = "\ue574";
+    public const string Celebration = "\uea65";
+    public const string Cell_tower = "\uebba";
+    public const string Cell_wifi = "\ue0ec";
+    public const string Center_focus_strong = "\ue3b4";
+    public const string Center_focus_weak = "\ue3b5";
+    public const string Chair = "\uefed";
+    public const string Chair_alt = "\uefee";
+    public const string Chalet = "\ue585";
+    public const string Change_circle = "\ue2e7";
+    public const string Change_history = "\ue86b";
+    public const string Charging_station = "\uf19d";
+    public const string Chat = "\ue0b7";
+    public const string Chat_bubble = "\ue0ca";
+    public const string Chat_bubble_outline = "\ue0cb";
+    public const string Check = "\ue5ca";
+    public const string Check_box = "\ue834";
+    public const string Check_box_outline_blank = "\ue835";
+    public const string Check_circle = "\ue86c";
+    public const string Check_circle_outline = "\ue92d";
+    public const string Checklist = "\ue6b1";
+    public const string Checklist_rtl = "\ue6b3";
+    public const string Checkroom = "\uf19e";
+    public const string Chevron_left = "\ue5cb";
+    public const string Chevron_right = "\ue5cc";
+    public const string Child_care = "\ueb41";
+    public const string Child_friendly = "\ueb42";
+    public const string Chrome_reader_mode = "\ue86d";
+    public const string Church = "\ueaae";
+    public const string Circle = "\uef4a";
+    public const string Circle_notifications = "\ue994";
+    public const string Class = "\ue86e";
+    public const string Clean_hands = "\uf21f";
+    public const string Cleaning_services = "\uf0ff";
+    public const string Clear = "\ue14c";
+    public const string Clear_all = "\ue0b8";
+    public const string Close = "\ue5cd";
+    public const string Close_fullscreen = "\uf1cf";
+    public const string Closed_caption = "\ue01c";
+    public const string Closed_caption_disabled = "\uf1dc";
+    public const string Closed_caption_off = "\ue996";
+    public const string Cloud = "\ue2bd";
+    public const string Cloud_circle = "\ue2be";
+    public const string Cloud_done = "\ue2bf";
+    public const string Cloud_download = "\ue2c0";
+    public const string Cloud_off = "\ue2c1";
+    public const string Cloud_queue = "\ue2c2";
+    public const string Cloud_sync = "\ueb5a";
+    public const string Cloud_upload = "\ue2c3";
+    public const string Co2 = "\ue7b0";
+    public const string Co_present = "\ueaf0";
+    public const string Code = "\ue86f";
+    public const string Code_off = "\ue4f3";
+    public const string Coffee = "\uefef";
+    public const string Coffee_maker = "\ueff0";
+    public const string Collections = "\ue3b6";
+    public const string Collections_bookmark = "\ue431";
+    public const string Color_lens = "\ue3b7";
+    public const string Colorize = "\ue3b8";
+    public const string Comment = "\ue0b9";
+    public const string Comment_bank = "\uea4e";
+    public const string Comments_disabled = "\ue7a2";
+    public const string Commit = "\ueaf5";
+    public const string Commute = "\ue940";
+    public const string Compare = "\ue3b9";
+    public const string Compare_arrows = "\ue915";
+    public const string Compass_calibration = "\ue57c";
+    public const string Compost = "\ue761";
+    public const string Compress = "\ue94d";
+    public const string Computer = "\ue30a";
+    public const string Confirmation_number = "\ue638";
+    public const string Connect_without_contact = "\uf223";
+    public const string Connected_tv = "\ue998";
+    public const string Connecting_airports = "\ue7c9";
+    public const string Construction = "\uea3c";
+    public const string Contact_emergency = "\uf8d1";
+    public const string Contact_mail = "\ue0d0";
+    public const string Contact_page = "\uf22e";
+    public const string Contact_phone = "\ue0cf";
+    public const string Contact_support = "\ue94c";
+    public const string Contactless = "\uea71";
+    public const string Contacts = "\ue0ba";
+    public const string Content_copy = "\ue14d";
+    public const string Content_cut = "\ue14e";
+    public const string Content_paste = "\ue14f";
+    public const string Content_paste_go = "\uea8e";
+    public const string Content_paste_off = "\ue4f8";
+    public const string Content_paste_search = "\uea9b";
+    public const string Contrast = "\ueb37";
+    public const string Control_camera = "\ue074";
+    public const string Control_point = "\ue3ba";
+    public const string Control_point_duplicate = "\ue3bb";
+    public const string Cookie = "\ueaac";
+    public const string Copy_all = "\ue2ec";
+    public const string Copyright = "\ue90c";
+    public const string Coronavirus = "\uf221";
+    public const string Corporate_fare = "\uf1d0";
+    public const string Cottage = "\ue587";
+    public const string Countertops = "\uf1f7";
+    public const string Create = "\ue150";
+    public const string Create_new_folder = "\ue2cc";
+    public const string Credit_card = "\ue870";
+    public const string Credit_card_off = "\ue4f4";
+    public const string Credit_score = "\ueff1";
+    public const string Crib = "\ue588";
+    public const string Crisis_alert = "\uebe9";
+    public const string Crop = "\ue3be";
+    public const string Crop_16_9 = "\ue3bc";
+    public const string Crop_3_2 = "\ue3bd";
+    public const string Crop_5_4 = "\ue3bf";
+    public const string Crop_7_5 = "\ue3c0";
+    public const string Crop_din = "\ue3c1";
+    public const string Crop_free = "\ue3c2";
+    public const string Crop_landscape = "\ue3c3";
+    public const string Crop_original = "\ue3c4";
+    public const string Crop_portrait = "\ue3c5";
+    public const string Crop_rotate = "\ue437";
+    public const string Crop_square = "\ue3c6";
+    public const string Cruelty_free = "\ue799";
+    public const string Css = "\ueb93";
+    public const string Currency_bitcoin = "\uebc5";
+    public const string Currency_exchange = "\ueb70";
+    public const string Currency_franc = "\ueafa";
+    public const string Currency_lira = "\ueaef";
+    public const string Currency_pound = "\ueaf1";
+    public const string Currency_ruble = "\ueaec";
+    public const string Currency_rupee = "\ueaf7";
+    public const string Currency_yen = "\ueafb";
+    public const string Currency_yuan = "\ueaf9";
+    public const string Curtains = "\uec1e";
+    public const string Curtains_closed = "\uec1d";
+    public const string Cyclone = "\uebd5";
+    public const string Dangerous = "\ue99a";
+    public const string Dark_mode = "\ue51c";
+    public const string Dashboard = "\ue871";
+    public const string Dashboard_customize = "\ue99b";
+    public const string Data_array = "\uead1";
+    public const string Data_exploration = "\ue76f";
+    public const string Data_object = "\uead3";
+    public const string Data_saver_off = "\ueff2";
+    public const string Data_saver_on = "\ueff3";
+    public const string Data_thresholding = "\ueb9f";
+    public const string Data_usage = "\ue1af";
+    public const string Dataset = "\uf8ee";
+    public const string Dataset_linked = "\uf8ef";
+    public const string Date_range = "\ue916";
+    public const string Deblur = "\ueb77";
+    public const string Deck = "\uea42";
+    public const string Dehaze = "\ue3c7";
+    public const string Delete = "\ue872";
+    public const string Delete_forever = "\ue92b";
+    public const string Delete_outline = "\ue92e";
+    public const string Delete_sweep = "\ue16c";
+    public const string Delivery_dining = "\uea72";
+    public const string Density_large = "\ueba9";
+    public const string Density_medium = "\ueb9e";
+    public const string Density_small = "\ueba8";
+    public const string Departure_board = "\ue576";
+    public const string Description = "\ue873";
+    public const string Deselect = "\uebb6";
+    public const string Design_services = "\uf10a";
+    public const string Desk = "\uf8f4";
+    public const string Desktop_access_disabled = "\ue99d";
+    public const string Desktop_mac = "\ue30b";
+    public const string Desktop_windows = "\ue30c";
+    public const string Details = "\ue3c8";
+    public const string Developer_board = "\ue30d";
+    public const string Developer_board_off = "\ue4ff";
+    public const string Developer_mode = "\ue1b0";
+    public const string Device_hub = "\ue335";
+    public const string Device_thermostat = "\ue1ff";
+    public const string Device_unknown = "\ue339";
+    public const string Devices = "\ue1b1";
+    public const string Devices_fold = "\uebde";
+    public const string Devices_other = "\ue337";
+    public const string Dialer_sip = "\ue0bb";
+    public const string Dialpad = "\ue0bc";
+    public const string Diamond = "\uead5";
+    public const string Difference = "\ueb7d";
+    public const string Dining = "\ueff4";
+    public const string Dinner_dining = "\uea57";
+    public const string Directions = "\ue52e";
+    public const string Directions_bike = "\ue52f";
+    public const string Directions_boat = "\ue532";
+    public const string Directions_boat_filled = "\ueff5";
+    public const string Directions_bus = "\ue530";
+    public const string Directions_bus_filled = "\ueff6";
+    public const string Directions_car = "\ue531";
+    public const string Directions_car_filled = "\ueff7";
+    public const string Directions_off = "\uf10f";
+    public const string Directions_railway = "\ue534";
+    public const string Directions_railway_filled = "\ueff8";
+    public const string Directions_run = "\ue566";
+    public const string Directions_subway = "\ue533";
+    public const string Directions_subway_filled = "\ueff9";
+    public const string Directions_transit = "\ue535";
+    public const string Directions_transit_filled = "\ueffa";
+    public const string Directions_walk = "\ue536";
+    public const string Dirty_lens = "\uef4b";
+    public const string Disabled_by_default = "\uf230";
+    public const string Disabled_visible = "\ue76e";
+    public const string Disc_full = "\ue610";
+    public const string Discord = "\uea6c";
+    public const string Discount = "\uebc9";
+    public const string Display_settings = "\ueb97";
+    public const string Diversity_1 = "\uf8d7";
+    public const string Diversity_2 = "\uf8d8";
+    public const string Diversity_3 = "\uf8d9";
+    public const string Dns = "\ue875";
+    public const string Do_disturb = "\uf08c";
+    public const string Do_disturb_alt = "\uf08d";
+    public const string Do_disturb_off = "\uf08e";
+    public const string Do_disturb_on = "\uf08f";
+    public const string Do_not_disturb = "\ue612";
+    public const string Do_not_disturb_alt = "\ue611";
+    public const string Do_not_disturb_off = "\ue643";
+    public const string Do_not_disturb_on = "\ue644";
+    public const string Do_not_disturb_on_total_silence = "\ueffb";
+    public const string Do_not_step = "\uf19f";
+    public const string Do_not_touch = "\uf1b0";
+    public const string Dock = "\ue30e";
+    public const string Document_scanner = "\ue5fa";
+    public const string Domain = "\ue7ee";
+    public const string Domain_add = "\ueb62";
+    public const string Domain_disabled = "\ue0ef";
+    public const string Domain_verification = "\uef4c";
+    public const string Done = "\ue876";
+    public const string Done_all = "\ue877";
+    public const string Done_outline = "\ue92f";
+    public const string Donut_large = "\ue917";
+    public const string Donut_small = "\ue918";
+    public const string Door_back = "\ueffc";
+    public const string Door_front = "\ueffd";
+    public const string Door_sliding = "\ueffe";
+    public const string Doorbell = "\uefff";
+    public const string Double_arrow = "\uea50";
+    public const string Downhill_skiing = "\ue509";
+    public const string Download = "\uf090";
+    public const string Download_done = "\uf091";
+    public const string Download_for_offline = "\uf000";
+    public const string Downloading = "\uf001";
+    public const string Drafts = "\ue151";
+    public const string Drag_handle = "\ue25d";
+    public const string Drag_indicator = "\ue945";
+    public const string Draw = "\ue746";
+    public const string Drive_eta = "\ue613";
+    public const string Drive_file_move = "\ue675";
+    public const string Drive_file_move_rtl = "\ue76d";
+    public const string Drive_file_rename_outline = "\ue9a2";
+    public const string Drive_folder_upload = "\ue9a3";
+    public const string Dry = "\uf1b3";
+    public const string Dry_cleaning = "\uea58";
+    public const string Duo = "\ue9a5";
+    public const string Dvr = "\ue1b2";
+    public const string Dynamic_feed = "\uea14";
+    public const string Dynamic_form = "\uf1bf";
+    public const string E_mobiledata = "\uf002";
+    public const string Earbuds = "\uf003";
+    public const string Earbuds_battery = "\uf004";
+    public const string East = "\uf1df";
+    public const string Eco = "\uea35";
+    public const string Edgesensor_high = "\uf005";
+    public const string Edgesensor_low = "\uf006";
+    public const string Edit = "\ue3c9";
+    public const string Edit_attributes = "\ue578";
+    public const string Edit_calendar = "\ue742";
+    public const string Edit_location = "\ue568";
+    public const string Edit_location_alt = "\ue1c5";
+    public const string Edit_note = "\ue745";
+    public const string Edit_notifications = "\ue525";
+    public const string Edit_off = "\ue950";
+    public const string Edit_road = "\uef4d";
+    public const string Egg = "\ueacc";
+    public const string Egg_alt = "\ueac8";
+    public const string Eject = "\ue8fb";
+    public const string Elderly = "\uf21a";
+    public const string Elderly_woman = "\ueb69";
+    public const string Electric_bike = "\ueb1b";
+    public const string Electric_bolt = "\uec1c";
+    public const string Electric_car = "\ueb1c";
+    public const string Electric_meter = "\uec1b";
+    public const string Electric_moped = "\ueb1d";
+    public const string Electric_rickshaw = "\ueb1e";
+    public const string Electric_scooter = "\ueb1f";
+    public const string Electrical_services = "\uf102";
+    public const string Elevator = "\uf1a0";
+    public const string Email = "\ue0be";
+    public const string Emergency = "\ue1eb";
+    public const string Emergency_recording = "\uebf4";
+    public const string Emergency_share = "\uebf6";
+    public const string Emoji_emotions = "\uea22";
+    public const string Emoji_events = "\uea23";
+    public const string Emoji_flags = "\uea1a";
+    public const string Emoji_food_beverage = "\uea1b";
+    public const string Emoji_nature = "\uea1c";
+    public const string Emoji_objects = "\uea24";
+    public const string Emoji_people = "\uea1d";
+    public const string Emoji_symbols = "\uea1e";
+    public const string Emoji_transportation = "\uea1f";
+    public const string Energy_savings_leaf = "\uec1a";
+    public const string Engineering = "\uea3d";
+    public const string Enhanced_encryption = "\ue63f";
+    public const string Equalizer = "\ue01d";
+    public const string Error = "\ue000";
+    public const string Error_outline = "\ue001";
+    public const string Escalator = "\uf1a1";
+    public const string Escalator_warning = "\uf1ac";
+    public const string Euro = "\uea15";
+    public const string Euro_symbol = "\ue926";
+    public const string Ev_station = "\ue56d";
+    public const string Event = "\ue878";
+    public const string Event_available = "\ue614";
+    public const string Event_busy = "\ue615";
+    public const string Event_note = "\ue616";
+    public const string Event_repeat = "\ueb7b";
+    public const string Event_seat = "\ue903";
+    public const string Exit_to_app = "\ue879";
+    public const string Expand = "\ue94f";
+    public const string Expand_circle_down = "\ue7cd";
+    public const string Expand_less = "\ue5ce";
+    public const string Expand_more = "\ue5cf";
+    public const string Explicit = "\ue01e";
+    public const string Explore = "\ue87a";
+    public const string Explore_off = "\ue9a8";
+    public const string Exposure = "\ue3ca";
+    public const string Exposure_neg_1 = "\ue3cb";
+    public const string Exposure_neg_2 = "\ue3cc";
+    public const string Exposure_plus_1 = "\ue3cd";
+    public const string Exposure_plus_2 = "\ue3ce";
+    public const string Exposure_zero = "\ue3cf";
+    public const string Extension = "\ue87b";
+    public const string Extension_off = "\ue4f5";
+    public const string Face = "\ue87c";
+    public const string Face_2 = "\uf8da";
+    public const string Face_3 = "\uf8db";
+    public const string Face_4 = "\uf8dc";
+    public const string Face_5 = "\uf8dd";
+    public const string Face_6 = "\uf8de";
+    public const string Face_retouching_natural = "\uef4e";
+    public const string Face_retouching_off = "\uf007";
+    public const string Face_unlock = "\uf008";
+    public const string Facebook = "\uf234";
+    public const string Fact_check = "\uf0c5";
+    public const string Factory = "\uebbc";
+    public const string Family_restroom = "\uf1a2";
+    public const string Fast_forward = "\ue01f";
+    public const string Fast_rewind = "\ue020";
+    public const string Fastfood = "\ue57a";
+    public const string Favorite = "\ue87d";
+    public const string Favorite_border = "\ue07f";
+    public const string Fax = "\uead8";
+    public const string Featured_play_list = "\ue06d";
+    public const string Featured_video = "\ue06e";
+    public const string Feed = "\uf009";
+    public const string Feedback = "\ue87f";
+    public const string Female = "\ue590";
+    public const string Fence = "\uf1f6";
+    public const string Festival = "\uea68";
+    public const string Fiber_dvr = "\ue05d";
+    public const string Fiber_manual_record = "\ue061";
+    public const string Fiber_new = "\ue05e";
+    public const string Fiber_pin = "\ue06a";
+    public const string Fiber_smart_record = "\ue062";
+    public const string File_copy = "\ue173";
+    public const string File_download = "\ue2c4";
+    public const string File_download_done = "\ue9aa";
+    public const string File_download_off = "\ue4fe";
+    public const string File_open = "\ueaf3";
+    public const string File_present = "\uea0e";
+    public const string File_upload = "\ue2c6";
+    public const string Filter = "\ue3d3";
+    public const string Filter_1 = "\ue3d0";
+    public const string Filter_2 = "\ue3d1";
+    public const string Filter_3 = "\ue3d2";
+    public const string Filter_4 = "\ue3d4";
+    public const string Filter_5 = "\ue3d5";
+    public const string Filter_6 = "\ue3d6";
+    public const string Filter_7 = "\ue3d7";
+    public const string Filter_8 = "\ue3d8";
+    public const string Filter_9 = "\ue3d9";
+    public const string Filter_9_plus = "\ue3da";
+    public const string Filter_alt = "\uef4f";
+    public const string Filter_alt_off = "\ueb32";
+    public const string Filter_b_and_w = "\ue3db";
+    public const string Filter_center_focus = "\ue3dc";
+    public const string Filter_drama = "\ue3dd";
+    public const string Filter_frames = "\ue3de";
+    public const string Filter_hdr = "\ue3df";
+    public const string Filter_list = "\ue152";
+    public const string Filter_list_off = "\ueb57";
+    public const string Filter_none = "\ue3e0";
+    public const string Filter_tilt_shift = "\ue3e2";
+    public const string Filter_vintage = "\ue3e3";
+    public const string Find_in_page = "\ue880";
+    public const string Find_replace = "\ue881";
+    public const string Fingerprint = "\ue90d";
+    public const string Fire_extinguisher = "\uf1d8";
+    public const string Fire_hydrant_alt = "\uf8f1";
+    public const string Fire_truck = "\uf8f2";
+    public const string Fireplace = "\uea43";
+    public const string First_page = "\ue5dc";
+    public const string Fit_screen = "\uea10";
+    public const string Fitbit = "\ue82b";
+    public const string Fitness_center = "\ueb43";
+    public const string Flag = "\ue153";
+    public const string Flag_circle = "\ueaf8";
+    public const string Flaky = "\uef50";
+    public const string Flare = "\ue3e4";
+    public const string Flash_auto = "\ue3e5";
+    public const string Flash_off = "\ue3e6";
+    public const string Flash_on = "\ue3e7";
+    public const string Flashlight_off = "\uf00a";
+    public const string Flashlight_on = "\uf00b";
+    public const string Flatware = "\uf00c";
+    public const string Flight = "\ue539";
+    public const string Flight_class = "\ue7cb";
+    public const string Flight_land = "\ue904";
+    public const string Flight_takeoff = "\ue905";
+    public const string Flip = "\ue3e8";
+    public const string Flip_camera_android = "\uea37";
+    public const string Flip_camera_ios = "\uea38";
+    public const string Flip_to_back = "\ue882";
+    public const string Flip_to_front = "\ue883";
+    public const string Flood = "\uebe6";
+    public const string Fluorescent = "\uec31";
+    public const string Flutter_dash = "\ue00b";
+    public const string Fmd_bad = "\uf00e";
+    public const string Fmd_good = "\uf00f";
+    public const string Folder = "\ue2c7";
+    public const string Folder_copy = "\uebbd";
+    public const string Folder_delete = "\ueb34";
+    public const string Folder_off = "\ueb83";
+    public const string Folder_open = "\ue2c8";
+    public const string Folder_shared = "\ue2c9";
+    public const string Folder_special = "\ue617";
+    public const string Folder_zip = "\ueb2c";
+    public const string Follow_the_signs = "\uf222";
+    public const string Font_download = "\ue167";
+    public const string Font_download_off = "\ue4f9";
+    public const string Food_bank = "\uf1f2";
+    public const string Forest = "\uea99";
+    public const string Fork_left = "\ueba0";
+    public const string Fork_right = "\uebac";
+    public const string Format_align_center = "\ue234";
+    public const string Format_align_justify = "\ue235";
+    public const string Format_align_left = "\ue236";
+    public const string Format_align_right = "\ue237";
+    public const string Format_bold = "\ue238";
+    public const string Format_clear = "\ue239";
+    public const string Format_color_fill = "\ue23a";
+    public const string Format_color_reset = "\ue23b";
+    public const string Format_color_text = "\ue23c";
+    public const string Format_indent_decrease = "\ue23d";
+    public const string Format_indent_increase = "\ue23e";
+    public const string Format_italic = "\ue23f";
+    public const string Format_line_spacing = "\ue240";
+    public const string Format_list_bulleted = "\ue241";
+    public const string Format_list_numbered = "\ue242";
+    public const string Format_list_numbered_rtl = "\ue267";
+    public const string Format_overline = "\ueb65";
+    public const string Format_paint = "\ue243";
+    public const string Format_quote = "\ue244";
+    public const string Format_shapes = "\ue25e";
+    public const string Format_size = "\ue245";
+    public const string Format_strikethrough = "\ue246";
+    public const string Format_textdirection_l_to_r = "\ue247";
+    public const string Format_textdirection_r_to_l = "\ue248";
+    public const string Format_underlined = "\ue249";
+    public const string Fort = "\ueaad";
+    public const string Forum = "\ue0bf";
+    public const string Forward = "\ue154";
+    public const string Forward_10 = "\ue056";
+    public const string Forward_30 = "\ue057";
+    public const string Forward_5 = "\ue058";
+    public const string Forward_to_inbox = "\uf187";
+    public const string Foundation = "\uf200";
+    public const string Free_breakfast = "\ueb44";
+    public const string Free_cancellation = "\ue748";
+    public const string Front_hand = "\ue769";
+    public const string Fullscreen = "\ue5d0";
+    public const string Fullscreen_exit = "\ue5d1";
+    public const string Functions = "\ue24a";
+    public const string G_mobiledata = "\uf010";
+    public const string G_translate = "\ue927";
+    public const string Gamepad = "\ue30f";
+    public const string Games = "\ue021";
+    public const string Garage = "\uf011";
+    public const string Gas_meter = "\uec19";
+    public const string Gavel = "\ue90e";
+    public const string Generating_tokens = "\ue749";
+    public const string Gesture = "\ue155";
+    public const string Get_app = "\ue884";
+    public const string Gif = "\ue908";
+    public const string Gif_box = "\ue7a3";
+    public const string Girl = "\ueb68";
+    public const string Gite = "\ue58b";
+    public const string Golf_course = "\ueb45";
+    public const string Gpp_bad = "\uf012";
+    public const string Gpp_good = "\uf013";
+    public const string Gpp_maybe = "\uf014";
+    public const string Gps_fixed = "\ue1b3";
+    public const string Gps_not_fixed = "\ue1b4";
+    public const string Gps_off = "\ue1b5";
+    public const string Grade = "\ue885";
+    public const string Gradient = "\ue3e9";
+    public const string Grading = "\uea4f";
+    public const string Grain = "\ue3ea";
+    public const string Graphic_eq = "\ue1b8";
+    public const string Grass = "\uf205";
+    public const string Grid_3x3 = "\uf015";
+    public const string Grid_4x4 = "\uf016";
+    public const string Grid_goldenratio = "\uf017";
+    public const string Grid_off = "\ue3eb";
+    public const string Grid_on = "\ue3ec";
+    public const string Grid_view = "\ue9b0";
+    public const string Group = "\ue7ef";
+    public const string Group_add = "\ue7f0";
+    public const string Group_off = "\ue747";
+    public const string Group_remove = "\ue7ad";
+    public const string Group_work = "\ue886";
+    public const string Groups = "\uf233";
+    public const string Groups_2 = "\uf8df";
+    public const string Groups_3 = "\uf8e0";
+    public const string H_mobiledata = "\uf018";
+    public const string H_plus_mobiledata = "\uf019";
+    public const string Hail = "\ue9b1";
+    public const string Handshake = "\uebcb";
+    public const string Handyman = "\uf10b";
+    public const string Hardware = "\uea59";
+    public const string Hd = "\ue052";
+    public const string Hdr_auto = "\uf01a";
+    public const string Hdr_auto_select = "\uf01b";
+    public const string Hdr_enhanced_select = "\uef51";
+    public const string Hdr_off = "\ue3ed";
+    public const string Hdr_off_select = "\uf01c";
+    public const string Hdr_on = "\ue3ee";
+    public const string Hdr_on_select = "\uf01d";
+    public const string Hdr_plus = "\uf01e";
+    public const string Hdr_strong = "\ue3f1";
+    public const string Hdr_weak = "\ue3f2";
+    public const string Headphones = "\uf01f";
+    public const string Headphones_battery = "\uf020";
+    public const string Headset = "\ue310";
+    public const string Headset_mic = "\ue311";
+    public const string Headset_off = "\ue33a";
+    public const string Healing = "\ue3f3";
+    public const string Health_and_safety = "\ue1d5";
+    public const string Hearing = "\ue023";
+    public const string Hearing_disabled = "\uf104";
+    public const string Heart_broken = "\ueac2";
+    public const string Heat_pump = "\uec18";
+    public const string Height = "\uea16";
+    public const string Help = "\ue887";
+    public const string Help_center = "\uf1c0";
+    public const string Help_outline = "\ue8fd";
+    public const string Hevc = "\uf021";
+    public const string Hexagon = "\ueb39";
+    public const string Hide_image = "\uf022";
+    public const string Hide_source = "\uf023";
+    public const string High_quality = "\ue024";
+    public const string Highlight = "\ue25f";
+    public const string Highlight_alt = "\uef52";
+    public const string Highlight_off = "\ue888";
+    public const string Hiking = "\ue50a";
+    public const string History = "\ue889";
+    public const string History_edu = "\uea3e";
+    public const string History_toggle_off = "\uf17d";
+    public const string Hive = "\ueaa6";
+    public const string Hls = "\ueb8a";
+    public const string Hls_off = "\ueb8c";
+    public const string Holiday_village = "\ue58a";
+    public const string Home = "\ue88a";
+    public const string Home_max = "\uf024";
+    public const string Home_mini = "\uf025";
+    public const string Home_repair_service = "\uf100";
+    public const string Home_work = "\uea09";
+    public const string Horizontal_distribute = "\ue014";
+    public const string Horizontal_rule = "\uf108";
+    public const string Horizontal_split = "\ue947";
+    public const string Hot_tub = "\ueb46";
+    public const string Hotel = "\ue53a";
+    public const string Hotel_class = "\ue743";
+    public const string Hourglass_bottom = "\uea5c";
+    public const string Hourglass_disabled = "\uef53";
+    public const string Hourglass_empty = "\ue88b";
+    public const string Hourglass_full = "\ue88c";
+    public const string Hourglass_top = "\uea5b";
+    public const string House = "\uea44";
+    public const string House_siding = "\uf202";
+    public const string Houseboat = "\ue584";
+    public const string How_to_reg = "\ue174";
+    public const string How_to_vote = "\ue175";
+    public const string Html = "\ueb7e";
+    public const string Http = "\ue902";
+    public const string Https = "\ue88d";
+    public const string Hub = "\ue9f4";
+    public const string Hvac = "\uf10e";
+    public const string Ice_skating = "\ue50b";
+    public const string Icecream = "\uea69";
+    public const string Image = "\ue3f4";
+    public const string Image_aspect_ratio = "\ue3f5";
+    public const string Image_not_supported = "\uf116";
+    public const string Image_search = "\ue43f";
+    public const string Imagesearch_roller = "\ue9b4";
+    public const string Import_contacts = "\ue0e0";
+    public const string Import_export = "\ue0c3";
+    public const string Important_devices = "\ue912";
+    public const string Inbox = "\ue156";
+    public const string Incomplete_circle = "\ue79b";
+    public const string Indeterminate_check_box = "\ue909";
+    public const string Info = "\ue88e";
+    public const string Info_outline = "\ue88f";
+    public const string Input = "\ue890";
+    public const string Insert_chart = "\ue24b";
+    public const string Insert_chart_outlined = "\ue26a";
+    public const string Insert_comment = "\ue24c";
+    public const string Insert_drive_file = "\ue24d";
+    public const string Insert_emoticon = "\ue24e";
+    public const string Insert_invitation = "\ue24f";
+    public const string Insert_link = "\ue250";
+    public const string Insert_page_break = "\ueaca";
+    public const string Insert_photo = "\ue251";
+    public const string Insights = "\uf092";
+    public const string Install_desktop = "\ueb71";
+    public const string Install_mobile = "\ueb72";
+    public const string Integration_instructions = "\uef54";
+    public const string Interests = "\ue7c8";
+    public const string Interpreter_mode = "\ue83b";
+    public const string Inventory = "\ue179";
+    public const string Inventory_2 = "\ue1a1";
+    public const string Invert_colors = "\ue891";
+    public const string Invert_colors_off = "\ue0c4";
+    public const string Ios_share = "\ue6b8";
+    public const string Iron = "\ue583";
+    public const string Iso = "\ue3f6";
+    public const string Javascript = "\ueb7c";
+    public const string Join_full = "\ueaeb";
+    public const string Join_inner = "\ueaf4";
+    public const string Join_left = "\ueaf2";
+    public const string Join_right = "\ueaea";
+    public const string Kayaking = "\ue50c";
+    public const string Kebab_dining = "\ue842";
+    public const string Key = "\ue73c";
+    public const string Key_off = "\ueb84";
+    public const string Keyboard = "\ue312";
+    public const string Keyboard_alt = "\uf028";
+    public const string Keyboard_arrow_down = "\ue313";
+    public const string Keyboard_arrow_left = "\ue314";
+    public const string Keyboard_arrow_right = "\ue315";
+    public const string Keyboard_arrow_up = "\ue316";
+    public const string Keyboard_backspace = "\ue317";
+    public const string Keyboard_capslock = "\ue318";
+    public const string Keyboard_command_key = "\ueae7";
+    public const string Keyboard_control_key = "\ueae6";
+    public const string Keyboard_double_arrow_down = "\uead0";
+    public const string Keyboard_double_arrow_left = "\ueac3";
+    public const string Keyboard_double_arrow_right = "\ueac9";
+    public const string Keyboard_double_arrow_up = "\ueacf";
+    public const string Keyboard_hide = "\ue31a";
+    public const string Keyboard_option_key = "\ueae8";
+    public const string Keyboard_return = "\ue31b";
+    public const string Keyboard_tab = "\ue31c";
+    public const string Keyboard_voice = "\ue31d";
+    public const string King_bed = "\uea45";
+    public const string Kitchen = "\ueb47";
+    public const string Kitesurfing = "\ue50d";
+    public const string Label = "\ue892";
+    public const string Label_important = "\ue937";
+    public const string Label_important_outline = "\ue948";
+    public const string Label_off = "\ue9b6";
+    public const string Label_outline = "\ue893";
+    public const string Lan = "\ueb2f";
+    public const string Landscape = "\ue3f7";
+    public const string Landslide = "\uebd7";
+    public const string Language = "\ue894";
+    public const string Laptop = "\ue31e";
+    public const string Laptop_chromebook = "\ue31f";
+    public const string Laptop_mac = "\ue320";
+    public const string Laptop_windows = "\ue321";
+    public const string Last_page = "\ue5dd";
+    public const string Launch = "\ue895";
+    public const string Layers = "\ue53b";
+    public const string Layers_clear = "\ue53c";
+    public const string Leaderboard = "\uf20c";
+    public const string Leak_add = "\ue3f8";
+    public const string Leak_remove = "\ue3f9";
+    public const string Legend_toggle = "\uf11b";
+    public const string Lens = "\ue3fa";
+    public const string Lens_blur = "\uf029";
+    public const string Library_add = "\ue02e";
+    public const string Library_add_check = "\ue9b7";
+    public const string Library_books = "\ue02f";
+    public const string Library_music = "\ue030";
+    public const string Light = "\uf02a";
+    public const string Light_mode = "\ue518";
+    public const string Lightbulb = "\ue0f0";
+    public const string Lightbulb_circle = "\uebfe";
+    public const string Lightbulb_outline = "\ue90f";
+    public const string Line_axis = "\uea9a";
+    public const string Line_style = "\ue919";
+    public const string Line_weight = "\ue91a";
+    public const string Linear_scale = "\ue260";
+    public const string Link = "\ue157";
+    public const string Link_off = "\ue16f";
+    public const string Linked_camera = "\ue438";
+    public const string Liquor = "\uea60";
+    public const string List = "\ue896";
+    public const string List_alt = "\ue0ee";
+    public const string Live_help = "\ue0c6";
+    public const string Live_tv = "\ue639";
+    public const string Living = "\uf02b";
+    public const string Local_activity = "\ue53f";
+    public const string Local_airport = "\ue53d";
+    public const string Local_atm = "\ue53e";
+    public const string Local_bar = "\ue540";
+    public const string Local_cafe = "\ue541";
+    public const string Local_car_wash = "\ue542";
+    public const string Local_convenience_store = "\ue543";
+    public const string Local_dining = "\ue556";
+    public const string Local_drink = "\ue544";
+    public const string Local_fire_department = "\uef55";
+    public const string Local_florist = "\ue545";
+    public const string Local_gas_station = "\ue546";
+    public const string Local_grocery_store = "\ue547";
+    public const string Local_hospital = "\ue548";
+    public const string Local_hotel = "\ue549";
+    public const string Local_laundry_service = "\ue54a";
+    public const string Local_library = "\ue54b";
+    public const string Local_mall = "\ue54c";
+    public const string Local_movies = "\ue54d";
+    public const string Local_offer = "\ue54e";
+    public const string Local_parking = "\ue54f";
+    public const string Local_pharmacy = "\ue550";
+    public const string Local_phone = "\ue551";
+    public const string Local_pizza = "\ue552";
+    public const string Local_play = "\ue553";
+    public const string Local_police = "\uef56";
+    public const string Local_post_office = "\ue554";
+    public const string Local_printshop = "\ue555";
+    public const string Local_see = "\ue557";
+    public const string Local_shipping = "\ue558";
+    public const string Local_taxi = "\ue559";
+    public const string Location_city = "\ue7f1";
+    public const string Location_disabled = "\ue1b6";
+    public const string Location_off = "\ue0c7";
+    public const string Location_on = "\ue0c8";
+    public const string Location_searching = "\ue1b7";
+    public const string Lock = "\ue897";
+    public const string Lock_clock = "\uef57";
+    public const string Lock_open = "\ue898";
+    public const string Lock_outline = "\ue899";
+    public const string Lock_person = "\uf8f3";
+    public const string Lock_reset = "\ueade";
+    public const string Login = "\uea77";
+    public const string Logo_dev = "\uead6";
+    public const string Logout = "\ue9ba";
+    public const string Looks = "\ue3fc";
+    public const string Looks_3 = "\ue3fb";
+    public const string Looks_4 = "\ue3fd";
+    public const string Looks_5 = "\ue3fe";
+    public const string Looks_6 = "\ue3ff";
+    public const string Looks_one = "\ue400";
+    public const string Looks_two = "\ue401";
+    public const string Loop = "\ue028";
+    public const string Loupe = "\ue402";
+    public const string Low_priority = "\ue16d";
+    public const string Loyalty = "\ue89a";
+    public const string Lte_mobiledata = "\uf02c";
+    public const string Lte_plus_mobiledata = "\uf02d";
+    public const string Luggage = "\uf235";
+    public const string Lunch_dining = "\uea61";
+    public const string Lyrics = "\uec0b";
+    public const string Macro_off = "\uf8d2";
+    public const string Mail = "\ue158";
+    public const string Mail_lock = "\uec0a";
+    public const string Mail_outline = "\ue0e1";
+    public const string Male = "\ue58e";
+    public const string Man = "\ue4eb";
+    public const string Man_2 = "\uf8e1";
+    public const string Man_3 = "\uf8e2";
+    public const string Man_4 = "\uf8e3";
+    public const string Manage_accounts = "\uf02e";
+    public const string Manage_history = "\uebe7";
+    public const string Manage_search = "\uf02f";
+    public const string Map = "\ue55b";
+    public const string Maps_home_work = "\uf030";
+    public const string Maps_ugc = "\uef58";
+    public const string Margin = "\ue9bb";
+    public const string Mark_as_unread = "\ue9bc";
+    public const string Mark_chat_read = "\uf18b";
+    public const string Mark_chat_unread = "\uf189";
+    public const string Mark_email_read = "\uf18c";
+    public const string Mark_email_unread = "\uf18a";
+    public const string Mark_unread_chat_alt = "\ueb9d";
+    public const string Markunread = "\ue159";
+    public const string Markunread_mailbox = "\ue89b";
+    public const string Masks = "\uf218";
+    public const string Maximize = "\ue930";
+    public const string Media_bluetooth_off = "\uf031";
+    public const string Media_bluetooth_on = "\uf032";
+    public const string Mediation = "\uefa7";
+    public const string Medical_information = "\uebed";
+    public const string Medical_services = "\uf109";
+    public const string Medication = "\uf033";
+    public const string Medication_liquid = "\uea87";
+    public const string Meeting_room = "\ueb4f";
+    public const string Memory = "\ue322";
+    public const string Menu = "\ue5d2";
+    public const string Menu_book = "\uea19";
+    public const string Menu_open = "\ue9bd";
+    public const string Merge = "\ueb98";
+    public const string Merge_type = "\ue252";
+    public const string Message = "\ue0c9";
+    public const string Mic = "\ue029";
+    public const string Mic_external_off = "\uef59";
+    public const string Mic_external_on = "\uef5a";
+    public const string Mic_none = "\ue02a";
+    public const string Mic_off = "\ue02b";
+    public const string Microwave = "\uf204";
+    public const string Military_tech = "\uea3f";
+    public const string Minimize = "\ue931";
+    public const string Minor_crash = "\uebf1";
+    public const string Miscellaneous_services = "\uf10c";
+    public const string Missed_video_call = "\ue073";
+    public const string Mms = "\ue618";
+    public const string Mobile_friendly = "\ue200";
+    public const string Mobile_off = "\ue201";
+    public const string Mobile_screen_share = "\ue0e7";
+    public const string Mobiledata_off = "\uf034";
+    public const string Mode = "\uf097";
+    public const string Mode_comment = "\ue253";
+    public const string Mode_edit = "\ue254";
+    public const string Mode_edit_outline = "\uf035";
+    public const string Mode_fan_off = "\uec17";
+    public const string Mode_night = "\uf036";
+    public const string Mode_of_travel = "\ue7ce";
+    public const string Mode_standby = "\uf037";
+    public const string Model_training = "\uf0cf";
+    public const string Monetization_on = "\ue263";
+    public const string Money = "\ue57d";
+    public const string Money_off = "\ue25c";
+    public const string Money_off_csred = "\uf038";
+    public const string Monitor = "\uef5b";
+    public const string Monitor_heart = "\ueaa2";
+    public const string Monitor_weight = "\uf039";
+    public const string Monochrome_photos = "\ue403";
+    public const string Mood = "\ue7f2";
+    public const string Mood_bad = "\ue7f3";
+    public const string Moped = "\ueb28";
+    public const string More = "\ue619";
+    public const string More_horiz = "\ue5d3";
+    public const string More_time = "\uea5d";
+    public const string More_vert = "\ue5d4";
+    public const string Mosque = "\ueab2";
+    public const string Motion_photos_auto = "\uf03a";
+    public const string Motion_photos_off = "\ue9c0";
+    public const string Motion_photos_on = "\ue9c1";
+    public const string Motion_photos_pause = "\uf227";
+    public const string Motion_photos_paused = "\ue9c2";
+    public const string Motorcycle = "\ue91b";
+    public const string Mouse = "\ue323";
+    public const string Move_down = "\ueb61";
+    public const string Move_to_inbox = "\ue168";
+    public const string Move_up = "\ueb64";
+    public const string Movie = "\ue02c";
+    public const string Movie_creation = "\ue404";
+    public const string Movie_filter = "\ue43a";
+    public const string Moving = "\ue501";
+    public const string Mp = "\ue9c3";
+    public const string Multiline_chart = "\ue6df";
+    public const string Multiple_stop = "\uf1b9";
+    public const string Museum = "\uea36";
+    public const string Music_note = "\ue405";
+    public const string Music_off = "\ue440";
+    public const string Music_video = "\ue063";
+    public const string My_location = "\ue55c";
+    public const string Nat = "\uef5c";
+    public const string Nature = "\ue406";
+    public const string Nature_people = "\ue407";
+    public const string Navigate_before = "\ue408";
+    public const string Navigate_next = "\ue409";
+    public const string Navigation = "\ue55d";
+    public const string Near_me = "\ue569";
+    public const string Near_me_disabled = "\uf1ef";
+    public const string Nearby_error = "\uf03b";
+    public const string Nearby_off = "\uf03c";
+    public const string Nest_cam_wired_stand = "\uec16";
+    public const string Network_cell = "\ue1b9";
+    public const string Network_check = "\ue640";
+    public const string Network_locked = "\ue61a";
+    public const string Network_ping = "\uebca";
+    public const string Network_wifi = "\ue1ba";
+    public const string Network_wifi_1_bar = "\uebe4";
+    public const string Network_wifi_2_bar = "\uebd6";
+    public const string Network_wifi_3_bar = "\uebe1";
+    public const string New_label = "\ue609";
+    public const string New_releases = "\ue031";
+    public const string Newspaper = "\ueb81";
+    public const string Next_plan = "\uef5d";
+    public const string Next_week = "\ue16a";
+    public const string Nfc = "\ue1bb";
+    public const string Night_shelter = "\uf1f1";
+    public const string Nightlife = "\uea62";
+    public const string Nightlight = "\uf03d";
+    public const string Nightlight_round = "\uef5e";
+    public const string Nights_stay = "\uea46";
+    public const string No_accounts = "\uf03e";
+    public const string No_adult_content = "\uf8fe";
+    public const string No_backpack = "\uf237";
+    public const string No_cell = "\uf1a4";
+    public const string No_crash = "\uebf0";
+    public const string No_drinks = "\uf1a5";
+    public const string No_encryption = "\ue641";
+    public const string No_encryption_gmailerrorred = "\uf03f";
+    public const string No_flash = "\uf1a6";
+    public const string No_food = "\uf1a7";
+    public const string No_luggage = "\uf21b";
+    public const string No_meals = "\uf1d6";
+    public const string No_meeting_room = "\ueb4e";
+    public const string No_photography = "\uf1a8";
+    public const string No_sim = "\ue0cc";
+    public const string No_stroller = "\uf1af";
+    public const string No_transfer = "\uf1d5";
+    public const string Noise_aware = "\uebec";
+    public const string Noise_control_off = "\uebf3";
+    public const string Nordic_walking = "\ue50e";
+    public const string North = "\uf1e0";
+    public const string North_east = "\uf1e1";
+    public const string North_west = "\uf1e2";
+    public const string Not_accessible = "\uf0fe";
+    public const string Not_interested = "\ue033";
+    public const string Not_listed_location = "\ue575";
+    public const string Not_started = "\uf0d1";
+    public const string Note = "\ue06f";
+    public const string Note_add = "\ue89c";
+    public const string Note_alt = "\uf040";
+    public const string Notes = "\ue26c";
+    public const string Notification_add = "\ue399";
+    public const string Notification_important = "\ue004";
+    public const string Notifications = "\ue7f4";
+    public const string Notifications_active = "\ue7f7";
+    public const string Notifications_none = "\ue7f5";
+    public const string Notifications_off = "\ue7f6";
+    public const string Notifications_paused = "\ue7f8";
+    public const string Numbers = "\ueac7";
+    public const string Offline_bolt = "\ue932";
+    public const string Offline_pin = "\ue90a";
+    public const string Offline_share = "\ue9c5";
+    public const string Oil_barrel = "\uec15";
+    public const string On_device_training = "\uebfd";
+    public const string Ondemand_video = "\ue63a";
+    public const string Online_prediction = "\uf0eb";
+    public const string Opacity = "\ue91c";
+    public const string Open_in_browser = "\ue89d";
+    public const string Open_in_full = "\uf1ce";
+    public const string Open_in_new = "\ue89e";
+    public const string Open_in_new_off = "\ue4f6";
+    public const string Open_with = "\ue89f";
+    public const string Other_houses = "\ue58c";
+    public const string Outbond = "\uf228";
+    public const string Outbound = "\ue1ca";
+    public const string Outbox = "\uef5f";
+    public const string Outdoor_grill = "\uea47";
+    public const string Outlet = "\uf1d4";
+    public const string Outlined_flag = "\ue16e";
+    public const string Output = "\uebbe";
+    public const string Padding = "\ue9c8";
+    public const string Pages = "\ue7f9";
+    public const string Pageview = "\ue8a0";
+    public const string Paid = "\uf041";
+    public const string Palette = "\ue40a";
+    public const string Pan_tool = "\ue925";
+    public const string Pan_tool_alt = "\uebb9";
+    public const string Panorama = "\ue40b";
+    public const string Panorama_fish_eye = "\ue40c";
+    public const string Panorama_horizontal = "\ue40d";
+    public const string Panorama_horizontal_select = "\uef60";
+    public const string Panorama_photosphere = "\ue9c9";
+    public const string Panorama_photosphere_select = "\ue9ca";
+    public const string Panorama_vertical = "\ue40e";
+    public const string Panorama_vertical_select = "\uef61";
+    public const string Panorama_wide_angle = "\ue40f";
+    public const string Panorama_wide_angle_select = "\uef62";
+    public const string Paragliding = "\ue50f";
+    public const string Park = "\uea63";
+    public const string Party_mode = "\ue7fa";
+    public const string Password = "\uf042";
+    public const string Pattern = "\uf043";
+    public const string Pause = "\ue034";
+    public const string Pause_circle = "\ue1a2";
+    public const string Pause_circle_filled = "\ue035";
+    public const string Pause_circle_outline = "\ue036";
+    public const string Pause_presentation = "\ue0ea";
+    public const string Payment = "\ue8a1";
+    public const string Payments = "\uef63";
+    public const string Paypal = "\uea8d";
+    public const string Pedal_bike = "\ueb29";
+    public const string Pending = "\uef64";
+    public const string Pending_actions = "\uf1bb";
+    public const string Pentagon = "\ueb50";
+    public const string People = "\ue7fb";
+    public const string People_alt = "\uea21";
+    public const string People_outline = "\ue7fc";
+    public const string Percent = "\ueb58";
+    public const string Perm_camera_mic = "\ue8a2";
+    public const string Perm_contact_calendar = "\ue8a3";
+    public const string Perm_data_setting = "\ue8a4";
+    public const string Perm_device_information = "\ue8a5";
+    public const string Perm_identity = "\ue8a6";
+    public const string Perm_media = "\ue8a7";
+    public const string Perm_phone_msg = "\ue8a8";
+    public const string Perm_scan_wifi = "\ue8a9";
+    public const string Person = "\ue7fd";
+    public const string Person_2 = "\uf8e4";
+    public const string Person_3 = "\uf8e5";
+    public const string Person_4 = "\uf8e6";
+    public const string Person_add = "\ue7fe";
+    public const string Person_add_alt = "\uea4d";
+    public const string Person_add_alt_1 = "\uef65";
+    public const string Person_add_disabled = "\ue9cb";
+    public const string Person_off = "\ue510";
+    public const string Person_outline = "\ue7ff";
+    public const string Person_pin = "\ue55a";
+    public const string Person_pin_circle = "\ue56a";
+    public const string Person_remove = "\uef66";
+    public const string Person_remove_alt_1 = "\uef67";
+    public const string Person_search = "\uf106";
+    public const string Personal_injury = "\ue6da";
+    public const string Personal_video = "\ue63b";
+    public const string Pest_control = "\uf0fa";
+    public const string Pest_control_rodent = "\uf0fd";
+    public const string Pets = "\ue91d";
+    public const string Phishing = "\uead7";
+    public const string Phone = "\ue0cd";
+    public const string Phone_android = "\ue324";
+    public const string Phone_bluetooth_speaker = "\ue61b";
+    public const string Phone_callback = "\ue649";
+    public const string Phone_disabled = "\ue9cc";
+    public const string Phone_enabled = "\ue9cd";
+    public const string Phone_forwarded = "\ue61c";
+    public const string Phone_in_talk = "\ue61d";
+    public const string Phone_iphone = "\ue325";
+    public const string Phone_locked = "\ue61e";
+    public const string Phone_missed = "\ue61f";
+    public const string Phone_paused = "\ue620";
+    public const string Phonelink = "\ue326";
+    public const string Phonelink_erase = "\ue0db";
+    public const string Phonelink_lock = "\ue0dc";
+    public const string Phonelink_off = "\ue327";
+    public const string Phonelink_ring = "\ue0dd";
+    public const string Phonelink_setup = "\ue0de";
+    public const string Photo = "\ue410";
+    public const string Photo_album = "\ue411";
+    public const string Photo_camera = "\ue412";
+    public const string Photo_camera_back = "\uef68";
+    public const string Photo_camera_front = "\uef69";
+    public const string Photo_filter = "\ue43b";
+    public const string Photo_library = "\ue413";
+    public const string Photo_size_select_actual = "\ue432";
+    public const string Photo_size_select_large = "\ue433";
+    public const string Photo_size_select_small = "\ue434";
+    public const string Php = "\ueb8f";
+    public const string Piano = "\ue521";
+    public const string Piano_off = "\ue520";
+    public const string Picture_as_pdf = "\ue415";
+    public const string Picture_in_picture = "\ue8aa";
+    public const string Picture_in_picture_alt = "\ue911";
+    public const string Pie_chart = "\ue6c4";
+    public const string Pie_chart_outline = "\uf044";
+    public const string Pin = "\uf045";
+    public const string Pin_drop = "\ue55e";
+    public const string Pin_end = "\ue767";
+    public const string Pin_invoke = "\ue763";
+    public const string Pinch = "\ueb38";
+    public const string Pivot_table_chart = "\ue9ce";
+    public const string Pix = "\ueaa3";
+    public const string Place = "\ue55f";
+    public const string Plagiarism = "\uea5a";
+    public const string Play_arrow = "\ue037";
+    public const string Play_circle = "\ue1c4";
+    public const string Play_circle_filled = "\ue038";
+    public const string Play_circle_outline = "\ue039";
+    public const string Play_disabled = "\uef6a";
+    public const string Play_for_work = "\ue906";
+    public const string Play_lesson = "\uf047";
+    public const string Playlist_add = "\ue03b";
+    public const string Playlist_add_check = "\ue065";
+    public const string Playlist_add_check_circle = "\ue7e6";
+    public const string Playlist_add_circle = "\ue7e5";
+    public const string Playlist_play = "\ue05f";
+    public const string Playlist_remove = "\ueb80";
+    public const string Plumbing = "\uf107";
+    public const string Plus_one = "\ue800";
+    public const string Podcasts = "\uf048";
+    public const string Point_of_sale = "\uf17e";
+    public const string Policy = "\uea17";
+    public const string Poll = "\ue801";
+    public const string Polyline = "\uebbb";
+    public const string Polymer = "\ue8ab";
+    public const string Pool = "\ueb48";
+    public const string Portable_wifi_off = "\ue0ce";
+    public const string Portrait = "\ue416";
+    public const string Post_add = "\uea20";
+    public const string Power = "\ue63c";
+    public const string Power_input = "\ue336";
+    public const string Power_off = "\ue646";
+    public const string Power_settings_new = "\ue8ac";
+    public const string Precision_manufacturing = "\uf049";
+    public const string Pregnant_woman = "\ue91e";
+    public const string Present_to_all = "\ue0df";
+    public const string Preview = "\uf1c5";
+    public const string Price_change = "\uf04a";
+    public const string Price_check = "\uf04b";
+    public const string Print = "\ue8ad";
+    public const string Print_disabled = "\ue9cf";
+    public const string Priority_high = "\ue645";
+    public const string Privacy_tip = "\uf0dc";
+    public const string Private_connectivity = "\ue744";
+    public const string Production_quantity_limits = "\ue1d1";
+    public const string Propane = "\uec14";
+    public const string Propane_tank = "\uec13";
+    public const string Psychology = "\uea4a";
+    public const string Psychology_alt = "\uf8ea";
+    public const string Public = "\ue80b";
+    public const string Public_off = "\uf1ca";
+    public const string Publish = "\ue255";
+    public const string Published_with_changes = "\uf232";
+    public const string Punch_clock = "\ueaa8";
+    public const string Push_pin = "\uf10d";
+    public const string Qr_code = "\uef6b";
+    public const string Qr_code_2 = "\ue00a";
+    public const string Qr_code_scanner = "\uf206";
+    public const string Query_builder = "\ue8ae";
+    public const string Query_stats = "\ue4fc";
+    public const string Question_answer = "\ue8af";
+    public const string Question_mark = "\ueb8b";
+    public const string Queue = "\ue03c";
+    public const string Queue_music = "\ue03d";
+    public const string Queue_play_next = "\ue066";
+    public const string Quickreply = "\uef6c";
+    public const string Quiz = "\uf04c";
+    public const string Quora = "\uea98";
+    public const string R_mobiledata = "\uf04d";
+    public const string Radar = "\uf04e";
+    public const string Radio = "\ue03e";
+    public const string Radio_button_checked = "\ue085";
+    public const string Radio_button_unchecked = "\ue084";
+    public const string Railway_alert = "\ue9d1";
+    public const string Ramen_dining = "\uea64";
+    public const string Ramp_left = "\ueb9c";
+    public const string Ramp_right = "\ueb96";
+    public const string Rate_review = "\ue560";
+    public const string Raw_off = "\uf04f";
+    public const string Raw_on = "\uf050";
+    public const string Read_more = "\uef6d";
+    public const string Real_estate_agent = "\ue73a";
+    public const string Receipt = "\ue8b0";
+    public const string Receipt_long = "\uef6e";
+    public const string Recent_actors = "\ue03f";
+    public const string Recommend = "\ue9d2";
+    public const string Record_voice_over = "\ue91f";
+    public const string Rectangle = "\ueb54";
+    public const string Recycling = "\ue760";
+    public const string Reddit = "\ueaa0";
+    public const string Redeem = "\ue8b1";
+    public const string Redo = "\ue15a";
+    public const string Reduce_capacity = "\uf21c";
+    public const string Refresh = "\ue5d5";
+    public const string Remember_me = "\uf051";
+    public const string Remove = "\ue15b";
+    public const string Remove_circle = "\ue15c";
+    public const string Remove_circle_outline = "\ue15d";
+    public const string Remove_done = "\ue9d3";
+    public const string Remove_from_queue = "\ue067";
+    public const string Remove_moderator = "\ue9d4";
+    public const string Remove_red_eye = "\ue417";
+    public const string Remove_road = "\uebfc";
+    public const string Remove_shopping_cart = "\ue928";
+    public const string Reorder = "\ue8fe";
+    public const string Repartition = "\uf8e8";
+    public const string Repeat = "\ue040";
+    public const string Repeat_on = "\ue9d6";
+    public const string Repeat_one = "\ue041";
+    public const string Repeat_one_on = "\ue9d7";
+    public const string Replay = "\ue042";
+    public const string Replay_10 = "\ue059";
+    public const string Replay_30 = "\ue05a";
+    public const string Replay_5 = "\ue05b";
+    public const string Replay_circle_filled = "\ue9d8";
+    public const string Reply = "\ue15e";
+    public const string Reply_all = "\ue15f";
+    public const string Report = "\ue160";
+    public const string Report_gmailerrorred = "\uf052";
+    public const string Report_off = "\ue170";
+    public const string Report_problem = "\ue8b2";
+    public const string Request_page = "\uf22c";
+    public const string Request_quote = "\uf1b6";
+    public const string Reset_tv = "\ue9d9";
+    public const string Restart_alt = "\uf053";
+    public const string Restaurant = "\ue56c";
+    public const string Restaurant_menu = "\ue561";
+    public const string Restore = "\ue8b3";
+    public const string Restore_from_trash = "\ue938";
+    public const string Restore_page = "\ue929";
+    public const string Reviews = "\uf054";
+    public const string Rice_bowl = "\uf1f5";
+    public const string Ring_volume = "\ue0d1";
+    public const string Rocket = "\ueba5";
+    public const string Rocket_launch = "\ueb9b";
+    public const string Roller_shades = "\uec12";
+    public const string Roller_shades_closed = "\uec11";
+    public const string Roller_skating = "\uebcd";
+    public const string Roofing = "\uf201";
+    public const string Room = "\ue8b4";
+    public const string Room_preferences = "\uf1b8";
+    public const string Room_service = "\ueb49";
+    public const string Rotate_90_degrees_ccw = "\ue418";
+    public const string Rotate_90_degrees_cw = "\ueaab";
+    public const string Rotate_left = "\ue419";
+    public const string Rotate_right = "\ue41a";
+    public const string Roundabout_left = "\ueb99";
+    public const string Roundabout_right = "\ueba3";
+    public const string Rounded_corner = "\ue920";
+    public const string Route = "\ueacd";
+    public const string Router = "\ue328";
+    public const string Rowing = "\ue921";
+    public const string Rss_feed = "\ue0e5";
+    public const string Rsvp = "\uf055";
+    public const string Rtt = "\ue9ad";
+    public const string Rule = "\uf1c2";
+    public const string Rule_folder = "\uf1c9";
+    public const string Run_circle = "\uef6f";
+    public const string Running_with_errors = "\ue51d";
+    public const string Rv_hookup = "\ue642";
+    public const string Safety_check = "\uebef";
+    public const string Safety_divider = "\ue1cc";
+    public const string Sailing = "\ue502";
+    public const string Sanitizer = "\uf21d";
+    public const string Satellite = "\ue562";
+    public const string Satellite_alt = "\ueb3a";
+    public const string Save = "\ue161";
+    public const string Save_alt = "\ue171";
+    public const string Save_as = "\ueb60";
+    public const string Saved_search = "\uea11";
+    public const string Savings = "\ue2eb";
+    public const string Scale = "\ueb5f";
+    public const string Scanner = "\ue329";
+    public const string Scatter_plot = "\ue268";
+    public const string Schedule = "\ue8b5";
+    public const string Schedule_send = "\uea0a";
+    public const string Schema = "\ue4fd";
+    public const string School = "\ue80c";
+    public const string Science = "\uea4b";
+    public const string Score = "\ue269";
+    public const string Scoreboard = "\uebd0";
+    public const string Screen_lock_landscape = "\ue1be";
+    public const string Screen_lock_portrait = "\ue1bf";
+    public const string Screen_lock_rotation = "\ue1c0";
+    public const string Screen_rotation = "\ue1c1";
+    public const string Screen_rotation_alt = "\uebee";
+    public const string Screen_search_desktop = "\uef70";
+    public const string Screen_share = "\ue0e2";
+    public const string Screenshot = "\uf056";
+    public const string Screenshot_monitor = "\uec08";
+    public const string Scuba_diving = "\uebce";
+    public const string Sd = "\ue9dd";
+    public const string Sd_card = "\ue623";
+    public const string Sd_card_alert = "\uf057";
+    public const string Sd_storage = "\ue1c2";
+    public const string Search = "\ue8b6";
+    public const string Search_off = "\uea76";
+    public const string Security = "\ue32a";
+    public const string Security_update = "\uf058";
+    public const string Security_update_good = "\uf059";
+    public const string Security_update_warning = "\uf05a";
+    public const string Segment = "\ue94b";
+    public const string Select_all = "\ue162";
+    public const string Self_improvement = "\uea78";
+    public const string Sell = "\uf05b";
+    public const string Send = "\ue163";
+    public const string Send_and_archive = "\uea0c";
+    public const string Send_time_extension = "\ueadb";
+    public const string Send_to_mobile = "\uf05c";
+    public const string Sensor_door = "\uf1b5";
+    public const string Sensor_occupied = "\uec10";
+    public const string Sensor_window = "\uf1b4";
+    public const string Sensors = "\ue51e";
+    public const string Sensors_off = "\ue51f";
+    public const string Sentiment_dissatisfied = "\ue811";
+    public const string Sentiment_neutral = "\ue812";
+    public const string Sentiment_satisfied = "\ue813";
+    public const string Sentiment_satisfied_alt = "\ue0ed";
+    public const string Sentiment_very_dissatisfied = "\ue814";
+    public const string Sentiment_very_satisfied = "\ue815";
+    public const string Set_meal = "\uf1ea";
+    public const string Settings = "\ue8b8";
+    public const string Settings_accessibility = "\uf05d";
+    public const string Settings_applications = "\ue8b9";
+    public const string Settings_backup_restore = "\ue8ba";
+    public const string Settings_bluetooth = "\ue8bb";
+    public const string Settings_brightness = "\ue8bd";
+    public const string Settings_cell = "\ue8bc";
+    public const string Settings_ethernet = "\ue8be";
+    public const string Settings_input_antenna = "\ue8bf";
+    public const string Settings_input_component = "\ue8c0";
+    public const string Settings_input_composite = "\ue8c1";
+    public const string Settings_input_hdmi = "\ue8c2";
+    public const string Settings_input_svideo = "\ue8c3";
+    public const string Settings_overscan = "\ue8c4";
+    public const string Settings_phone = "\ue8c5";
+    public const string Settings_power = "\ue8c6";
+    public const string Settings_remote = "\ue8c7";
+    public const string Settings_suggest = "\uf05e";
+    public const string Settings_system_daydream = "\ue1c3";
+    public const string Settings_voice = "\ue8c8";
+    public const string Severe_cold = "\uebd3";
+    public const string Shape_line = "\uf8d3";
+    public const string Share = "\ue80d";
+    public const string Share_arrival_time = "\ue524";
+    public const string Share_location = "\uf05f";
+    public const string Shield = "\ue9e0";
+    public const string Shield_moon = "\ueaa9";
+    public const string Shop = "\ue8c9";
+    public const string Shop_2 = "\ue19e";
+    public const string Shop_two = "\ue8ca";
+    public const string Shopify = "\uea9d";
+    public const string Shopping_bag = "\uf1cc";
+    public const string Shopping_basket = "\ue8cb";
+    public const string Shopping_cart = "\ue8cc";
+    public const string Shopping_cart_checkout = "\ueb88";
+    public const string Short_text = "\ue261";
+    public const string Shortcut = "\uf060";
+    public const string Show_chart = "\ue6e1";
+    public const string Shower = "\uf061";
+    public const string Shuffle = "\ue043";
+    public const string Shuffle_on = "\ue9e1";
+    public const string Shutter_speed = "\ue43d";
+    public const string Sick = "\uf220";
+    public const string Sign_language = "\uebe5";
+    public const string Signal_cellular_0_bar = "\uf0a8";
+    public const string Signal_cellular_4_bar = "\ue1c8";
+    public const string Signal_cellular_alt = "\ue202";
+    public const string Signal_cellular_alt_1_bar = "\uebdf";
+    public const string Signal_cellular_alt_2_bar = "\uebe3";
+    public const string Signal_cellular_connected_no_internet_0_bar = "\uf0ac";
+    public const string Signal_cellular_connected_no_internet_4_bar = "\ue1cd";
+    public const string Signal_cellular_no_sim = "\ue1ce";
+    public const string Signal_cellular_nodata = "\uf062";
+    public const string Signal_cellular_null = "\ue1cf";
+    public const string Signal_cellular_off = "\ue1d0";
+    public const string Signal_wifi_0_bar = "\uf0b0";
+    public const string Signal_wifi_4_bar = "\ue1d8";
+    public const string Signal_wifi_4_bar_lock = "\ue1d9";
+    public const string Signal_wifi_bad = "\uf063";
+    public const string Signal_wifi_connected_no_internet_4 = "\uf064";
+    public const string Signal_wifi_off = "\ue1da";
+    public const string Signal_wifi_statusbar_4_bar = "\uf065";
+    public const string Signal_wifi_statusbar_connected_no_internet_4 = "\uf066";
+    public const string Signal_wifi_statusbar_null = "\uf067";
+    public const string Signpost = "\ueb91";
+    public const string Sim_card = "\ue32b";
+    public const string Sim_card_alert = "\ue624";
+    public const string Sim_card_download = "\uf068";
+    public const string Single_bed = "\uea48";
+    public const string Sip = "\uf069";
+    public const string Skateboarding = "\ue511";
+    public const string Skip_next = "\ue044";
+    public const string Skip_previous = "\ue045";
+    public const string Sledding = "\ue512";
+    public const string Slideshow = "\ue41b";
+    public const string Slow_motion_video = "\ue068";
+    public const string Smart_button = "\uf1c1";
+    public const string Smart_display = "\uf06a";
+    public const string Smart_screen = "\uf06b";
+    public const string Smart_toy = "\uf06c";
+    public const string Smartphone = "\ue32c";
+    public const string Smoke_free = "\ueb4a";
+    public const string Smoking_rooms = "\ueb4b";
+    public const string Sms = "\ue625";
+    public const string Sms_failed = "\ue626";
+    public const string Snapchat = "\uea6e";
+    public const string Snippet_folder = "\uf1c7";
+    public const string Snooze = "\ue046";
+    public const string Snowboarding = "\ue513";
+    public const string Snowmobile = "\ue503";
+    public const string Snowshoeing = "\ue514";
+    public const string Soap = "\uf1b2";
+    public const string Social_distance = "\ue1cb";
+    public const string Solar_power = "\uec0f";
+    public const string Sort = "\ue164";
+    public const string Sort_by_alpha = "\ue053";
+    public const string Sos = "\uebf7";
+    public const string Soup_kitchen = "\ue7d3";
+    public const string Source = "\uf1c4";
+    public const string South = "\uf1e3";
+    public const string South_america = "\ue7e4";
+    public const string South_east = "\uf1e4";
+    public const string South_west = "\uf1e5";
+    public const string Spa = "\ueb4c";
+    public const string Space_bar = "\ue256";
+    public const string Space_dashboard = "\ue66b";
+    public const string Spatial_audio = "\uebeb";
+    public const string Spatial_audio_off = "\uebe8";
+    public const string Spatial_tracking = "\uebea";
+    public const string Speaker = "\ue32d";
+    public const string Speaker_group = "\ue32e";
+    public const string Speaker_notes = "\ue8cd";
+    public const string Speaker_notes_off = "\ue92a";
+    public const string Speaker_phone = "\ue0d2";
+    public const string Speed = "\ue9e4";
+    public const string Spellcheck = "\ue8ce";
+    public const string Splitscreen = "\uf06d";
+    public const string Spoke = "\ue9a7";
+    public const string Sports = "\uea30";
+    public const string Sports_bar = "\uf1f3";
+    public const string Sports_baseball = "\uea51";
+    public const string Sports_basketball = "\uea26";
+    public const string Sports_cricket = "\uea27";
+    public const string Sports_esports = "\uea28";
+    public const string Sports_football = "\uea29";
+    public const string Sports_golf = "\uea2a";
+    public const string Sports_gymnastics = "\uebc4";
+    public const string Sports_handball = "\uea33";
+    public const string Sports_hockey = "\uea2b";
+    public const string Sports_kabaddi = "\uea34";
+    public const string Sports_martial_arts = "\ueae9";
+    public const string Sports_mma = "\uea2c";
+    public const string Sports_motorsports = "\uea2d";
+    public const string Sports_rugby = "\uea2e";
+    public const string Sports_score = "\uf06e";
+    public const string Sports_soccer = "\uea2f";
+    public const string Sports_tennis = "\uea32";
+    public const string Sports_volleyball = "\uea31";
+    public const string Square = "\ueb36";
+    public const string Square_foot = "\uea49";
+    public const string Ssid_chart = "\ueb66";
+    public const string Stacked_bar_chart = "\ue9e6";
+    public const string Stacked_line_chart = "\uf22b";
+    public const string Stadium = "\ueb90";
+    public const string Stairs = "\uf1a9";
+    public const string Star = "\ue838";
+    public const string Star_border = "\ue83a";
+    public const string Star_border_purple500 = "\uf099";
+    public const string Star_half = "\ue839";
+    public const string Star_outline = "\uf06f";
+    public const string Star_purple500 = "\uf09a";
+    public const string Star_rate = "\uf0ec";
+    public const string Stars = "\ue8d0";
+    public const string Start = "\ue089";
+    public const string Stay_current_landscape = "\ue0d3";
+    public const string Stay_current_portrait = "\ue0d4";
+    public const string Stay_primary_landscape = "\ue0d5";
+    public const string Stay_primary_portrait = "\ue0d6";
+    public const string Sticky_note_2 = "\uf1fc";
+    public const string Stop = "\ue047";
+    public const string Stop_circle = "\uef71";
+    public const string Stop_screen_share = "\ue0e3";
+    public const string Storage = "\ue1db";
+    public const string Store = "\ue8d1";
+    public const string Store_mall_directory = "\ue563";
+    public const string Storefront = "\uea12";
+    public const string Storm = "\uf070";
+    public const string Straight = "\ueb95";
+    public const string Straighten = "\ue41c";
+    public const string Stream = "\ue9e9";
+    public const string Streetview = "\ue56e";
+    public const string Strikethrough_s = "\ue257";
+    public const string Stroller = "\uf1ae";
+    public const string Style = "\ue41d";
+    public const string Subdirectory_arrow_left = "\ue5d9";
+    public const string Subdirectory_arrow_right = "\ue5da";
+    public const string Subject = "\ue8d2";
+    public const string Subscript = "\uf111";
+    public const string Subscriptions = "\ue064";
+    public const string Subtitles = "\ue048";
+    public const string Subtitles_off = "\uef72";
+    public const string Subway = "\ue56f";
+    public const string Summarize = "\uf071";
+    public const string Superscript = "\uf112";
+    public const string Supervised_user_circle = "\ue939";
+    public const string Supervisor_account = "\ue8d3";
+    public const string Support = "\uef73";
+    public const string Support_agent = "\uf0e2";
+    public const string Surfing = "\ue515";
+    public const string Surround_sound = "\ue049";
+    public const string Swap_calls = "\ue0d7";
+    public const string Swap_horiz = "\ue8d4";
+    public const string Swap_horizontal_circle = "\ue933";
+    public const string Swap_vert = "\ue8d5";
+    public const string Swap_vertical_circle = "\ue8d6";
+    public const string Swipe = "\ue9ec";
+    public const string Swipe_down = "\ueb53";
+    public const string Swipe_down_alt = "\ueb30";
+    public const string Swipe_left = "\ueb59";
+    public const string Swipe_left_alt = "\ueb33";
+    public const string Swipe_right = "\ueb52";
+    public const string Swipe_right_alt = "\ueb56";
+    public const string Swipe_up = "\ueb2e";
+    public const string Swipe_up_alt = "\ueb35";
+    public const string Swipe_vertical = "\ueb51";
+    public const string Switch_access_shortcut = "\ue7e1";
+    public const string Switch_access_shortcut_add = "\ue7e2";
+    public const string Switch_account = "\ue9ed";
+    public const string Switch_camera = "\ue41e";
+    public const string Switch_left = "\uf1d1";
+    public const string Switch_right = "\uf1d2";
+    public const string Switch_video = "\ue41f";
+    public const string Synagogue = "\ueab0";
+    public const string Sync = "\ue627";
+    public const string Sync_alt = "\uea18";
+    public const string Sync_disabled = "\ue628";
+    public const string Sync_lock = "\ueaee";
+    public const string Sync_problem = "\ue629";
+    public const string System_security_update = "\uf072";
+    public const string System_security_update_good = "\uf073";
+    public const string System_security_update_warning = "\uf074";
+    public const string System_update = "\ue62a";
+    public const string System_update_alt = "\ue8d7";
+    public const string Tab = "\ue8d8";
+    public const string Tab_unselected = "\ue8d9";
+    public const string Table_bar = "\uead2";
+    public const string Table_chart = "\ue265";
+    public const string Table_restaurant = "\ueac6";
+    public const string Table_rows = "\uf101";
+    public const string Table_view = "\uf1be";
+    public const string Tablet = "\ue32f";
+    public const string Tablet_android = "\ue330";
+    public const string Tablet_mac = "\ue331";
+    public const string Tag = "\ue9ef";
+    public const string Tag_faces = "\ue420";
+    public const string Takeout_dining = "\uea74";
+    public const string Tap_and_play = "\ue62b";
+    public const string Tapas = "\uf1e9";
+    public const string Task = "\uf075";
+    public const string Task_alt = "\ue2e6";
+    public const string Taxi_alert = "\uef74";
+    public const string Telegram = "\uea6b";
+    public const string Temple_buddhist = "\ueab3";
+    public const string Temple_hindu = "\ueaaf";
+    public const string Terminal = "\ueb8e";
+    public const string Terrain = "\ue564";
+    public const string Text_decrease = "\ueadd";
+    public const string Text_fields = "\ue262";
+    public const string Text_format = "\ue165";
+    public const string Text_increase = "\ueae2";
+    public const string Text_rotate_up = "\ue93a";
+    public const string Text_rotate_vertical = "\ue93b";
+    public const string Text_rotation_angledown = "\ue93c";
+    public const string Text_rotation_angleup = "\ue93d";
+    public const string Text_rotation_down = "\ue93e";
+    public const string Text_rotation_none = "\ue93f";
+    public const string Text_snippet = "\uf1c6";
+    public const string Textsms = "\ue0d8";
+    public const string Texture = "\ue421";
+    public const string Theater_comedy = "\uea66";
+    public const string Theaters = "\ue8da";
+    public const string Thermostat = "\uf076";
+    public const string Thermostat_auto = "\uf077";
+    public const string Thumb_down = "\ue8db";
+    public const string Thumb_down_alt = "\ue816";
+    public const string Thumb_down_off_alt = "\ue9f2";
+    public const string Thumb_up = "\ue8dc";
+    public const string Thumb_up_alt = "\ue817";
+    public const string Thumb_up_off_alt = "\ue9f3";
+    public const string Thumbs_up_down = "\ue8dd";
+    public const string Thunderstorm = "\uebdb";
+    public const string Tiktok = "\uea7e";
+    public const string Time_to_leave = "\ue62c";
+    public const string Timelapse = "\ue422";
+    public const string Timeline = "\ue922";
+    public const string Timer = "\ue425";
+    public const string Timer_10 = "\ue423";
+    public const string Timer_10_select = "\uf07a";
+    public const string Timer_3 = "\ue424";
+    public const string Timer_3_select = "\uf07b";
+    public const string Timer_off = "\ue426";
+    public const string Tips_and_updates = "\ue79a";
+    public const string Tire_repair = "\uebc8";
+    public const string Title = "\ue264";
+    public const string Toc = "\ue8de";
+    public const string Today = "\ue8df";
+    public const string Toggle_off = "\ue9f5";
+    public const string Toggle_on = "\ue9f6";
+    public const string Token = "\uea25";
+    public const string Toll = "\ue8e0";
+    public const string Tonality = "\ue427";
+    public const string Topic = "\uf1c8";
+    public const string Tornado = "\ue199";
+    public const string Touch_app = "\ue913";
+    public const string Tour = "\uef75";
+    public const string Toys = "\ue332";
+    public const string Track_changes = "\ue8e1";
+    public const string Traffic = "\ue565";
+    public const string Train = "\ue570";
+    public const string Tram = "\ue571";
+    public const string Transcribe = "\uf8ec";
+    public const string Transfer_within_a_station = "\ue572";
+    public const string Transform = "\ue428";
+    public const string Transgender = "\ue58d";
+    public const string Transit_enterexit = "\ue579";
+    public const string Translate = "\ue8e2";
+    public const string Travel_explore = "\ue2db";
+    public const string Trending_down = "\ue8e3";
+    public const string Trending_flat = "\ue8e4";
+    public const string Trending_up = "\ue8e5";
+    public const string Trip_origin = "\ue57b";
+    public const string Troubleshoot = "\ue1d2";
+    public const string Try = "\uf07c";
+    public const string Tsunami = "\uebd8";
+    public const string Tty = "\uf1aa";
+    public const string Tune = "\ue429";
+    public const string Tungsten = "\uf07d";
+    public const string Turn_left = "\ueba6";
+    public const string Turn_right = "\uebab";
+    public const string Turn_sharp_left = "\ueba7";
+    public const string Turn_sharp_right = "\uebaa";
+    public const string Turn_slight_left = "\ueba4";
+    public const string Turn_slight_right = "\ueb9a";
+    public const string Turned_in = "\ue8e6";
+    public const string Turned_in_not = "\ue8e7";
+    public const string Tv = "\ue333";
+    public const string Tv_off = "\ue647";
+    public const string Two_wheeler = "\ue9f9";
+    public const string Type_specimen = "\uf8f0";
+    public const string U_turn_left = "\ueba1";
+    public const string U_turn_right = "\ueba2";
+    public const string Umbrella = "\uf1ad";
+    public const string Unarchive = "\ue169";
+    public const string Undo = "\ue166";
+    public const string Unfold_less = "\ue5d6";
+    public const string Unfold_less_double = "\uf8cf";
+    public const string Unfold_more = "\ue5d7";
+    public const string Unfold_more_double = "\uf8d0";
+    public const string Unpublished = "\uf236";
+    public const string Unsubscribe = "\ue0eb";
+    public const string Upcoming = "\uf07e";
+    public const string Update = "\ue923";
+    public const string Update_disabled = "\ue075";
+    public const string Upgrade = "\uf0fb";
+    public const string Upload = "\uf09b";
+    public const string Upload_file = "\ue9fc";
+    public const string Usb = "\ue1e0";
+    public const string Usb_off = "\ue4fa";
+    public const string Vaccines = "\ue138";
+    public const string Vape_free = "\uebc6";
+    public const string Vaping_rooms = "\uebcf";
+    public const string Verified = "\uef76";
+    public const string Verified_user = "\ue8e8";
+    public const string Vertical_align_bottom = "\ue258";
+    public const string Vertical_align_center = "\ue259";
+    public const string Vertical_align_top = "\ue25a";
+    public const string Vertical_distribute = "\ue076";
+    public const string Vertical_shades = "\uec0e";
+    public const string Vertical_shades_closed = "\uec0d";
+    public const string Vertical_split = "\ue949";
+    public const string Vibration = "\ue62d";
+    public const string Video_call = "\ue070";
+    public const string Video_camera_back = "\uf07f";
+    public const string Video_camera_front = "\uf080";
+    public const string Video_chat = "\uf8a0";
+    public const string Video_file = "\ueb87";
+    public const string Video_label = "\ue071";
+    public const string Video_library = "\ue04a";
+    public const string Video_settings = "\uea75";
+    public const string Video_stable = "\uf081";
+    public const string Videocam = "\ue04b";
+    public const string Videocam_off = "\ue04c";
+    public const string Videogame_asset = "\ue338";
+    public const string Videogame_asset_off = "\ue500";
+    public const string View_agenda = "\ue8e9";
+    public const string View_array = "\ue8ea";
+    public const string View_carousel = "\ue8eb";
+    public const string View_column = "\ue8ec";
+    public const string View_comfy = "\ue42a";
+    public const string View_comfy_alt = "\ueb73";
+    public const string View_compact = "\ue42b";
+    public const string View_compact_alt = "\ueb74";
+    public const string View_cozy = "\ueb75";
+    public const string View_day = "\ue8ed";
+    public const string View_headline = "\ue8ee";
+    public const string View_in_ar = "\ue9fe";
+    public const string View_kanban = "\ueb7f";
+    public const string View_list = "\ue8ef";
+    public const string View_module = "\ue8f0";
+    public const string View_quilt = "\ue8f1";
+    public const string View_sidebar = "\uf114";
+    public const string View_stream = "\ue8f2";
+    public const string View_timeline = "\ueb85";
+    public const string View_week = "\ue8f3";
+    public const string Vignette = "\ue435";
+    public const string Villa = "\ue586";
+    public const string Visibility = "\ue8f4";
+    public const string Visibility_off = "\ue8f5";
+    public const string Voice_chat = "\ue62e";
+    public const string Voice_over_off = "\ue94a";
+    public const string Voicemail = "\ue0d9";
+    public const string Volcano = "\uebda";
+    public const string Volume_down = "\ue04d";
+    public const string Volume_mute = "\ue04e";
+    public const string Volume_off = "\ue04f";
+    public const string Volume_up = "\ue050";
+    public const string Volunteer_activism = "\uea70";
+    public const string Vpn_key = "\ue0da";
+    public const string Vpn_key_off = "\ueb7a";
+    public const string Vpn_lock = "\ue62f";
+    public const string Vrpano = "\uf082";
+    public const string Wallet = "\uf8ff";
+    public const string Wallpaper = "\ue1bc";
+    public const string Warehouse = "\uebb8";
+    public const string Warning = "\ue002";
+    public const string Warning_amber = "\uf083";
+    public const string Wash = "\uf1b1";
+    public const string Watch = "\ue334";
+    public const string Watch_later = "\ue924";
+    public const string Watch_off = "\ueae3";
+    public const string Water = "\uf084";
+    public const string Water_damage = "\uf203";
+    public const string Water_drop = "\ue798";
+    public const string Waterfall_chart = "\uea00";
+    public const string Waves = "\ue176";
+    public const string Waving_hand = "\ue766";
+    public const string Wb_auto = "\ue42c";
+    public const string Wb_cloudy = "\ue42d";
+    public const string Wb_incandescent = "\ue42e";
+    public const string Wb_iridescent = "\ue436";
+    public const string Wb_shade = "\uea01";
+    public const string Wb_sunny = "\ue430";
+    public const string Wb_twilight = "\ue1c6";
+    public const string Wc = "\ue63d";
+    public const string Web = "\ue051";
+    public const string Web_asset = "\ue069";
+    public const string Web_asset_off = "\ue4f7";
+    public const string Web_stories = "\ue595";
+    public const string Webhook = "\ueb92";
+    public const string Wechat = "\uea81";
+    public const string Weekend = "\ue16b";
+    public const string West = "\uf1e6";
+    public const string Whatshot = "\ue80e";
+    public const string Wheelchair_pickup = "\uf1ab";
+    public const string Where_to_vote = "\ue177";
+    public const string Widgets = "\ue1bd";
+    public const string Width_full = "\uf8f5";
+    public const string Width_normal = "\uf8f6";
+    public const string Width_wide = "\uf8f7";
+    public const string Wifi = "\ue63e";
+    public const string Wifi_1_bar = "\ue4ca";
+    public const string Wifi_2_bar = "\ue4d9";
+    public const string Wifi_calling = "\uef77";
+    public const string Wifi_calling_3 = "\uf085";
+    public const string Wifi_channel = "\ueb6a";
+    public const string Wifi_find = "\ueb31";
+    public const string Wifi_lock = "\ue1e1";
+    public const string Wifi_off = "\ue648";
+    public const string Wifi_password = "\ueb6b";
+    public const string Wifi_protected_setup = "\uf0fc";
+    public const string Wifi_tethering = "\ue1e2";
+    public const string Wifi_tethering_error = "\uead9";
+    public const string Wifi_tethering_off = "\uf087";
+    public const string Wind_power = "\uec0c";
+    public const string Window = "\uf088";
+    public const string Wine_bar = "\uf1e8";
+    public const string Woman = "\ue13e";
+    public const string Woman_2 = "\uf8e7";
+    public const string Woo_commerce = "\uea6d";
+    public const string Wordpress = "\uea9f";
+    public const string Work = "\ue8f9";
+    public const string Work_history = "\uec09";
+    public const string Work_off = "\ue942";
+    public const string Work_outline = "\ue943";
+    public const string Workspace_premium = "\ue7af";
+    public const string Workspaces = "\ue1a0";
+    public const string Wrap_text = "\ue25b";
+    public const string Wrong_location = "\uef78";
+    public const string Wysiwyg = "\uf1c3";
+    public const string Yard = "\uf089";
+    public const string Youtube_searched_for = "\ue8fa";
+    public const string Zoom_in = "\ue8ff";
+    public const string Zoom_in_map = "\ueb2d";
+    public const string Zoom_out = "\ue900";
+    public const string Zoom_out_map = "\ue56b";
+    public const string Digit_one = "\u0031";
+    public const string Digit_zero = "\u0030";
+    public const string k = "\u006b";
+    public const string m = "\u006d";
+    public const string p = "\u0070";
+    public const string Digit_two = "\u0032";
+    public const string Digit_three = "\u0033";
+    public const string Digit_four = "\u0034";
+    public const string Digit_five = "\u0035";
+    public const string Digit_six = "\u0036";
+    public const string Digit_seven = "\u0037";
+    public const string Digit_eight = "\u0038";
+    public const string _ = "\u005f";
+    public const string u = "\u0075";
+    public const string r = "\u0072";
+    public const string a = "\u0061";
+    public const string t = "\u0074";
+    public const string i = "\u0069";
+    public const string n = "\u006e";
+    public const string g = "\u0067";
+    public const string Digit_nine = "\u0039";
+    public const string l = "\u006c";
+    public const string s = "\u0073";
+    public const string x = "\u0078";
+    public const string o = "\u006f";
+    public const string b = "\u0062";
+    public const string e = "\u0065";
+    public const string d = "\u0064";
+    public const string f = "\u0066";
+    public const string c = "\u0063";
+    public const string y = "\u0079";
+    public const string w = "\u0077";
+    public const string h = "\u0068";
+    public const string v = "\u0076";
+    public const string q = "\u0071";
+    public const string j = "\u006a";
+    public const string z = "\u007a";
+}
