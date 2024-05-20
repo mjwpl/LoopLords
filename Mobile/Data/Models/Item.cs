@@ -1,5 +1,7 @@
-﻿using Mobile.Helpers;
+﻿using AutoMapper.Configuration.Annotations;
+using Mobile.Helpers;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Mobile.Data.Models
 {
@@ -14,6 +16,7 @@ namespace Mobile.Data.Models
         public int HideInDays { get; set; } = 0;
         public List<ItemHistory> History { get; set; } = new();
 
+        [NotMapped]
         public int? DaysSinceLastOccurrence
         {
             get
@@ -27,6 +30,7 @@ namespace Mobile.Data.Models
             }
         }
 
+        [NotMapped]
         public double? CalculateMedianDaysBetweenOccurrences
         {
             get
@@ -43,6 +47,7 @@ namespace Mobile.Data.Models
 
         }
 
+        [NotMapped]
         public bool IsVisibleBtn
         {
             get
