@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:hlp="clr-namespace:Mobile.Helpers"
+             xmlns:model="clr-namespace:Mobile.Data.Models"
+             x:Class="Mobile.Controls.ItemControl"
+             x:DataType="model:Item">
+
+    <Frame CornerRadius="30"
+           Margin="0,5,0,0"
+           BackgroundColor="#161c2c"
+           BorderColor="#161c2c"
+           HeightRequest="80"
+           VerticalOptions="Start"
+           x:Name="Ramka">
+
+        <Grid ColumnDefinitions="auto, *, auto" RowDefinitions="auto, auto, auto, auto, auto, auto">
+
+            <Frame Grid.Column="0"
+                   HeightRequest="40"
+                   WidthRequest="40"
+                   CornerRadius="30"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"
+                   Padding="0"
+                   BackgroundColor="{Binding Color}"
+                   BorderColor="Transparent"
+                   Margin="0,0,0,0"
+                   x:Name="Circle">
+
+                <Label 
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    FontSize="18"
+                    Text="{Binding Icon}" FontFamily="MaterialIcons"
+                    x:Name="CircleText"                   
+                />
+
+            </Frame>
+
+            <VerticalStackLayout Grid.Column="1" HorizontalOptions="Start" Margin="10,0,0,0" VerticalOptions="Start">
+                <Label Text="{Binding Name}" TextColor="White" FontSize="14" />
+                <Label x:Name="Description" Text="{Binding DaysSinceLastOccurrence, Converter={hlp:DaysSinceLastOccurrenceConverter}}" TextColor="#9a9ea4" FontSize="12" FontAutoScalingEnabled="True" />
+            </VerticalStackLayout>
+
+            <Button Grid.Column="2" HorizontalOptions="Start" VerticalOptions="Start"
+                    WidthRequest="30" HeightRequest="30"
+                    BackgroundColor="Transparent"
+                    Padding="0"
+                    TextColor="White" FontSize="20"
+                    Text="{x:Static hlp:MaterialIcons.Expand_more}" FontFamily="MaterialIcons"
+                    Clicked="Button_Clicked"
+                    x:Name="Chevron"
+                    />
+
+
+            <BoxView Grid.ColumnSpan="3" Grid.Row="1" Margin="0,10,0,10"  BackgroundColor="#20FFFFFF" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="1" />
+
+            <HorizontalStackLayout Grid.ColumnSpan="3" Grid.Row="2" Spacing="10" HorizontalOptions="Center">
+
+            </HorizontalStackLayout>
+
+            <BoxView IsVisible="{Binding IsVisibleBtn}" Grid.ColumnSpan="3" Grid.Row="3" Margin="0,10,0,10"  BackgroundColor="#20FFFFFF" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="1" />
+
+            <Label Grid.ColumnSpan="3" Grid.Row="4" Text="{Binding CalculateMedianDaysBetweenOccurrences}" 
+                   TextColor="White" FontSize="40" HorizontalOptions="Center" Margin="0,10,0,0"/>
+
+            <VerticalStackLayout Grid.ColumnSpan="3" Grid.Row="5">
+                <BoxView BackgroundColor="#20FFFFFF" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="1" />
+                <HorizontalStackLayout HorizontalOptions="End" Spacing="10" Margin="0,10,0,0">
+                    <Button BackgroundColor="#10FFFFFF" Text="{x:Static hlp:MaterialIcons.Edit}" TextColor="White" FontFamily="MaterialIcons" FontSize="20" Clicked="Delete_Clicked" BorderColor="#20FFFFFF" BorderWidth="1" Padding="0"  />
+                    <Button BackgroundColor="#10FFFFFF" Text="{x:Static hlp:MaterialIcons.Delete}" TextColor="White" FontFamily="MaterialIcons" FontSize="20" Clicked="Delete_Clicked"  BorderColor="#20FFFFFF" BorderWidth="1" Padding="0" />
+
+                    <DatePicker x:Name="DatePicker" />
+                    <Button x:Name="DoneButton" IsVisible="{Binding IsVisibleBtn}"  TextColor="White"  Clicked="Done_Clicked" BackgroundColor="#10FFFFFF" BorderColor="#70FFFFFF" BorderWidth="1" />
+
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+
+        </Grid>
+
+    </Frame>
+
+</ContentView>
