@@ -46,6 +46,12 @@ namespace Mobile.Data
                 pathDbSqlite = Path.Combine(pathDbSqlite, "..", "Library", nameDb);
             }
 
+            if (DeviceInfo.Platform == DevicePlatform.WinUI)
+            {
+                pathDbSqlite = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+                pathDbSqlite = Path.Combine(pathDbSqlite, nameDb);
+            }
+
             return pathDbSqlite;
         }
     }
