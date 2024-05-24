@@ -17,12 +17,17 @@ namespace Mobile.Data.Seed
                 new Models.Settings()
                 {
                     Key = SettingsKeyEnum.RUN_START_DATE,
-                    Value = DateTime.Now.ToString()
+                    Value = DateTime.UtcNow.ToString()
                 },
                 new Models.Settings()
                 {
                     Key = SettingsKeyEnum.RUN_LAST_DATE,
-                    Value = DateTime.Now.ToString()
+                    Value = DateTime.UtcNow.ToString()
+                },
+                new Models.Settings()
+                {
+                    Key = SettingsKeyEnum.APP_GUID,
+                    Value = Guid.NewGuid().ToString()
                 }
             ];
         }
