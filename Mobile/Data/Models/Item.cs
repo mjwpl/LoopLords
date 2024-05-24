@@ -1,5 +1,4 @@
-﻿using AutoMapper.Configuration.Annotations;
-using Mobile.Helpers;
+﻿using Mobile.Helpers;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -10,7 +9,6 @@ namespace Mobile.Data.Models
         [Key]
         public int Id { get; set; }
         public string Name { get; set; } = String.Empty;
-        public string HintForNextOccurrence { get; set; } = String.Empty;
         public string Icon { get; set; } = MaterialIcons.Question_mark;
         public string Color { get; set; } = "#e37138";
         public int HideInDays { get; set; } = 0;
@@ -69,7 +67,7 @@ namespace Mobile.Data.Models
             }
 
             Item other = (Item)obj;
-            return Id == other.Id && Name == other.Name && HintForNextOccurrence == other.HintForNextOccurrence && History.Count() == other.History.Count();
+            return Id == other.Id && Name == other.Name &&  History.Count() == other.History.Count();
         }
 
         public override int GetHashCode()
