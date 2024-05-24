@@ -13,7 +13,6 @@ namespace Mobile.Data.Seed
                 {
                     Id = 1,
                     Name = "Wymiana oleju",
-                    HintForNextOccurrence = "Kupić olej na allegro.pl",
                     HideInDays = 350,
                     Icon = MaterialIcons.Oil_barrel,
                     Color = "#1d72a0"
@@ -22,14 +21,12 @@ namespace Mobile.Data.Seed
                 {
                     Id = 2,
                     Name = "Trening na siłowni",
-                    HintForNextOccurrence = "Zrobić bicepsy",
                     Icon = MaterialIcons.Fitness_center,
                 },
                 new()
                 {
                     Id = 3,
                     Name = "Kwiaty dla dziewczyny",
-                    HintForNextOccurrence = "Kupić kwiaty w kwiaciarni",
                     Icon = MaterialIcons.Local_florist,
                     Color = "#9117f1"
                 }
