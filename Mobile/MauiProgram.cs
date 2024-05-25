@@ -1,9 +1,9 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using CommunityToolkit.Maui;
+using Microsoft.Extensions.Logging;
 using Mobile.Data;
-using Mobile.Data.AutoMapperProfiles;
 using Mobile.Pages;
+using Mobile.Services;
 using Mobile.ViewModel;
-using CommunityToolkit.Maui;
 
 namespace Mobile
 {
@@ -19,8 +19,7 @@ namespace Mobile
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                    fonts.AddFont("Font Awesome 6 Free-Solid-900.otf", "FaSolid");
-                    fonts.AddFont("Font Awesome 6 Free-Regular-400.otf", "FaRegular");
+
 
                     fonts.AddFont("TangoSans.ttf", "TangoSans");
                     fonts.AddFont("TangoSans_Bold.ttf", "TangoSans_Bold");
@@ -28,19 +27,27 @@ namespace Mobile
                     fonts.AddFont("TangoSans_Italic.ttf", "TangoSans_Italic");
 
                     fonts.AddFont("AgenorNeue-Regular.otf", "AgenorNeue");
+
+                    fonts.AddFont("MaterialIconsRound-Regular.otf", "MaterialIcons");
+                    fonts.AddFont("MaterialIconsOutlined-Regular.otf", "MaterialIconsOutlined");
                 });
 
-            builder.Services.AddAutoMapper(typeof(ItemProfile));
             builder.Services.AddDbContext<LocalDbContext>();
-            builder.Services.AddTransient<TodayViewModel>();
-            builder.Services.AddTransient<TasksViewModel>();
-            builder.Services.AddTransient<IntroView>();
-            builder.Services.AddTransient<NewViewModel>();
+            builder.Services.AddSingleton<DbService>();
 
+            builder.Services.AddSingleton<TasksViewModel>(sp => new TasksViewModel()
+            {
+                _dbService = sp.GetRequiredService<DbService>()
+            });
 
-            var db = new LocalDbContext();
-            db.Database.EnsureCreated();
-            db.Dispose();
+            builder.Services.AddSingleton<TasksPage>(sp => new TasksPage(sp.GetRequiredService<TasksViewModel>())
+            {
+            
+            });
+
+            builder.Services.AddSingleton<IntroView>();
+            builder.Services.AddSingleton<AddViewModel>();
+            
 
 #if DEBUG
             builder.Logging.AddDebug();
