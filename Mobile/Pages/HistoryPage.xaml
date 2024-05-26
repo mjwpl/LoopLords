@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Mobile.Pages.HistoryPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ctrl="clr-namespace:Mobile.Controls"
+    xmlns:hlp="clr-namespace:Mobile.Helpers"
+    xmlns:models="clr-namespace:Mobile.Data.Models"
+    xmlns:strings="clr-namespace:Mobile.Localize"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:vm="clr-namespace:Mobile.ViewModel"
+    Title="HistoryPage"
+    x:DataType="vm:HistoryViewModel">
+
+    <Page.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#090d19" />
+    </Page.Behaviors>
+
+    <Grid Padding="20,20,20,0" RowDefinitions="auto, *, auto">
+
+        <Grid Margin="0,5,0,15" ColumnDefinitions="*,*">
+            <HorizontalStackLayout Grid.Column="0">
+                <Label
+                    Margin="15,0,0,0"
+                    FontFamily="MaterialIcons"
+                    FontSize="30"
+                    Text="{x:Static hlp:MaterialIcons.Checklist}"
+                    TextColor="White"
+                    VerticalOptions="Center" />
+                <Label
+                    Margin="10,0,0,0"
+                    FontSize="20"
+                    Text="{x:Static strings:AppRes.TITLE_TASKS}"
+                    TextColor="White"
+                    VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+
+        </Grid>
+
+        <CollectionView
+            x:Name="colv"
+            Grid.Row="1"
+            ItemsSource="{Binding ItemsHistoryList}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:ItemHistory">
+                    <Grid ColumnDefinitions="auto, *, auto,auto">
+                        <Label
+                            Grid.Column="0"
+                            FontFamily="MaterialIcons"
+                            FontSize="20"
+                            Text="{x:Static hlp:MaterialIcons.Check}"
+                            TextColor="Green"
+                            VerticalTextAlignment="Center" />
+                        <Label
+                            Grid.Column="1"
+                            Padding="10,0,10,0"
+                            Text="{Binding DisplayDate}"
+                            VerticalTextAlignment="Center" />
+                        <Label
+                            Grid.Column="2"
+                            Text="{Binding DaysSinceLast}"
+                            VerticalTextAlignment="Center" />
+
+                        <Button
+                            Grid.Column="3"
+                            Padding="0"
+                            BackgroundColor="Transparent"
+                            Clicked="Delete_Clicked"
+                            CommandParameter="{Binding Id}"
+                            FontFamily="MaterialIcons"
+                            FontSize="20"
+                            Text="{x:Static hlp:MaterialIcons.Delete_forever}"
+                            TextColor="Red" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <ctrl:MenuControl Grid.Row="2" />
+
+    </Grid>
+</ContentPage>
