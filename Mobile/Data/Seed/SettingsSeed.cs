@@ -17,18 +17,28 @@ namespace Mobile.Data.Seed
                 new Models.Settings()
                 {
                     Key = SettingsKeyEnum.RUN_START_DATE,
-                    Value = DateTime.UtcNow.ToString()
+                    Value = String.Empty
                 },
                 new Models.Settings()
                 {
                     Key = SettingsKeyEnum.RUN_LAST_DATE,
-                    Value = DateTime.UtcNow.ToString()
+                    Value = String.Empty
                 },
                 new Models.Settings()
                 {
                     Key = SettingsKeyEnum.APP_GUID,
-                    Value = Guid.NewGuid().ToString()
-                }
+                    Value = String.Empty
+                },
+                new Models.Settings()
+                {
+                    Key = SettingsKeyEnum.SHOW_HIDDEN,
+                    Value = "false"
+                },
+                new Models.Settings()
+                {
+                    Key = SettingsKeyEnum.PUSH_NOTIFICATION,
+                    Value = "22"
+                },
             ];
         }
     }
