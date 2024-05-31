@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Mobile.Pages.SettingsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:hlp="clr-namespace:Mobile.Helpers"
+    xmlns:strings="clr-namespace:Mobile.Localize"
+    xmlns:vm="clr-namespace:Mobile.ViewModel"
+    x:DataType="vm:SettingsViewModel"
+    BackgroundColor="#090d19">
+
+    <VerticalStackLayout Margin="0,10,0,10">
+
+        <Frame
+            Margin="0,5,0,0"
+            BackgroundColor="#161c2c"
+            BorderColor="#161c2c"
+            CornerRadius="30"
+            HeightRequest="60"
+            VerticalOptions="Start">
+
+            <Grid>
+                <Label
+                    Text="Show hidden"
+                    TextColor="White"
+                    VerticalOptions="Center" />
+                <Switch IsToggled="{Binding IsShowHidden}" />
+            </Grid>
+        </Frame>
+
+        <Frame
+            Margin="0,5,0,0"
+            BackgroundColor="#161c2c"
+            BorderColor="#161c2c"
+            CornerRadius="30"
+            HeightRequest="60"
+            VerticalOptions="Start">
+
+            <Grid>
+                <Label
+                    Text="Show push notification"
+                    TextColor="White"
+                    VerticalOptions="Center" />
+                <Switch IsToggled="{Binding IsPushNotification}" />
+            </Grid>
+        </Frame>
+
+        <Frame
+            Margin="0,5,0,0"
+            BackgroundColor="#161c2c"
+            BorderColor="#161c2c"
+            CornerRadius="30"
+            HeightRequest="60"
+            VerticalOptions="Start">
+
+            <Grid>
+                <Label
+                    Text="Dark mode"
+                    TextColor="White"
+                    VerticalOptions="Center" />
+                <Switch IsToggled="{Binding IsDarkMode}" />
+            </Grid>
+        </Frame>
+
+    </VerticalStackLayout>
+</ContentPage>
