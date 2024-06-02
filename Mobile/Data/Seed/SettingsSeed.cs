@@ -9,36 +9,41 @@ namespace Mobile.Data.Seed
         {
             return
             [
-                new Models.Settings()
+                new Settings()
                 {
                     Key = SettingsKeyEnum.RUN_COUNTER,
                     Value = "0"
                 },
-                new Models.Settings()
+                new Settings()
                 {
                     Key = SettingsKeyEnum.RUN_START_DATE,
                     Value = String.Empty
                 },
-                new Models.Settings()
+                new Settings()
                 {
                     Key = SettingsKeyEnum.RUN_LAST_DATE,
                     Value = String.Empty
                 },
-                new Models.Settings()
+                new Settings()
                 {
                     Key = SettingsKeyEnum.APP_GUID,
                     Value = String.Empty
                 },
-                new Models.Settings()
+                new Settings()
                 {
                     Key = SettingsKeyEnum.SHOW_HIDDEN,
-                    Value = "false"
+                    Value = SettingsBoolEnum.FALSE.ToString()
                 },
-                new Models.Settings()
+                new Settings()
                 {
                     Key = SettingsKeyEnum.PUSH_NOTIFICATION,
                     Value = "22"
                 },
+                new Settings()
+                {
+                    Key = SettingsKeyEnum.DARK_MODE,
+                    Value = SettingsBoolEnum.TRUE.ToString()
+                }
             ];
         }
     }
