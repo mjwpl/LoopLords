@@ -61,11 +61,74 @@ namespace Mobile.Localize {
         }
         
         /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Cancel.
+        /// </summary>
+        internal static string CANCEL {
+            get {
+                return ResourceManager.GetString("CANCEL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Done.
+        /// </summary>
+        internal static string DONE {
+            get {
+                return ResourceManager.GetString("DONE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu No.
+        /// </summary>
+        internal static string NO {
+            get {
+                return ResourceManager.GetString("NO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Are you sure you want to delete this item?.
+        /// </summary>
+        internal static string POPUP_CONFIRMATION_CONTENT {
+            get {
+                return ResourceManager.GetString("POPUP_CONFIRMATION_CONTENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Confirmation.
+        /// </summary>
+        internal static string POPUP_CONFIRMATION_TITLE {
+            get {
+                return ResourceManager.GetString("POPUP_CONFIRMATION_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu TASKS.
         /// </summary>
         internal static string TITLE_TASKS {
             get {
                 return ResourceManager.GetString("TITLE_TASKS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu TODAY.
+        /// </summary>
+        internal static string TITLE_TODAY {
+            get {
+                return ResourceManager.GetString("TITLE_TODAY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Yes.
+        /// </summary>
+        internal static string YES {
+            get {
+                return ResourceManager.GetString("YES", resourceCulture);
             }
         }
     }

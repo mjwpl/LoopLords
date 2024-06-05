@@ -117,10 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="DONE" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="POPUP_CONFIRMATION_CONTENT" xml:space="preserve">
+    <value>Are you sure you want to delete this item?</value>
+  </data>
+  <data name="POPUP_CONFIRMATION_TITLE" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
   <data name="TITLE_TASKS" xml:space="preserve">
     <value>TASKS</value>
   </data>
   <data name="TITLE_TODAY" xml:space="preserve">
     <value>TODAY</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>Yes</value>
   </data>
 </root>
