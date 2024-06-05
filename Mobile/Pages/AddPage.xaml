@@ -1,17 +1,103 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-             x:Class="Mobile.Pages.AddPage">
+<toolkit:Popup
+    x:Class="Mobile.Pages.AddPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    CanBeDismissedByTappingOutsideOfPopup="False"
+    Size="300, 350"
+    Color="#e37138">
 
-    <VerticalStackLayout Padding="20" BackgroundColor="#141c2b">
+    <VerticalStackLayout Padding="20" Spacing="20">
 
-        <Label Text="Add new task" FontSize="20" TextColor="White" />
+        <Label
+            FontSize="20"
+            HorizontalOptions="CenterAndExpand"
+            Text="ADD NEW TASK"
+            TextColor="White" />
 
-        <Entry Placeholder="Task name" x:Name="NameEntry" TextColor="White" />
-        <Entry Placeholder="Days before show" x:Name="HideInDaysEntry" Keyboard="Numeric"  TextColor="White" />
+        <VerticalStackLayout>
+            <Label FontSize="14" Text="Task name" />
+            <Entry
+                x:Name="NameEntry"
+                PlaceholderColor="White"
+                TextColor="White" />
+        </VerticalStackLayout>
 
-        <Button Text="Add" Clicked="Button_Clicked" />
+        <VerticalStackLayout>
+            <Label FontSize="14" Text="Days before show" />
+            <Entry
+                x:Name="HideInDaysEntry"
+                Keyboard="Numeric"
+                Placeholder="(optional)"
+                PlaceholderColor="#77FFFFFF"
+                TextColor="White" />
+        </VerticalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10">
+            <Button
+                BackgroundColor="#e37238"
+                BorderColor="#55FFFFFF"
+                BorderWidth="1"
+                Clicked="ChangeColor_Clicked"
+                CornerRadius="20"
+                HeightRequest="30"
+                WidthRequest="30" />
+            <Button
+                BackgroundColor="#1d72a0"
+                BorderColor="#55FFFFFF"
+                BorderWidth="1"
+                Clicked="ChangeColor_Clicked"
+                CornerRadius="20"
+                HeightRequest="30"
+                WidthRequest="30" />
+            <Button
+                BackgroundColor="#9117f1"
+                BorderColor="#55FFFFFF"
+                BorderWidth="1"
+                Clicked="ChangeColor_Clicked"
+                CornerRadius="20"
+                HeightRequest="30"
+                WidthRequest="30" />
+            <Button
+                BackgroundColor="#3eb490"
+                BorderColor="#55FFFFFF"
+                BorderWidth="1"
+                Clicked="ChangeColor_Clicked"
+                CornerRadius="20"
+                HeightRequest="30"
+                WidthRequest="30" />
+            <Button
+                BackgroundColor="#d33682"
+                BorderColor="#55FFFFFF"
+                BorderWidth="1"
+                Clicked="ChangeColor_Clicked"
+                CornerRadius="20"
+                HeightRequest="30"
+                WidthRequest="30" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="30">
+            <Button
+                BackgroundColor="Transparent"
+                BorderColor="White"
+                BorderWidth="1"
+                Clicked="Cancel_Clicked"
+                CornerRadius="20"
+                Text="Cancel"
+                TextColor="White" />
+
+            <Button
+                BackgroundColor="Transparent"
+                BorderColor="White"
+                BorderWidth="1"
+                Clicked="Ok_Clicked"
+                CornerRadius="20"
+                Text="OK"
+                TextColor="White"
+                WidthRequest="150" />
+        </HorizontalStackLayout>
 
     </VerticalStackLayout>
+
 </toolkit:Popup>
