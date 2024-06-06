@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Globalization;
 
 namespace Mobile.Data.Models
 {
@@ -8,10 +9,15 @@ namespace Mobile.Data.Models
         [Key]
         public int Id { get; set; }
         public DateTime Done { get; set; }
-        public String Notes { get; set; } = String.Empty;
 
         [ForeignKey("ItemId")]
         public int ItemId { get; set; }
         public Item Item { get; set; }
+
+        [NotMapped]
+        public int? DaysSinceLast { get; set; }
+
+        [NotMapped]
+        public string DisplayDate => Done.ToString("d", CultureInfo.CurrentCulture);
     }
 }
