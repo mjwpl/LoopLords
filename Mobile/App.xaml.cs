@@ -1,54 +1,53 @@
-﻿using Mobile.Data;
-using Mobile.Data.Enums;
+﻿using Mobile.Data.Enums;
 using Mobile.Data.Helpers;
-using Mobile.Data.Models;
-using Mobile.View;
+using Mobile.Helpers;
+using Mobile.Pages;
+using Mobile.Services;
+
 
 namespace Mobile
 {
     public partial class App : Application
     {
-        LocalDbContext _db;
-        public App(LocalDbContext db)
+        private readonly DbService _dbService;
+
+        public App(DbService db, IServiceProvider serviceProvider)
         {
             InitializeComponent();
-            _db = db;
+            UserAppTheme = AppTheme.Dark;
 
-            MainPage = (FirstRun()) ? new IntroView() : new AppShell();
-         
+            _dbService = db;
+            IsFirstRun();
+
+            var push = _dbService.GetSettings(SettingsKeyEnum.PUSH_NOTIFICATION);
+            if (!String.IsNullOrEmpty(push))
+                LocalPushNotification.Register(int.Parse(push));
+
+            MainPage = new MainPage(
+                serviceProvider.GetRequiredService<TasksPage>(),
+                serviceProvider.GetRequiredService<SettingsPage>()
+                );
         }
 
-        private bool FirstRun()
+        private bool IsFirstRun()
         {
-            var ft = _db.Settings.FirstOrDefault(x => x.Key == SettingsKeyEnum.RUN_COUNTER);
+            var runCounter = _dbService.GetSettings(SettingsKeyEnum.RUN_COUNTER);
 
-            if (ft != null)
+            if (runCounter == "0")
             {
-                if (ft.Value == "0")
-                {
-                    ft.Value = "1";
-                    _db.SaveChanges();
+                _dbService.SetSettings(SettingsKeyEnum.RUN_COUNTER, "1");
+                _dbService.SetSettings(SettingsKeyEnum.RUN_START_DATE, DateTime.UtcNow.ToString());
+                _dbService.SetSettings(SettingsKeyEnum.RUN_LAST_DATE, DateTime.UtcNow.ToString());
+                _dbService.SetSettings(SettingsKeyEnum.APP_GUID, Guid.NewGuid().ToString());
 
-                    return true;
-                }
-                else
-                {
-                    ft.Value = Value.Increment(ft.Value);
-
-                    var lastDate = _db.Settings.FirstOrDefault(x => x.Key == SettingsKeyEnum.RUN_LAST_DATE);
-                    if (lastDate != null)
-                    {
-                        lastDate.Value = DateTime.Now.ToString();
-                        _db.SaveChanges();
-
-                        
-                    }
-
-                    return false;
-                }
+                return true;
             }
-
-            return true;
+            else
+            {
+                _dbService.SetSettings(SettingsKeyEnum.RUN_COUNTER, Value.Increment(runCounter));
+                _dbService.SetSettings(SettingsKeyEnum.RUN_LAST_DATE, DateTime.UtcNow.ToString());
+                return false;
+            }
         }
     }
 }
