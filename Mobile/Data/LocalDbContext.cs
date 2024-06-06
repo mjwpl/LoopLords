@@ -14,8 +14,8 @@ namespace Mobile.Data
         {
             base.OnConfiguring(optionsBuilder);
 
-            string conn = $"Filename={GetPath("looplords.db")}";
-            optionsBuilder.UseSqlite(conn);
+            string dbPath = GetPath("looplords.db");
+            optionsBuilder.UseSqlite($"Filename={dbPath}");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -24,8 +24,8 @@ namespace Mobile.Data
 
             modelBuilder.Entity<Settings>().HasData(SettingsSeed.Generate());
 #if DEBUG
-            modelBuilder.Entity<Item>().HasData(DemoSeed.GenerateItems());
-            modelBuilder.Entity<ItemHistory>().HasData(DemoSeed.GenerateItemsHistory());
+            //modelBuilder.Entity<Item>().HasData(DemoSeed.GenerateItems());
+            //modelBuilder.Entity<ItemHistory>().HasData(DemoSeed.GenerateItemsHistory());
 #endif
         }
 
