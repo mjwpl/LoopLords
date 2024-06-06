@@ -14,7 +14,7 @@
             if (count % 2 == 0)
             {
                 int midIndex = count / 2;
-                return (sortedList[midIndex - 1] + sortedList[midIndex]) / 2;
+                return Math.Round((sortedList[midIndex - 1] + sortedList[midIndex]) / 2, 1);
             }
             else
             {
