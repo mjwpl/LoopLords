@@ -9,34 +9,15 @@
     xmlns:strings="clr-namespace:Mobile.Localize"
     xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     xmlns:vm="clr-namespace:Mobile.ViewModel"
-    Title="HistoryPage"
-    x:DataType="vm:HistoryViewModel">
+    Title="LIST OF COMPLETED"
+    x:DataType="vm:HistoryViewModel"
+    BackgroundColor="#090d19">
 
     <Page.Behaviors>
         <toolkit:StatusBarBehavior StatusBarColor="#090d19" />
     </Page.Behaviors>
 
-    <Grid Padding="20,20,20,0" RowDefinitions="auto, *, auto">
-
-        <Grid Margin="0,5,0,15" ColumnDefinitions="*,*">
-            <HorizontalStackLayout Grid.Column="0">
-                <Label
-                    Margin="15,0,0,0"
-                    FontFamily="MaterialIcons"
-                    FontSize="30"
-                    Text="{x:Static hlp:MaterialIcons.Checklist}"
-                    TextColor="White"
-                    VerticalOptions="Center" />
-                <Label
-                    Margin="10,0,0,0"
-                    FontSize="20"
-                    Text="{x:Static strings:AppRes.TITLE_TASKS}"
-                    TextColor="White"
-                    VerticalOptions="Center" />
-            </HorizontalStackLayout>
-
-
-        </Grid>
+    <Grid Padding="20,20,20,0" RowDefinitions="auto, *">
 
         <CollectionView
             x:Name="colv"
@@ -76,8 +57,6 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-
-        <ctrl:MenuControl Grid.Row="2" />
 
     </Grid>
 </ContentPage>
