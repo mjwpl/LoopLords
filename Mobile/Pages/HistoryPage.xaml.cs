@@ -8,7 +8,7 @@ namespace Mobile.Pages;
 public partial class HistoryPage : ContentPage
 {
     public HistoryViewModel _hvm;
-    public Item Item;
+    public Item Item = new();
 
     public HistoryPage(HistoryViewModel hvm)
     {
@@ -33,7 +33,7 @@ public partial class HistoryPage : ContentPage
 
             bool answer = await DisplayAlert(AppRes.POPUP_CONFIRMATION_TITLE, AppRes.POPUP_CONFIRMATION_CONTENT, AppRes.YES, AppRes.CANCEL);
 
-            if (answer) _hvm.DeleteItemHistory(itemId);
+            if (answer) await _hvm.DeleteItemHistory(itemId);
         }
     }
 
