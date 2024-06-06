@@ -1,6 +1,8 @@
 using CommunityToolkit.Maui.Extensions;
+using CommunityToolkit.Maui.Views;
 using Mobile.Data.Models;
-using Mobile.Helpers;
+using Mobile.Localize;
+using Mobile.Pages;
 using Mobile.ViewModel;
 
 namespace Mobile.Controls;
@@ -12,9 +14,9 @@ public partial class ItemControl : ContentView
     private const int _collapseHeight = 80;
     private const int _expandedHeight = 300;
     private const uint _animationDuration = 800;
-    private Easing _easing = Easing.CubicOut;
+    private readonly Easing _easing = Easing.CubicOut;
 
-    private DoneDate _selectedDate;
+    private readonly DoneDate _selectedDate;
 
     public TasksViewModel TasksViewModel;
 
@@ -25,7 +27,7 @@ public partial class ItemControl : ContentView
         DatePicker.DateSelected += (s, e) =>
         {
             _selectedDate.RealDate = e.NewDate;
-            DoneButton.Text = $"Done {_selectedDate.DisplayDate}";
+            //DoneButton.Text = $"{_selectedDate.DisplayDate}";
         };
     }
 
@@ -33,7 +35,7 @@ public partial class ItemControl : ContentView
     {
         base.OnParentSet();
         TasksViewModel = Application.Current.Handler.MauiContext.Services.GetService<TasksViewModel>();
-        DoneButton.Text = $"Done {_selectedDate.DisplayDate}";
+        //DoneButton.Text = $"{_selectedDate.DisplayDate}";
     }
 
     protected override void OnBindingContextChanged()
@@ -45,6 +47,8 @@ public partial class ItemControl : ContentView
 
         if (BindingContext is Item item)
         {
+            _highlightColor = item.Color;
+            //if (!item.IsVisibleBtn) DoneButton.Text = "Well done";
             if (item.DaysSinceLastOccurrence != null && item.DaysSinceLastOccurrence > 0)
             {
                 DatePicker.MinimumDate = DateTime.Now.AddDays(-(int)item.DaysSinceLastOccurrence + 1);
@@ -53,8 +57,7 @@ public partial class ItemControl : ContentView
        
     }
 
-
-    private void Button_Clicked(object sender, EventArgs e)
+    private void Chevron_Clicked(object sender, EventArgs e)
     {
         isExpanded = !isExpanded;
 
@@ -69,11 +72,33 @@ public partial class ItemControl : ContentView
 
     }
 
+    private async void Edit_Clicked(object sender, EventArgs e)
+    {
+        if (BindingContext is Item bindingItem)
+        {
+            var page = new AddPage(bindingItem);
+
+            var parentPage = FindParentPage(this);
+            if (parentPage != null)
+            {
+                var result = await PopupExtensions.ShowPopupAsync(parentPage, page, CancellationToken.None);
+
+                var item = result as Item;
+                if (item != null)
+                {
+                    await TasksViewModel.UpdateItem(item);
+                    await TasksViewModel.LoadItems();
+                }
+            }
+        }
+    }
+
     private async void Delete_Clicked(object sender, EventArgs e)
     {
         if (BindingContext is Item item)
         {
-            await TasksViewModel.DeleteItem(item);
+            bool result = await Application.Current.MainPage.DisplayAlert(AppRes.POPUP_CONFIRMATION_TITLE, AppRes.POPUP_CONFIRMATION_CONTENT, AppRes.YES, AppRes.CANCEL);
+            if (result) await TasksViewModel.DeleteItem(item);
         }
     }
 
@@ -82,6 +107,32 @@ public partial class ItemControl : ContentView
         if (BindingContext is Item item)
         {
             item.History.Add(new ItemHistory { Done = _selectedDate.RealDate });
+            await TasksViewModel.UpdateItem(item);
+        }
+    }
+
+    private async void History_Clicked(object sender, EventArgs e)
+    {
+        if (BindingContext is Item item)
+        {
+            var historyPage = Application.Current.Handler.MauiContext.Services.GetService<HistoryPage>();
+            historyPage.Item = item;
+            await Navigation.PushAsync(historyPage);
+        }
+    }
+
+    private async void Icon_Clicked(object sender, EventArgs e)
+    {
+        if (BindingContext is Item item)
+        {
+            var taskCompletionSource = new TaskCompletionSource<string>();
+            var iconPickerPage = new IconPickerPage(taskCompletionSource);
+            await Navigation.PushAsync(iconPickerPage);
+
+            var selectedIcon = await taskCompletionSource.Task;
+
+            CircleText.Text = selectedIcon;
+            item.Icon = selectedIcon;
             await TasksViewModel.UpdateItem(item);
         }
     }
@@ -117,4 +168,16 @@ public partial class ItemControl : ContentView
         isExpanded = false;
     }
 
+    private Page FindParentPage(Element element)
+    {
+        while (element != null)
+        {
+            if (element is Page page)
+            {
+                return page;
+            }
+            element = element.Parent;
+        }
+        return null;
+    }
 }
