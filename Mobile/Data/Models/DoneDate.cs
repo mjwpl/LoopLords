@@ -1,4 +1,6 @@
-﻿namespace Mobile.Data.Models
+﻿using System.Globalization;
+
+namespace Mobile.Data.Models
 {
     public class DoneDate
     {
@@ -10,7 +12,7 @@
                 else if (RealDate.Date == DateTime.Now.AddDays(-1).Date)
                     return "yesterday";
                 else
-                    return RealDate.ToString("dd-MM-yyyy"); // TODO: use a format string for country
+                    return RealDate.ToString("d", CultureInfo.CurrentCulture); 
             }
         }
         public DateTime RealDate { get; set; }
