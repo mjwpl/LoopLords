@@ -1,4 +1,5 @@
-﻿using Mobile.Helpers;
+﻿using Mobile.Data.Helpers;
+using Mobile.Helpers;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
