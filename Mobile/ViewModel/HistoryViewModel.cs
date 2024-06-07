@@ -12,6 +12,11 @@ namespace Mobile.ViewModel
         public DbService _dbService;
         public ObservableCollection<ItemHistory> ItemsHistoryList { get; set; } = new();
 
+        public HistoryViewModel(DbService dbService)
+        {
+            _dbService = dbService;
+        }
+
         [RelayCommand]
         public async Task LoadItemHistory(Item item)
         {
@@ -28,6 +33,8 @@ namespace Mobile.ViewModel
         public async Task DeleteItemHistory(int id)
         {
             var itemHistory = ItemsHistoryList.FirstOrDefault(f => f.Id == id);
+            if (itemHistory is null) return;
+
             await _dbService.RemoveItemHistory(itemHistory);
             ItemsHistoryList.Remove(itemHistory);
         }

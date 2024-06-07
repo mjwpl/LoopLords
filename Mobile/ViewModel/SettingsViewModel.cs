@@ -22,8 +22,12 @@ namespace Mobile.ViewModel
         {
             DbService = dbService;
 
-            _isShowHidden       = DbService.GetSettings(SettingsKeyEnum.SHOW_HIDDEN) == "1";
-            _isDarkMode         = DbService.GetSettings(SettingsKeyEnum.DARK_MODE) == "1";
+            var setting = DbService.GetSettings(SettingsKeyEnum.SHOW_HIDDEN);
+            _isShowHidden = EnumerableExtensions.GetSettingsBoolValueEnum(setting);
+
+            setting = DbService.GetSettings(SettingsKeyEnum.DARK_MODE);
+            _isDarkMode         = EnumerableExtensions.GetSettingsBoolValueEnum(setting);
+
             _isPushNotification = DbService.GetSettings(SettingsKeyEnum.PUSH_NOTIFICATION) != ""; // TODO: Change this to a real value
         }
 
