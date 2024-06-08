@@ -1,44 +1,114 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Mobile.Pages.TasksPage"
-             xmlns:strings="clr-namespace:Mobile.Localize"
-             xmlns:hlp="clr-namespace:Mobile.Helpers"
-             xmlns:vm="clr-namespace:Mobile.ViewModel"
-             xmlns:itemModels="clr-namespace:Mobile.Data.Models"
-             x:DataType="vm:TasksViewModel"
-             Title="{x:Static strings:AppRes.TITLE_TASKS}"
-             >
-    
-    <ContentPage.IconImageSource>
-        <FontImageSource FontFamily="FaSolid" Glyph="{x:Static hlp:FaSolid.ListCheck}" />
-    </ContentPage.IconImageSource>
+<ContentPage
+    x:Class="Mobile.Pages.TasksPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ctrl="clr-namespace:Mobile.Controls"
+    xmlns:hlp="clr-namespace:Mobile.Helpers"
+    xmlns:itemModels="clr-namespace:Mobile.Data.Models"
+    xmlns:local="clr-namespace:Mobile.Pages"
+    xmlns:strings="clr-namespace:Mobile.Localize"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:vm="clr-namespace:Mobile.ViewModel"
+    x:DataType="vm:TasksViewModel"
+    BackgroundColor="#090d19">
 
-    <CollectionView ItemsSource="{Binding Items}">
-        <CollectionView.ItemTemplate>
-            <DataTemplate x:DataType="itemModels:Item">
-                <Frame BackgroundColor="#f9f9f9"
-                       BorderColor="#eff3ee"
-                       CornerRadius="20"
-                       Margin="10,0,10,10">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="auto" />
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="auto"/>
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="auto" />
-                            <RowDefinition Height="auto" />
-                            <RowDefinition Height="auto" />
-                        </Grid.RowDefinitions>
-                        
-                        <Label Grid.Row="0" Grid.Column="1" Text="{Binding Name}" FontAttributes="Bold" TextColor="#364935" Margin="0,0,0,5" />
-                        <Label Grid.Row="1" Grid.Column="1" Text="{Binding Description}" FontSize="12" TextColor="#364935" Margin="0,0,0,5" />
-                    </Grid>
-                </Frame>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-    </CollectionView>
-    
+    <Page.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#090d19" />
+    </Page.Behaviors>
+
+
+    <Grid Padding="20,20,20,0" RowDefinitions="auto, auto, auto, *">
+
+        <Grid
+            Grid.Row="0"
+            Margin="0,5,0,15"
+            ColumnDefinitions="auto, *, auto">
+            <Frame
+                Grid.Column="0"
+                Margin="0,0,10,0"
+                Padding="0"
+                CornerRadius="70"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                IsClippedToBounds="True"
+                WidthRequest="50">
+
+                <Image Aspect="AspectFill" Source="avatar.jpg" />
+
+            </Frame>
+
+            <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+                <Label
+                    FontSize="11"
+                    Text="Welcome back"
+                    TextColor="White"
+                    VerticalOptions="Start" />
+                <Label
+                    FontSize="15"
+                    Text="Super Mario"
+                    TextColor="White"
+                    VerticalOptions="Start" />
+            </VerticalStackLayout>
+
+            <Button
+                Grid.Column="2"
+                Padding="0"
+                Background="#141c2b"
+                BorderColor="Transparent"
+                BorderWidth="1"
+                CornerRadius="30"
+                FontFamily="MaterialIcons"
+                FontSize="25"
+                HeightRequest="50"
+                HorizontalOptions="End"
+                Text="{x:Static hlp:MaterialIcons.Notifications}"
+                TextColor="#ccc"
+                WidthRequest="50" />
+
+
+        </Grid>
+
+        <Grid
+            Grid.Row="1"
+            Margin="0,10,0,20"
+            ColumnDefinitions="auto, *">
+
+            <HorizontalStackLayout
+                x:Name="ColorFilter"
+                HorizontalOptions="CenterAndExpand"
+                Spacing="10" />
+
+            <Button
+                Grid.Column="1"
+                Padding="0"
+                Background="#141c2b"
+                BorderColor="#61646c"
+                BorderWidth="1"
+                Clicked="AddTask"
+                CornerRadius="20"
+                FontSize="11"
+                HeightRequest="35"
+                HorizontalOptions="End"
+                Text="ADD TASK"
+                TextColor="White"
+                WidthRequest="90" />
+
+        </Grid>
+
+        <CollectionView
+            x:Name="colv"
+            Grid.Row="3"
+            ItemsSource="{Binding ItemsList}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="itemModels:Item">
+                    <ctrl:ItemControl />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+
+    </Grid>
+
 </ContentPage>
