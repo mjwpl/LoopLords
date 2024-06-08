@@ -35,22 +35,32 @@ namespace Mobile.Services
 
         public void SetSettings(SettingsKeyEnum key, string value)
         {
-            var pair = _db.Settings.Where(w => w.Key == key).FirstOrDefault();
+            var pair = _db.Settings.AsNoTracking().FirstOrDefault(w => w.Key == key);
+
             if (pair != null)
             {
+                var local = _db.Set<Settings>()
+                    .Local
+                    .FirstOrDefault(entry => entry.Key.Equals(key));
+
+                if (local != null)
+                {
+                    _db.Entry(local).State = EntityState.Detached;
+                }
+
                 pair.Value = value;
-                _db.Entry(pair).State = EntityState.Detached;
+
                 _db.Settings.Update(pair);
-                _db.SaveChanges();
             }
             else
             {
                 pair = new Settings { Key = key, Value = value };
                 _db.Settings.Add(pair);
-                _db.SaveChanges();
             }
 
+            _db.SaveChanges();
         }
+
 
         public async Task<List<Item>> GetItems()
         {
@@ -60,7 +70,7 @@ namespace Mobile.Services
 
             string setting = GetSettings(SettingsKeyEnum.SHOW_HIDDEN);
             var isShowHidden = EnumerableExtensions.GetSettingsBoolValueEnum(setting);
-            if (isShowHidden) return itemList;
+            if (isShowHidden) return itemList.ToList();
             else return itemList.Where(w => w.HideInDays == 0 || w.DaysSinceLastOccurrence > w.HideInDays || w.History.Count == 0).ToList();
         }
 
@@ -122,6 +132,24 @@ namespace Mobile.Services
                 await _db.SaveChangesAsync();
             }
         }
+
+        public async Task<List<string>> GetAvailableColors()
+        {
+            string setting = GetSettings(SettingsKeyEnum.SHOW_HIDDEN);
+            var isShowHidden = EnumerableExtensions.GetSettingsBoolValueEnum(setting);
+            if (isShowHidden)
+            {
+                return await _db.Items.Select(x => x.Color).Distinct().ToListAsync();
+            } else
+            {
+                var itemList = await _db.Items.Include(i => i.History).ToListAsync();
+                return itemList.Where(w => w.HideInDays == 0 || w.DaysSinceLastOccurrence > w.HideInDays || w.History.Count == 0)
+                    .Select(s => s.Color).Distinct().ToList();
+            }
+                
+        }
+           
+        
 
     }
 }
