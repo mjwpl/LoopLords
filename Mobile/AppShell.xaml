@@ -3,12 +3,30 @@
     x:Class="Mobile.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Mobile.View"
-    Shell.FlyoutBehavior="Disabled"
-    Title="Mobile"
-    >
+    xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+    xmlns:helpers="clr-namespace:Mobile.Helpers"
+    xmlns:pages="clr-namespace:Mobile.Pages"
+    Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-                ContentTemplate="{DataTemplate local:ItemListView}"
-                Route="Main" />
-    </Shell>
+    <TabBar android:TabbedPage.IsSmoothScrollEnabled="True">
+
+        <Tab Title="Tasks" Route="Main">
+            <ShellContent ContentTemplate="{DataTemplate pages:TasksPage}" />
+            <Tab.Icon>
+                <FontImageSource FontFamily="MaterialIcons" Glyph="{x:Static helpers:MaterialIcons.Task}" />
+            </Tab.Icon>
+        </Tab>
+
+        <Tab Title="Settings" Route="Settings">
+            <ShellContent ContentTemplate="{DataTemplate pages:SettingsPage}" />
+            <Tab.Icon>
+                <FontImageSource
+                    FontFamily="MaterialIcons"
+                    Glyph="{x:Static helpers:MaterialIcons.Settings}"
+                    Size="50" />
+            </Tab.Icon>
+        </Tab>
+
+    </TabBar>
+
+</Shell>
