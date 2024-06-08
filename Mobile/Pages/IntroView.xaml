@@ -1,24 +1,33 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Mobile.Pages.IntroView"
-             BackgroundColor="White"
-             >
-<ContentPage.Content>
-        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            <CarouselView x:Name="carousel" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Loop="False">
-            <CarouselView.ItemsLayout>
-                <LinearItemsLayout Orientation="Horizontal" SnapPointsAlignment="Start" SnapPointsType="Mandatory" />
-            </CarouselView.ItemsLayout>
-            <CarouselView.ItemTemplate>
-                <DataTemplate>
-                    <ContentView Content="{Binding .}" />
-                </DataTemplate>
-            </CarouselView.ItemTemplate>
+<ContentPage
+    x:Class="Mobile.Pages.IntroView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <CarouselView
+                x:Name="carousel"
+                HorizontalOptions="FillAndExpand"
+                Loop="False"
+                VerticalOptions="FillAndExpand">
+                <CarouselView.ItemsLayout>
+                    <LinearItemsLayout
+                        Orientation="Horizontal"
+                        SnapPointsAlignment="Start"
+                        SnapPointsType="Mandatory" />
+                </CarouselView.ItemsLayout>
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView Content="{Binding .}" />
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
             </CarouselView>
-        <StackLayout x:Name="dotsLayout" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-200,0,0">
-            <!-- Kropki do sygnalizowania aktualnej strony -->
+            <StackLayout
+                x:Name="dotsLayout"
+                Margin="0,-200,0,0"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal" />
         </StackLayout>
-    </StackLayout>
-</ContentPage.Content>
+    </ContentPage.Content>
 </ContentPage>
 
