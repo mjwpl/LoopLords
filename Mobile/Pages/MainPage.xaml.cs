@@ -1,3 +1,4 @@
+using CommunityToolkit.Maui.Views;
 using Microsoft.Extensions.DependencyInjection;
 using Mobile.Helpers;
 
@@ -5,32 +6,39 @@ namespace Mobile.Pages;
 
 public partial class MainPage : TabbedPage
 {
-    public NavigationPage TasksPage { get; set; } = new();
-    public SettingsPage SettingsPage { get; set; } = new();
+    private NavigationPage _tasksPage { get; set; }
+    private SettingsPage _settingsPage { get; set; }
+    private IconPickerPage _iconPage { get; set; }
 
-    public MainPage()
+    public MainPage(TasksPage tasksPage, SettingsPage settingsPage)
     {
         InitializeComponent();
+
+        _tasksPage = new NavigationPage(tasksPage);
+        _settingsPage = settingsPage;
     }
 
     protected override void OnAppearing()
     {
         base.OnAppearing();
 
-        TasksPage.Title = "Tasks";
-        TasksPage.IconImageSource = new FontImageSource
+        _tasksPage.Title = "Tasks";
+        _tasksPage.BackgroundColor = Color.FromArgb("#090d19");
+        _tasksPage.IconImageSource = new FontImageSource
         {
             FontFamily = "MaterialIcons",
             Glyph = MaterialIcons.Checklist
         };
-        Children.Add(TasksPage);
+        Children.Add(_tasksPage);
 
-        SettingsPage.Title = "Settings";
-        SettingsPage.IconImageSource = new FontImageSource
+        _settingsPage.Title = "Settings";
+        _settingsPage.BackgroundColor = Color.FromArgb("#090d19");
+        _settingsPage.IconImageSource = new FontImageSource
         {
             FontFamily = "MaterialIcons",
             Glyph = MaterialIcons.Settings
         };
-        Children.Add(SettingsPage);
-    }
+        Children.Add(_settingsPage);
+
+    }    
 }
