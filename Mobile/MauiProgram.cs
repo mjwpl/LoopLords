@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 using Mobile.Data;
+using Mobile.Data.Models;
 using Mobile.Pages;
 using Mobile.Services;
 using Mobile.ViewModel;
@@ -35,19 +36,14 @@ namespace Mobile
             builder.Services.AddDbContext<LocalDbContext>();
             builder.Services.AddSingleton<DbService>();
 
-            builder.Services.AddSingleton<TasksViewModel>(sp => new TasksViewModel()
-            {
-                _dbService = sp.GetRequiredService<DbService>()
-            });
+            builder.Services.AddSingleton<TasksPage>();
+            builder.Services.AddSingleton<TasksViewModel>();
 
-            builder.Services.AddSingleton<TasksPage>(sp => new TasksPage(sp.GetRequiredService<TasksViewModel>())
-            {
-            
-            });
+            builder.Services.AddSingleton<HistoryPage>();
+            builder.Services.AddSingleton<HistoryViewModel>();
 
-            builder.Services.AddSingleton<IntroView>();
-            builder.Services.AddSingleton<AddViewModel>();
-            
+            builder.Services.AddSingleton<SettingsPage>();
+            builder.Services.AddSingleton<SettingsViewModel>();
 
 #if DEBUG
             builder.Logging.AddDebug();
